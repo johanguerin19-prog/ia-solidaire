@@ -16,8 +16,19 @@ export default function ConsultantPage() {
     <>
       <PageHero
         eyebrow="Consultant / formateur"
-        title="Consultant / formateur"
-        description="L'approche d'IA Solidaire réunit expertise terrain, pédagogie et culture de l'innovation responsable."
+        title="Un accompagnement IA conçu par un professionnel du terrain ESS"
+        description={
+          <>
+            IA Solidaire est né d'un constat simple : les structures de
+            l'économie sociale et solidaire ont besoin d'un accompagnement qui
+            comprend leurs réalités, leurs contraintes et leurs missions.
+            <span className="mt-3 block">
+              L'objectif n'est pas d'ajouter une technologie de plus, mais
+              d'identifier les usages qui apportent une valeur concrète aux
+              équipes et aux publics accompagnés.
+            </span>
+          </>
+        }
       />
 
       <section className="py-16 sm:py-20">
@@ -26,7 +37,12 @@ export default function ConsultantPage() {
             <div className="flex aspect-[4/5] items-center justify-center rounded-lg border-2 border-dashed border-secondary/50 bg-white text-center">
               <div>
                 <p className="font-display text-2xl font-bold text-ink">Johan Guérin</p>
-                <p className="mt-2 text-ink/65">Photo professionnelle à ajouter</p>
+                <div className="mt-3 space-y-1 text-sm font-semibold text-ink/70">
+                  <p>Chef de projet ESS depuis 2019</p>
+                  <p>Responsable d'établissement ESS (titre professionnel)</p>
+                  <p>Fondateur d'IA Solidaire</p>
+                </div>
+                <p className="mt-4 text-ink/65">Photo professionnelle à ajouter</p>
               </div>
             </div>
           </div>
@@ -34,15 +50,16 @@ export default function ConsultantPage() {
             <SectionHeader
               eyebrow="Profil"
               title="Un profil hybride entre ESS, terrain et intelligence artificielle"
-              description="Johan Guérin accompagne les structures dans des démarches concrètes, avec une attention forte portée à l'utilité, à l'autonomie et à la sécurité des usages."
+              description="Chef de projet dans l'économie sociale et solidaire depuis 2019, Johan Guérin accompagne les structures dans leurs projets, leurs transformations et leurs enjeux de terrain. Cette expérience est aujourd'hui mise au service d'une intégration pragmatique et responsable de l'intelligence artificielle au sein des associations, structures d'insertion et acteurs de l'ESS."
             />
             <div className="mt-8 grid gap-3 sm:grid-cols-2">
               {[
                 "Chef de projet ESS",
-                "Expert terrain insertion",
+                "Spécialiste ESS & insertion",
                 "Formateur IA",
-                "Développeur no-code",
-                "Consultant innovation sociale"
+                "IA & automatisation des processus",
+                "Consultant innovation sociale",
+                "Responsable d'établissement ESS"
               ].map((item) => (
                 <div key={item} className="flex items-center gap-3 rounded-md bg-white p-4 font-semibold text-ink shadow-sm">
                   <CheckCircle2 aria-hidden="true" className="h-5 w-5 text-secondary" />
@@ -54,20 +71,51 @@ export default function ConsultantPage() {
         </Container>
       </section>
 
+      <section className="bg-cream py-16 sm:py-20">
+        <Container>
+          <SectionHeader
+            eyebrow="Expertise ESS"
+            title="Pourquoi travailler avec un consultant spécialisé ESS ?"
+            description="L'intelligence artificielle peut apporter beaucoup aux structures de l'économie sociale et solidaire, mais son intégration nécessite une compréhension fine des réalités de terrain, des contraintes opérationnelles et des missions sociales."
+          />
+          <div className="mt-10 grid gap-6 lg:grid-cols-3">
+            {[
+              {
+                title: "Compréhension immédiate du terrain",
+                text: "Je connais les réalités des associations, SIAE, ACI, accompagnements socio-professionnels, financements et obligations opérationnelles."
+              },
+              {
+                title: "Des usages IA adaptés aux missions sociales",
+                text: "L'objectif n'est pas d'ajouter de la technologie mais d'améliorer l'efficacité des équipes tout en préservant la qualité de l'accompagnement humain."
+              },
+              {
+                title: "Une approche pédagogique",
+                text: "Former les équipes, sécuriser les pratiques et construire progressivement l'autonomie dans les usages de l'IA."
+              }
+            ].map((item) => (
+              <article key={item.title} className="premium-card rounded-lg p-6 pl-8">
+                <h2 className="font-display text-2xl font-bold text-ink">{item.title}</h2>
+                <p className="mt-4 leading-8 text-ink/75">{item.text}</p>
+              </article>
+            ))}
+          </div>
+        </Container>
+      </section>
+
       <section className="slide-surface py-16 sm:py-20">
         <Container className="grid gap-6 lg:grid-cols-3">
           {[
             {
               title: "Parcours",
-              text: "Une expérience orientée projet, accompagnement de structures et transformation des pratiques dans des environnements à forte utilité sociale."
+              text: "Plusieurs années d'expérience dans la gestion de projets, l'accompagnement de structures et la coordination d'actions à forte utilité sociale."
             },
             {
               title: "Expérience ESS",
-              text: "Une compréhension des contraintes de terrain : temps limité, financements, reporting, accompagnement des publics et coordination partenariale."
+              text: "Une connaissance approfondie des réalités associatives, de l'insertion par l'activité économique, des financements, des partenariats et des obligations de terrain."
             },
             {
               title: "Méthode",
-              text: "Partir des besoins réels, tester sur des cas simples, sécuriser les pratiques et transmettre aux équipes pour construire l'autonomie."
+              text: "Partir des besoins réels, expérimenter sur des cas concrets, sécuriser les usages et transmettre progressivement les compétences aux équipes."
             }
           ].map((item) => (
             <article key={item.title} className="premium-card rounded-lg p-6 pl-8">
@@ -78,7 +126,11 @@ export default function ConsultantPage() {
         </Container>
       </section>
 
-      <CTASection />
+      <CTASection
+        title="Échangeons sur les enjeux de votre structure"
+        description="Discutons de vos besoins, de vos contraintes et des opportunités que l'intelligence artificielle peut réellement apporter à vos équipes."
+        buttonLabel="Prendre rendez-vous"
+      />
     </>
   );
 }
