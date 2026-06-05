@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { CheckCircle2 } from "lucide-react";
 import { Container } from "@/components/container";
 import { CTASection } from "@/components/cta-section";
@@ -34,16 +35,15 @@ export default function ConsultantPage() {
       <section className="py-16 sm:py-20">
         <Container className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div className="slide-panel rounded-lg p-6">
-            <div className="flex aspect-[4/5] items-center justify-center rounded-lg border-2 border-dashed border-secondary/50 bg-white text-center">
-              <div>
-                <p className="font-display text-2xl font-bold text-ink">Johan Guérin</p>
-                <div className="mt-3 space-y-1 text-sm font-semibold text-ink/70">
-                  <p>Chef de projet ESS depuis 2019</p>
-                  <p>Responsable d'établissement ESS (titre professionnel)</p>
-                  <p>Fondateur d'IA Solidaire</p>
-                </div>
-                <p className="mt-4 text-ink/65">Photo professionnelle à ajouter</p>
-              </div>
+            <div className="relative aspect-square overflow-hidden rounded-lg bg-white shadow-sm ring-1 ring-secondary/20">
+              <Image
+                src="/consultant-johan-guerin.png"
+                alt="Portrait illustré de Johan Guérin, fondateur d'IA Solidaire"
+                fill
+                className="object-cover"
+                sizes="(min-width: 1024px) 420px, 100vw"
+                priority
+              />
             </div>
           </div>
           <div>
