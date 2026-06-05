@@ -91,7 +91,7 @@ export const fieldExamples = [
 export const services = [
   {
     title: "Formation collective d'initiation à l'IA",
-    objective: "Pour découvrir les usages de l'IA et sensibiliser les équipes.",
+    objective: "Sensibiliser et former les équipes.",
     description:
       "Une formation concrète pour comprendre les usages, les limites et les bons réflexes de l'IA dans les métiers de l'ESS.",
     items: ["Acculturation IA", "Ateliers pratiques", "Cas d'usage ESS"],
@@ -99,7 +99,7 @@ export const services = [
   },
   {
     title: "Accompagnement individualisé",
-    objective: "Pour intégrer l'IA dans les pratiques de la structure.",
+    objective: "Intégrer l'IA dans les processus de la structure.",
     description:
       "Un accompagnement terrain pour identifier les priorités, cadrer les usages et sécuriser les pratiques.",
     items: ["Diagnostic", "Feuille de route", "Mise en pratique"],
@@ -107,7 +107,8 @@ export const services = [
   },
   {
     title: "Académie IA Solidaire",
-    objective: "Pour maintenir les équipes à jour toute l'année.",
+    objective:
+      "Permettre une montée en compétence continue via un abonnement annuel.",
     description:
       "Un espace de ressources et de progression pour garder les équipes à jour, sans créer de plateforme technique en V1.",
     items: ["Vidéos", "Ressources", "FAQ", "Communauté"],
