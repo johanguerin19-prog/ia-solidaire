@@ -7,7 +7,17 @@ import { Container } from "@/components/container";
 
 type Status = "idle" | "loading" | "success" | "error";
 
-export function NewsletterSection() {
+export function NewsletterSection({
+  title = "L'IA évolue vite. L'ESS ne doit pas rester à l'écart.",
+  description = "Recevez gratuitement notre veille mensuelle dédiée aux associations, structures d'insertion et acteurs de l'économie sociale et solidaire.",
+  secondaryText = "En moins de 5 minutes de lecture, découvrez les outils, usages et opportunités qui peuvent faire gagner du temps à vos équipes tout en respectant vos valeurs.",
+  buttonLabel = "Recevoir la veille IA Solidaire"
+}: {
+  title?: string;
+  description?: string;
+  secondaryText?: string;
+  buttonLabel?: string;
+}) {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<Status>("idle");
   const [message, setMessage] = useState("");
@@ -59,19 +69,17 @@ export function NewsletterSection() {
               Newsletter
             </p>
             <h2 className="max-w-3xl font-display text-3xl font-bold text-ink sm:text-4xl">
-              L'IA évolue vite. L'ESS ne doit pas rester à l'écart.
+              {title}
             </h2>
             <span aria-hidden="true" className="accent-underline" />
             <p className="mt-5 max-w-3xl text-lg leading-8 text-ink/75">
-              Recevez gratuitement notre veille mensuelle dédiée aux
-              associations, structures d'insertion et acteurs de l'économie
-              sociale et solidaire.
+              {description}
             </p>
-            <p className="mt-4 max-w-3xl leading-7 text-ink/72">
-              En moins de 5 minutes de lecture, découvrez les outils, usages et
-              opportunités qui peuvent faire gagner du temps à vos équipes tout
-              en respectant vos valeurs.
-            </p>
+            {secondaryText ? (
+              <p className="mt-4 max-w-3xl leading-7 text-ink/72">
+                {secondaryText}
+              </p>
+            ) : null}
           </div>
 
           <form className="premium-card rounded-lg p-6 pl-8" onSubmit={handleSubmit} noValidate>
@@ -99,7 +107,7 @@ export function NewsletterSection() {
             <Button className="mt-5 w-full" type="submit" disabled={status === "loading"}>
               {status === "loading"
                 ? "Inscription en cours..."
-                : "Recevoir la veille IA Solidaire"}
+                : buttonLabel}
             </Button>
             {message ? (
               <p
