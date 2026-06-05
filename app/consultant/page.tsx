@@ -37,11 +37,12 @@ export default function ConsultantPage() {
           <div className="slide-panel rounded-lg p-6">
             <div className="relative aspect-square overflow-hidden rounded-lg bg-white shadow-sm ring-1 ring-secondary/20">
               <Image
-                src="/consultant-johan-guerin.png"
+                src="/consultant-johan-guerin.svg"
                 alt="Portrait illustré de Johan Guérin, fondateur d'IA Solidaire"
                 fill
                 className="object-cover"
                 sizes="(min-width: 1024px) 420px, 100vw"
+                unoptimized
                 priority
               />
             </div>
