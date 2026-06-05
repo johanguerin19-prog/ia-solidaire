@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait illustre de Johan Guerin</title>
+  <desc id="desc">Portrait stylise du fondateur d'IA Solidaire dans une composition graphique claire.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff7f1"/>
+      <stop offset="0.55" stop-color="#fffdfb"/>
+      <stop offset="1" stop-color="#eefbf8"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" x2="1">
+      <stop offset="0" stop-color="#7b5cf6"/>
+      <stop offset="0.5" stop-color="#ff8a1c"/>
+      <stop offset="1" stop-color="#16c6b8"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffad66"/>
+      <stop offset="1" stop-color="#e47b33"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#16345f"/>
+      <stop offset="1" stop-color="#07163a"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#070b3d" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="720" height="720" rx="34" fill="url(#bg)"/>
+  <path d="M0 510C58 508 114 536 139 596L183 720H0Z" fill="#ffd8ba" opacity=".62"/>
+  <rect x="626" y="50" width="132" height="132" rx="18" fill="none" stroke="#ff7a00" stroke-width="8" transform="rotate(15 692 116)"/>
+  <g fill="#ffb188" opacity=".7">
+    <circle cx="74" cy="70" r="3"/><circle cx="94" cy="70" r="3"/><circle cx="114" cy="70" r="3"/><circle cx="134" cy="70" r="3"/><circle cx="154" cy="70" r="3"/>
+    <circle cx="74" cy="90" r="3"/><circle cx="94" cy="90" r="3"/><circle cx="114" cy="90" r="3"/><circle cx="134" cy="90" r="3"/><circle cx="154" cy="90" r="3"/>
+    <circle cx="74" cy="110" r="3"/><circle cx="94" cy="110" r="3"/><circle cx="114" cy="110" r="3"/><circle cx="134" cy="110" r="3"/>
+    <circle cx="74" cy="130" r="3"/><circle cx="94" cy="130" r="3"/><circle cx="114" cy="130" r="3"/>
+  </g>
+  <g fill="#16c6b8" opacity=".72">
+    <circle cx="572" cy="590" r="3"/><circle cx="592" cy="590" r="3"/><circle cx="612" cy="590" r="3"/><circle cx="632" cy="590" r="3"/><circle cx="652" cy="590" r="3"/>
+    <circle cx="572" cy="610" r="3"/><circle cx="592" cy="610" r="3"/><circle cx="612" cy="610" r="3"/><circle cx="632" cy="610" r="3"/><circle cx="652" cy="610" r="3"/>
+    <circle cx="572" cy="630" r="3"/><circle cx="592" cy="630" r="3"/><circle cx="612" cy="630" r="3"/><circle cx="632" cy="630" r="3"/>
+  </g>
+
+  <circle cx="360" cy="322" r="236" fill="none" stroke="#fff" stroke-width="14"/>
+  <circle cx="360" cy="322" r="228" fill="none" stroke="url(#ring)" stroke-width="5" opacity=".72"/>
+
+  <g filter="url(#softShadow)">
+    <path d="M168 648c26-121 105-184 192-184s166 63 192 184z" fill="url(#shirt)"/>
+    <path d="M274 510c23 27 52 40 86 40s63-13 86-40l22 138H252z" fill="#102b55" opacity=".55"/>
+    <path d="M275 648c14-53 35-96 62-129" fill="none" stroke="#07163a" stroke-width="5" opacity=".45"/>
+    <path d="M445 648c-14-53-35-96-62-129" fill="none" stroke="#07163a" stroke-width="5" opacity=".45"/>
+
+    <ellipse cx="247" cy="292" rx="34" ry="45" fill="#e88744"/>
+    <path d="M232 280c15-21 36-18 38 8 2 20-12 38-28 40 10-17 9-32-10-48z" fill="#c96a31" opacity=".55"/>
+
+    <path d="M470 300c0 93-52 171-113 171s-112-78-112-171c0-87 30-155 112-155 83 0 113 68 113 155z" fill="url(#skin)"/>
+    <path d="M285 168c36-61 140-67 183-5 29 42 18 109-7 151-26-32-53-40-92-54-43-16-73-42-84-92z" fill="#ff9c50" opacity=".82"/>
+    <path d="M270 330c15 76 50 132 91 132 46 0 82-62 96-142-18 88-55 113-99 113-39 0-72-25-88-103z" fill="#c5652f" opacity=".25"/>
+
+    <path d="M261 310c39 27 67 36 99 36 33 0 68-12 103-40-2 87-44 157-104 157-58 0-99-67-98-153z" fill="#161616"/>
+    <path d="M308 322c21 15 42 23 64 23 22 0 42-8 62-23-13 38-38 63-75 63-35 0-58-25-51-63z" fill="#f39a58"/>
+    <path d="M318 355c26 18 54 18 82 0-13 17-26 25-41 25-16 0-29-8-41-25z" fill="#1b1b1b"/>
+    <path d="M271 267c22-11 47-12 74-3" fill="none" stroke="#171717" stroke-width="11" stroke-linecap="round"/>
+    <path d="M383 264c26-10 51-8 72 5" fill="none" stroke="#171717" stroke-width="11" stroke-linecap="round"/>
+
+    <ellipse cx="320" cy="300" rx="10" ry="7" fill="#111"/>
+    <ellipse cx="414" cy="302" rx="10" ry="7" fill="#111"/>
+    <circle cx="324" cy="297" r="2.4" fill="#fff"/>
+    <circle cx="418" cy="299" r="2.4" fill="#fff"/>
+
+    <g fill="none" stroke="#f9dfb8" stroke-width="7">
+      <circle cx="321" cy="300" r="34"/>
+      <circle cx="413" cy="300" r="34"/>
+      <path d="M355 300h24"/>
+      <path d="M287 294l-43-7"/>
+      <path d="M447 294l42 7"/>
+    </g>
+    <path d="M354 306c-11 25-10 43 21 44" fill="none" stroke="#cf7134" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="250" y="614" width="220" height="56" rx="18" fill="#fffaf7" stroke="#ffe0c9"/>
+    <g transform="translate(278 626)">
+      <path d="M15 9c-9 0-14 7-14 15 0 10 7 16 16 16h2V5c-2 2-3 3-4 4z" fill="none" stroke="#16c6b8" stroke-width="3"/>
+      <path d="M37 9c9 0 14 7 14 15 0 10-7 16-16 16h-2V5c2 2 3 3 4 4z" fill="none" stroke="#7b5cf6" stroke-width="3"/>
+      <path d="M19 16h7m-8 12h8m7-12h-7m8 12h-8" stroke="#0b0d3f" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <text x="344" y="646" fill="#070b3d" font-family="Arial, sans-serif" font-size="25" font-weight="700">IA Solidaire</text>
+    <text x="344" y="663" fill="#6c7193" font-family="Arial, sans-serif" font-size="11">L'IA au service de l'utilite sociale</text>
+  </g>
+</svg>
