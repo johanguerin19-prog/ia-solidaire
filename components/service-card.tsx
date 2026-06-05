@@ -33,9 +33,9 @@ export function ServiceCard({
       </ul>
       <Link
         href="/contact"
-        className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-ink hover:text-primary"
+        className="mt-6 inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-primary/20 bg-white px-4 py-3 text-sm font-bold text-ink shadow-sm transition hover:-translate-y-0.5 hover:border-secondary hover:bg-cream"
       >
-        Échanger sur cette offre
+        Découvrir cette offre
         <ArrowRight aria-hidden="true" className="h-4 w-4" />
       </Link>
     </article>
