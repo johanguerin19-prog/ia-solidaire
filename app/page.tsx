@@ -34,7 +34,7 @@ export default function Home() {
             <p className="mb-4 inline-flex rounded-md bg-white px-3 py-2 text-sm font-bold text-secondary shadow-card">
               IA responsable pour l'ESS et l'IAE
             </p>
-            <h1 className="max-w-4xl font-display text-4xl font-bold leading-tight text-ink sm:text-5xl lg:text-6xl">
+            <h1 className="max-w-3xl font-display text-3xl font-bold leading-tight text-ink sm:text-4xl lg:text-5xl">
               Faites gagner du temps à vos équipes grâce à une IA adaptée aux réalités de l'ESS et de l'insertion
             </h1>
             <span aria-hidden="true" className="accent-underline" />
