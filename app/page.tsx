@@ -6,7 +6,7 @@ import { NewsletterSection } from "@/components/newsletter-section";
 import { SectionHeader } from "@/components/section-header";
 import { ServiceCard } from "@/components/service-card";
 import { Button } from "@/components/ui/button";
-import { benefits, services } from "@/lib/site-data";
+import { benefits, fieldExamples, services } from "@/lib/site-data";
 
 export default function Home() {
   return (
@@ -20,12 +20,15 @@ export default function Home() {
               IA responsable pour l'ESS et l'IAE
             </p>
             <h1 className="max-w-4xl font-display text-4xl font-bold leading-tight text-ink sm:text-5xl lg:text-6xl">
-              L'intelligence artificielle au service de l'impact social
+              Faites gagner du temps à vos équipes grâce à une IA adaptée aux réalités de l'ESS et de l'insertion
             </h1>
             <span aria-hidden="true" className="accent-underline" />
             <p className="mt-6 max-w-2xl text-lg leading-8 text-ink/78">
-              Accompagnez votre structure ESS ou IAE dans l'adoption concrète,
-              éthique et responsable de l'IA.
+              Associations, structures d'insertion et acteurs de l'ESS :
+              découvrez des usages simples, utiles et responsables de
+              l'intelligence artificielle pour réduire la charge administrative,
+              améliorer la communication et renforcer l'accompagnement des
+              publics.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Button asChild href="/services">
@@ -45,20 +48,21 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="font-display text-xl font-bold text-ink">
-                    Une IA utile, encadrée et humaine
+                    Une IA au service des missions sociales
                   </p>
                   <p className="mt-2 leading-7 text-ink/72">
-                    Des usages adaptés aux réalités des associations, SIAE,
-                    collectivités et réseaux ESS.
+                    Pas de jargon, pas de promesses irréalistes. Nous aidons les
+                    structures ESS à identifier les usages réellement utiles et
+                    à les intégrer progressivement dans leurs pratiques.
                   </p>
                 </div>
               </div>
               <ul className="mt-6 grid gap-4">
                 {[
-                  "Identifier les gains de temps réalistes",
-                  "Former les équipes avec des cas pratiques",
-                  "Sécuriser les usages sensibles",
-                  "Préserver la place de l'humain"
+                  "Réduire le temps passé sur l'administratif",
+                  "Répondre plus efficacement aux appels à projets",
+                  "Produire des contenus plus rapidement",
+                  "Préserver l'humain au cœur des accompagnements"
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-3 font-semibold text-ink/80">
                     <CheckCircle2 aria-hidden="true" className="h-5 w-5 text-secondary" />
@@ -75,12 +79,27 @@ export default function Home() {
         <Container>
           <SectionHeader
             eyebrow="Pourquoi l'IA pour l'ESS ?"
-            title="Des bénéfices concrets pour des équipes souvent sous contrainte"
-            description="L'IA devient utile quand elle répond à des irritants réels : temps administratif, rédaction, formation, communication et capitalisation des savoirs."
+            title="Où l'IA peut réellement vous faire gagner du temps"
+            description="L'IA n'a pas vocation à remplacer les professionnels du secteur social. Elle peut en revanche automatiser certaines tâches répétitives et aider les équipes à se concentrer sur ce qui compte vraiment : l'accompagnement humain."
           />
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {benefits.map((benefit) => (
               <InfoCard key={benefit.title} {...benefit} />
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      <section className="slide-surface py-16 sm:py-20">
+        <Container>
+          <SectionHeader
+            eyebrow="Cas concrets terrain"
+            title="Des exemples d'usages immédiatement applicables"
+            description="L'IA devient plus simple à comprendre lorsqu'elle répond à des situations concrètes déjà vécues par les équipes de terrain."
+          />
+          <div className="mt-10 grid gap-6 lg:grid-cols-3">
+            {fieldExamples.map((example) => (
+              <InfoCard key={example.title} {...example} />
             ))}
           </div>
         </Container>
@@ -110,7 +129,7 @@ export default function Home() {
           />
           <div className="grid gap-4 sm:grid-cols-2">
             {[
-              "Expertise ESS et insertion",
+              "Connaissance des réalités ESS et IAE",
               "Approche terrain et pragmatique",
               "Formation accessible aux équipes",
               "Éthique, RGPD et supervision humaine",
@@ -126,8 +145,17 @@ export default function Home() {
         </Container>
       </section>
 
-      <CTASection />
-      <NewsletterSection />
+      <CTASection
+        title="Identifiez en 30 minutes les usages IA les plus pertinents pour votre structure"
+        description="Lors d'un premier échange gratuit, nous faisons le point sur vos besoins, vos contraintes et les tâches qui pourraient être simplifiées grâce à l'IA."
+        buttonLabel="Réserver un échange découverte"
+      />
+      <NewsletterSection
+        title="Chaque mois, une veille IA spécialement conçue pour les associations et structures d'insertion"
+        description="Recevez gratuitement des outils testés, des exemples concrets d'usages, des ressources pratiques et les évolutions importantes à suivre pour intégrer l'IA dans votre structure avec recul et responsabilité."
+        secondaryText="Lecture en moins de 5 minutes."
+        buttonLabel="Recevoir gratuitement la veille IA"
+      />
     </>
   );
 }
