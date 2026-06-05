@@ -9,6 +9,21 @@ import { Button } from "@/components/ui/button";
 import { benefits, fieldExamples, services } from "@/lib/site-data";
 
 export default function Home() {
+  const homepageServices = services.map((service) => {
+    const objectives: Record<string, string> = {
+      "Formation collective d'initiation à l'IA":
+        "Pour découvrir les usages de l'IA et sensibiliser les équipes.",
+      "Accompagnement individualisé":
+        "Pour intégrer l'IA dans les pratiques de la structure.",
+      "Académie IA Solidaire": "Pour maintenir les équipes à jour toute l'année."
+    };
+
+    return {
+      ...service,
+      objective: objectives[service.title] ?? service.objective
+    };
+  });
+
   return (
     <>
       <section className="slide-surface relative overflow-hidden">
@@ -113,7 +128,7 @@ export default function Home() {
             description="IA Solidaire accompagne autant la découverte collective que l'intégration progressive dans les processus métiers."
           />
           <div className="mt-10 grid gap-6 lg:grid-cols-3">
-            {services.map((service) => (
+            {homepageServices.map((service) => (
               <ServiceCard key={service.title} {...service} />
             ))}
           </div>
