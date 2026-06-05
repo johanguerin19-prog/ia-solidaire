@@ -1,4 +1,5 @@
 import { Container } from "@/components/container";
+import type { ReactNode } from "react";
 
 export function PageHero({
   eyebrow,
@@ -7,7 +8,7 @@ export function PageHero({
 }: {
   eyebrow: string;
   title: string;
-  description: string;
+  description: ReactNode;
 }) {
   return (
     <section className="slide-surface relative overflow-hidden">
