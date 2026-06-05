@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { CheckCircle2 } from "lucide-react";
 import { Container } from "@/components/container";
 import { CTASection } from "@/components/cta-section";
 import { PageHero } from "@/components/page-hero";
 import { SectionHeader } from "@/components/section-header";
+import { consultantPortraitSrc } from "@/lib/consultant-portrait";
 
 export const metadata: Metadata = {
   title: "Consultant / formateur",
@@ -36,14 +36,11 @@ export default function ConsultantPage() {
         <Container className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div className="slide-panel rounded-lg p-6">
             <div className="relative aspect-square overflow-hidden rounded-lg bg-white shadow-sm ring-1 ring-secondary/20">
-              <Image
-                src="/consultant-johan-guerin.jpg"
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={consultantPortraitSrc}
                 alt="Portrait illustré de Johan Guérin, fondateur d'IA Solidaire"
-                fill
-                className="object-cover"
-                sizes="(min-width: 1024px) 420px, 100vw"
-                unoptimized
-                priority
+                className="h-full w-full object-cover"
               />
             </div>
           </div>
