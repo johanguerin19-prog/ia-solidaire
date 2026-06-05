@@ -15,8 +15,24 @@ export default function Home() {
         "Pour découvrir les usages de l'IA et sensibiliser les équipes.",
       "Accompagnement individualisé":
         "Pour intégrer l'IA dans les pratiques de la structure.",
-      "Académie IA Solidaire": "Pour maintenir les équipes à jour toute l'année."
+      "Académie IA Solidaire":
+        "Former tous vos collaborateurs à l'IA et maintenir leurs compétences à jour."
     };
+
+    if (service.title === "Académie IA Solidaire") {
+      return {
+        ...service,
+        objective: objectives[service.title],
+        description:
+          "Un parcours de formation continue pour développer les compétences IA des équipes, suivre les évolutions des outils et intégrer les bons usages dans leurs pratiques.",
+        items: [
+          "Parcours de formation progressifs",
+          "Cas pratiques adaptés à l'ESS",
+          "Veille et mises à jour régulières",
+          "Ressources et communauté d'entraide"
+        ]
+      };
+    }
 
     return {
       ...service,
