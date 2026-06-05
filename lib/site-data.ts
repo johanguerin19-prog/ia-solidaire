@@ -14,6 +14,7 @@ import {
   Recycle,
   ShieldCheck,
   Sparkles,
+  Sprout,
   UsersRound
 } from "lucide-react";
 
@@ -38,12 +39,14 @@ export const benefits = [
   },
   {
     title: "Répondre aux appels à projets",
-    description: "Rédaction, reformulation, structuration et relecture.",
+    description:
+      "Structurer plus rapidement les réponses et valoriser les actions de la structure.",
     icon: FileText
   },
   {
     title: "Accompagner les salariés",
-    description: "FLE, supports pédagogiques, exercices et ateliers.",
+    description:
+      "Créer des supports personnalisés pour la formation, l'insertion et la montée en compétences.",
     icon: GraduationCap
   },
   {
@@ -57,16 +60,38 @@ export const benefits = [
     icon: BriefcaseBusiness
   },
   {
-    title: "Faire plus avec moins",
-    description: "Automatisation raisonnée, gain de temps et optimisation.",
+    title: "Optimiser les ressources disponibles",
+    description:
+      "Automatiser certaines tâches sans augmenter les effectifs ni dégrader la qualité de service.",
     icon: Sparkles
+  }
+];
+
+export const fieldExamples = [
+  {
+    title: "Association",
+    description:
+      "Générer rapidement un compte rendu clair à partir de notes de réunion, puis préparer une synthèse partageable avec les équipes ou les partenaires.",
+    icon: ClipboardList
+  },
+  {
+    title: "Structure d'insertion",
+    description:
+      "Créer des exercices FLE adaptés au niveau des salariés, préparer des supports pédagogiques et reformuler des consignes de manière plus accessible.",
+    icon: GraduationCap
+  },
+  {
+    title: "Direction ou coordination",
+    description:
+      "Préparer une réponse à un appel à projets, structurer les arguments clés et valoriser l'impact social des actions menées.",
+    icon: Sprout
   }
 ];
 
 export const services = [
   {
     title: "Formation collective d'initiation à l'IA",
-    objective: "Sensibiliser et former les équipes.",
+    objective: "Pour découvrir les usages de l'IA et sensibiliser les équipes.",
     description:
       "Une formation concrète pour comprendre les usages, les limites et les bons réflexes de l'IA dans les métiers de l'ESS.",
     items: ["Acculturation IA", "Ateliers pratiques", "Cas d'usage ESS"],
@@ -74,7 +99,7 @@ export const services = [
   },
   {
     title: "Accompagnement individualisé",
-    objective: "Intégrer l'IA dans les processus de la structure.",
+    objective: "Pour intégrer l'IA dans les pratiques de la structure.",
     description:
       "Un accompagnement terrain pour identifier les priorités, cadrer les usages et sécuriser les pratiques.",
     items: ["Diagnostic", "Feuille de route", "Mise en pratique"],
@@ -82,8 +107,7 @@ export const services = [
   },
   {
     title: "Académie IA Solidaire",
-    objective:
-      "Permettre une montée en compétence continue via un abonnement annuel.",
+    objective: "Pour maintenir les équipes à jour toute l'année.",
     description:
       "Un espace de ressources et de progression pour garder les équipes à jour, sans créer de plateforme technique en V1.",
     items: ["Vidéos", "Ressources", "FAQ", "Communauté"],
