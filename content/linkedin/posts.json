@@ -1,0 +1,18 @@
+{
+  "champs": [
+    "id",
+    "date_prevue",
+    "titre_interne",
+    "theme",
+    "objectif",
+    "format",
+    "texte",
+    "accroche",
+    "cta",
+    "hashtags",
+    "idee_visuel",
+    "statut"
+  ],
+  "statuts_possibles": ["brouillon", "validé", "publié"],
+  "posts": []
+}
