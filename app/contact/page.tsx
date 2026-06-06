@@ -20,7 +20,7 @@ export default function ContactPage() {
         title="Contact"
         description="Le formulaire permet de préparer un premier échange qualifié autour de votre structure et des usages qui vous intéressent."
       />
-      <section className="slide-surface py-16 sm:py-20">
+      <section id="formulaire-contact" className="slide-surface scroll-mt-28 py-16 sm:py-20">
         <Container className="max-w-4xl">
           <ContactForm />
         </Container>
