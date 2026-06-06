@@ -27,9 +27,12 @@ export function Header() {
               priority
             />
           </span>
-          <span>
+          <span className="min-w-0">
             <span className="block font-display text-lg font-bold leading-5 text-ink">
               IA Solidaire
+            </span>
+            <span className="block text-[0.68rem] font-semibold leading-4 text-secondary sm:text-xs">
+              L'IA au cœur de l'utilité sociale
             </span>
           </span>
         </Link>
