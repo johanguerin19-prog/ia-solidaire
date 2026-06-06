@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 const offers: {
   title: string;
   subtitle: string;
+  id: string;
   audience: string;
   objectives: string[];
   learningTitle: string;
@@ -30,6 +31,7 @@ const offers: {
   {
     title: "Formation collective d'initiation à l'IA",
     subtitle: "Découvrir les usages utiles de l'IA et acquérir les bons réflexes.",
+    id: "formation-collective",
     audience:
       "Associations, SIAE et structures ESS qui souhaitent sensibiliser leurs équipes et découvrir les usages de l'intelligence artificielle.",
     objectives: [
@@ -61,6 +63,7 @@ const offers: {
   {
     title: "Accompagnement individualisé",
     subtitle: "Identifier les usages prioritaires et passer à l'action.",
+    id: "accompagnement-individualise",
     audience: "Structures souhaitant passer de la découverte à la mise en œuvre.",
     objectives: [
       "Identifier les usages prioritaires",
@@ -92,6 +95,7 @@ const offers: {
   {
     title: "Académie IA Solidaire",
     subtitle: "Plateforme de formation continue à l'IA pour les équipes ESS",
+    id: "academie-ia-solidaire",
     audience:
       "Associations, structures d'insertion et acteurs de l'ESS souhaitant former durablement leurs équipes à l'intelligence artificielle sans mobiliser continuellement du temps de formation en présentiel.",
     objectives: [
@@ -184,15 +188,17 @@ function OfferSection({
         : "bg-secondary";
 
   return (
-    <section className="slide-panel rounded-lg p-6 text-ink shadow-sm sm:p-8 lg:p-10">
+    <section id={offer.id} className="slide-panel scroll-mt-28 rounded-lg p-6 text-ink shadow-sm sm:p-8 lg:p-10">
       <div className="mx-auto max-w-5xl">
-        <div className="flex items-center gap-4">
-          <div className={`inline-flex h-14 w-14 shrink-0 items-center justify-center rounded-md ${iconClass} text-white shadow-card`}>
-            <Icon aria-hidden="true" className="h-6 w-6" />
+        <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
+          <div className="flex items-center gap-4">
+            <div className={`inline-flex h-14 w-14 shrink-0 items-center justify-center rounded-md ${iconClass} text-white shadow-card`}>
+              <Icon aria-hidden="true" className="h-6 w-6" />
+            </div>
+            <p className="text-sm font-bold uppercase tracking-[0.12em] text-secondary">
+              Offre {index + 1}
+            </p>
           </div>
-          <p className="text-sm font-bold uppercase tracking-[0.12em] text-secondary">
-            Offre {index + 1}
-          </p>
         </div>
 
         <div className="mt-6 max-w-3xl">
@@ -277,7 +283,7 @@ export default function ServicesPage() {
       />
       <section className="py-16 sm:py-20">
         <Container>
-          <div className="grid gap-12 sm:gap-14">
+          <div className="grid gap-8">
             {offers.map((offer, index) => (
               <OfferSection key={offer.title} offer={offer} index={index} />
             ))}
