@@ -37,7 +37,7 @@ export default function ConsultantPage() {
             <div className="relative aspect-square overflow-hidden rounded-lg bg-white shadow-sm ring-1 ring-secondary/20">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/consultant-johan-guerin-quality.webp"
+                src="https://raw.githubusercontent.com/johanguerin19-prog/ia-solidaire/main/public/consultant-johan-guerin-quality.webp"
                 alt="Portrait illustré de Johan Guérin, fondateur d'IA Solidaire"
                 className="h-full w-full object-cover"
               />
