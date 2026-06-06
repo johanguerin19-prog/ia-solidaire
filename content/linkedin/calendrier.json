@@ -1,0 +1,10 @@
+{
+  "champs": [
+    "semaine",
+    "date",
+    "type_contenu",
+    "post_id",
+    "statut"
+  ],
+  "calendrier": []
+}
