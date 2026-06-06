@@ -1,0 +1,190 @@
+"use client";
+
+import { Clipboard, Filter } from "lucide-react";
+import { useMemo, useState } from "react";
+
+export type LinkedinPost = {
+  id: string;
+  date_prevue: string;
+  titre_interne: string;
+  theme: string;
+  objectif: string;
+  format: string;
+  texte: string;
+  accroche: string;
+  cta: string;
+  hashtags: string[];
+  idee_visuel: string;
+  statut: "brouillon" | "validé" | "publié";
+};
+
+const statusLabels = {
+  brouillon: "Brouillon",
+  validé: "Validé",
+  publié: "Publié"
+};
+
+const statusClasses = {
+  brouillon: "border-orange/25 bg-orange/10 text-ink",
+  validé: "border-secondary/25 bg-secondary/10 text-ink",
+  publié: "border-violet/25 bg-violet/10 text-ink"
+};
+
+function formatPostForCopy(post: LinkedinPost) {
+  return [post.accroche, post.texte, post.cta, post.hashtags.join(" ")]
+    .filter(Boolean)
+    .join("\n\n");
+}
+
+export function LinkedinAdminClient({ posts }: { posts: LinkedinPost[] }) {
+  const [statusFilter, setStatusFilter] = useState("tous");
+  const [themeFilter, setThemeFilter] = useState("tous");
+  const [copiedPostId, setCopiedPostId] = useState<string | null>(null);
+
+  const themes = useMemo(
+    () => Array.from(new Set(posts.map((post) => post.theme).filter(Boolean))).sort(),
+    [posts]
+  );
+
+  const filteredPosts = posts.filter((post) => {
+    const matchesStatus = statusFilter === "tous" || post.statut === statusFilter;
+    const matchesTheme = themeFilter === "tous" || post.theme === themeFilter;
+    return matchesStatus && matchesTheme;
+  });
+
+  async function copyPost(post: LinkedinPost) {
+    await navigator.clipboard.writeText(formatPostForCopy(post));
+    setCopiedPostId(post.id);
+    window.setTimeout(() => setCopiedPostId(null), 2200);
+  }
+
+  return (
+    <div className="grid gap-8">
+      <div className="slide-panel rounded-lg p-5 text-ink sm:p-6">
+        <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+          <div>
+            <div className="flex items-center gap-2 text-sm font-bold uppercase tracking-[0.12em] text-secondary">
+              <Filter aria-hidden="true" className="h-4 w-4" />
+              Filtres
+            </div>
+            <p className="mt-2 text-sm leading-6 text-ink/70">
+              Affinez la liste par statut ou par thème pour préparer vos prochaines publications.
+            </p>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 lg:min-w-[28rem]">
+            <label className="grid gap-2 text-sm font-bold text-ink" htmlFor="linkedin-status">
+              Statut
+              <select
+                id="linkedin-status"
+                className="rounded-md border border-ink/15 bg-white px-4 py-3 font-semibold text-ink shadow-sm focus:border-secondary"
+                value={statusFilter}
+                onChange={(event) => setStatusFilter(event.target.value)}
+              >
+                <option value="tous">Tous les statuts</option>
+                <option value="brouillon">Brouillon</option>
+                <option value="validé">Validé</option>
+                <option value="publié">Publié</option>
+              </select>
+            </label>
+            <label className="grid gap-2 text-sm font-bold text-ink" htmlFor="linkedin-theme">
+              Thème
+              <select
+                id="linkedin-theme"
+                className="rounded-md border border-ink/15 bg-white px-4 py-3 font-semibold text-ink shadow-sm focus:border-secondary"
+                value={themeFilter}
+                onChange={(event) => setThemeFilter(event.target.value)}
+              >
+                <option value="tous">Tous les thèmes</option>
+                {themes.map((theme) => (
+                  <option key={theme} value={theme}>
+                    {theme}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      {filteredPosts.length > 0 ? (
+        <div className="grid gap-6">
+          {filteredPosts.map((post) => (
+            <article key={post.id} className="premium-card rounded-lg p-6 pl-8 text-ink sm:p-7 sm:pl-9">
+              <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
+                <div>
+                  <p className="text-sm font-bold uppercase tracking-[0.12em] text-secondary">
+                    {post.date_prevue || "Date à définir"}
+                  </p>
+                  <h2 className="mt-2 font-display text-2xl font-bold text-ink">
+                    {post.titre_interne || "Titre interne à définir"}
+                  </h2>
+                </div>
+                <span className={`inline-flex w-fit rounded-full border px-3 py-1 text-sm font-bold ${statusClasses[post.statut]}`}>
+                  {statusLabels[post.statut]}
+                </span>
+              </div>
+
+              <dl className="mt-6 grid gap-4 sm:grid-cols-2">
+                <div className="rounded-md bg-cream p-4">
+                  <dt className="text-sm font-bold text-ink">Thème</dt>
+                  <dd className="mt-1 text-ink/75">{post.theme || "À définir"}</dd>
+                </div>
+                <div className="rounded-md bg-cream p-4">
+                  <dt className="text-sm font-bold text-ink">Objectif</dt>
+                  <dd className="mt-1 text-ink/75">{post.objectif || "À définir"}</dd>
+                </div>
+                <div className="rounded-md bg-cream p-4">
+                  <dt className="text-sm font-bold text-ink">Format</dt>
+                  <dd className="mt-1 text-ink/75">{post.format || "À définir"}</dd>
+                </div>
+                <div className="rounded-md bg-cream p-4">
+                  <dt className="text-sm font-bold text-ink">Idée de visuel</dt>
+                  <dd className="mt-1 text-ink/75">{post.idee_visuel || "À définir"}</dd>
+                </div>
+              </dl>
+
+              <div className="mt-6 grid gap-5">
+                <div>
+                  <h3 className="font-display text-xl font-bold text-ink">Texte complet</h3>
+                  <p className="mt-3 whitespace-pre-wrap rounded-md border border-ink/10 bg-white p-4 leading-7 text-ink/75">
+                    {post.texte || "Texte à rédiger."}
+                  </p>
+                </div>
+                <div className="grid gap-4 lg:grid-cols-2">
+                  <div>
+                    <h3 className="font-display text-lg font-bold text-ink">CTA</h3>
+                    <p className="mt-2 rounded-md bg-cream p-4 text-ink/75">
+                      {post.cta || "À définir"}
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="font-display text-lg font-bold text-ink">Hashtags</h3>
+                    <p className="mt-2 rounded-md bg-cream p-4 text-ink/75">
+                      {post.hashtags.length > 0 ? post.hashtags.join(" ") : "À définir"}
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                className="mt-6 inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-ink px-5 py-3 text-sm font-bold text-white shadow-card transition hover:-translate-y-0.5 hover:bg-primary focus-visible:outline-ess"
+                onClick={() => copyPost(post)}
+              >
+                <Clipboard aria-hidden="true" className="h-4 w-4" />
+                {copiedPostId === post.id ? "Post copié" : "Copier le post"}
+              </button>
+            </article>
+          ))}
+        </div>
+      ) : (
+        <div className="premium-card rounded-lg p-7 pl-9 text-ink">
+          <h2 className="font-display text-2xl font-bold">Aucune publication à afficher</h2>
+          <p className="mt-3 max-w-2xl leading-7 text-ink/75">
+            Ajoutez vos premières publications dans le fichier content/linkedin/posts.json pour les voir apparaître ici.
+          </p>
+        </div>
+      )}
+    </div>
+  );
+}
