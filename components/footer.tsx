@@ -25,7 +25,12 @@ export function Footer() {
                 sizes="56px"
               />
             </span>
-            <p className="font-display text-2xl font-bold">IA Solidaire</p>
+            <div>
+              <p className="font-display text-2xl font-bold">IA Solidaire</p>
+              <p className="mt-0.5 text-sm font-semibold text-secondary">
+                L'IA au cœur de l'utilité sociale
+              </p>
+            </div>
           </div>
           <span aria-hidden="true" className="mt-4 block h-2 w-20 rounded-full bg-gradient-to-r from-violet via-secondary to-orange" />
           <p className="mt-4 max-w-md leading-7 text-white/78">
