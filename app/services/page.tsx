@@ -134,9 +134,18 @@ const offers: {
   }
 ];
 
+const academyPlatformAdvantages = [
+  "Accessible 24h/24 et 7j/7",
+  "Formation au rythme de chacun",
+  "Accès pour plusieurs collaborateurs",
+  "Compatible ordinateur, tablette et smartphone",
+  "Contenus mis à jour régulièrement",
+  "Ressources accessibles à tout moment"
+];
+
 function OfferList({ title, items }: { title: string; items: string[] }) {
   return (
-    <div>
+    <div className="rounded-lg border border-primary/10 bg-white p-5 shadow-sm sm:p-6">
       <h3 className="font-display text-xl font-bold text-ink">{title}</h3>
       <ul className="mt-4 space-y-3 text-sm font-medium text-ink/80">
         {items.map((item) => (
@@ -146,6 +155,15 @@ function OfferList({ title, items }: { title: string; items: string[] }) {
           </li>
         ))}
       </ul>
+    </div>
+  );
+}
+
+function OfferTextBlock({ title, text }: { title: string; text: string }) {
+  return (
+    <div className="rounded-lg border border-primary/10 bg-white p-5 shadow-sm sm:p-6">
+      <h3 className="font-display text-xl font-bold text-ink">{title}</h3>
+      <p className="mt-3 leading-7 text-ink/75">{text}</p>
     </div>
   );
 }
@@ -166,39 +184,57 @@ function OfferSection({
         : "bg-secondary";
 
   return (
-    <article className="premium-card rounded-lg p-6 pl-8 sm:p-8 sm:pl-10">
-      <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
-        <div>
-          <div className={`mb-6 inline-flex h-14 w-14 items-center justify-center rounded-md ${iconClass} text-white shadow-card`}>
+    <section className="slide-panel rounded-lg p-6 text-ink shadow-sm sm:p-8 lg:p-10">
+      <div className="mx-auto max-w-5xl">
+        <div className="flex items-center gap-4">
+          <div className={`inline-flex h-14 w-14 shrink-0 items-center justify-center rounded-md ${iconClass} text-white shadow-card`}>
             <Icon aria-hidden="true" className="h-6 w-6" />
           </div>
           <p className="text-sm font-bold uppercase tracking-[0.12em] text-secondary">
             Offre {index + 1}
           </p>
-          <h2 className="mt-3 font-display text-3xl font-bold text-ink">
+        </div>
+
+        <div className="mt-6 max-w-3xl">
+          <h2 className="font-display text-3xl font-bold text-ink sm:text-4xl">
             {offer.title}
           </h2>
           <span aria-hidden="true" className="accent-underline" />
           <p className="mt-5 text-lg font-bold leading-8 text-primary">
             {offer.subtitle}
           </p>
-          <div className="mt-7 rounded-lg bg-cream p-5">
-            <h3 className="font-display text-xl font-bold text-ink">Pour qui ?</h3>
-            <p className="mt-3 leading-7 text-ink/75">{offer.audience}</p>
-          </div>
-          <div className="mt-5 rounded-lg border border-secondary/20 bg-white p-5">
+        </div>
+
+        <div className="mt-9 grid gap-6">
+          <OfferTextBlock title="Pour qui ?" text={offer.audience} />
+
+          <div className="rounded-lg border border-secondary/25 bg-cream p-7 shadow-card sm:p-8">
             <p className="text-sm font-bold uppercase tracking-[0.12em] text-secondary">
               Résultat attendu
             </p>
-            <p className="mt-3 leading-7 text-ink/75">{offer.result}</p>
+            <p className="mt-4 text-lg font-semibold leading-8 text-ink">
+              {offer.result}
+            </p>
           </div>
-        </div>
 
-        <div className="grid gap-6">
-          <div className="grid gap-6 md:grid-cols-2">
-            <OfferList title="Objectifs" items={offer.objectives} />
-            <OfferList title={offer.learningTitle} items={offer.learningItems} />
-          </div>
+          {offer.title === "Académie IA Solidaire" ? (
+            <div className="rounded-lg border border-secondary/25 bg-white p-6 shadow-sm sm:p-7">
+              <h3 className="font-display text-2xl font-bold text-ink">
+                Les avantages de la plateforme
+              </h3>
+              <div className="mt-5 grid gap-3 sm:grid-cols-2">
+                {academyPlatformAdvantages.map((item) => (
+                  <div key={item} className="flex gap-3 rounded-md bg-cream p-4 font-semibold text-ink/85">
+                    <CheckCircle2 aria-hidden="true" className="mt-0.5 h-5 w-5 shrink-0 text-secondary" />
+                    <span>{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ) : null}
+
+          <OfferList title="Objectifs" items={offer.objectives} />
+          <OfferList title={offer.learningTitle} items={offer.learningItems} />
           {offer.extraItems && offer.extraTitle ? (
             <OfferList title={offer.extraTitle} items={offer.extraItems} />
           ) : null}
@@ -213,23 +249,21 @@ function OfferSection({
               ]}
             />
           ) : null}
-          <div className="grid gap-6 md:grid-cols-2 md:items-start">
-            <OfferList title="Format" items={offer.format} />
-            <div className="rounded-lg bg-cream p-5">
-              <h3 className="font-display text-xl font-bold text-ink">Idéal pour</h3>
-              <p className="mt-3 leading-7 text-ink/75">{offer.idealFor}</p>
-            </div>
+          <OfferList title="Format" items={offer.format} />
+          <OfferTextBlock title="Idéal pour" text={offer.idealFor} />
+
+          <div className="mt-2 border-t border-primary/10 pt-7">
+            <Link
+              href="/contact"
+              className="inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-primary/20 bg-white px-6 py-3 text-sm font-bold text-ink shadow-sm transition hover:-translate-y-0.5 hover:border-secondary hover:bg-cream"
+            >
+              Découvrir cette offre
+              <ArrowRight aria-hidden="true" className="h-4 w-4" />
+            </Link>
           </div>
-          <Link
-            href="/contact"
-            className="inline-flex min-h-11 w-fit items-center justify-center gap-2 rounded-md border border-primary/20 bg-white px-5 py-3 text-sm font-bold text-ink shadow-sm transition hover:-translate-y-0.5 hover:border-secondary hover:bg-cream"
-          >
-            Découvrir cette offre
-            <ArrowRight aria-hidden="true" className="h-4 w-4" />
-          </Link>
         </div>
       </div>
-    </article>
+    </section>
   );
 }
 
@@ -243,7 +277,7 @@ export default function ServicesPage() {
       />
       <section className="py-16 sm:py-20">
         <Container>
-          <div className="grid gap-8">
+          <div className="grid gap-12 sm:gap-14">
             {offers.map((offer, index) => (
               <OfferSection key={offer.title} offer={offer} index={index} />
             ))}
