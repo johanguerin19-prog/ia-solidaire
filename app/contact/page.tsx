@@ -25,7 +25,12 @@ export default function ContactPage() {
           <ContactForm />
         </Container>
       </section>
-      <NewsletterSection />
+      <NewsletterSection
+        title="Chaque mois, une veille IA spécialement conçue pour les associations et structures d'insertion"
+        description="Recevez gratuitement des outils testés, des exemples concrets d'usages, des ressources pratiques et les évolutions importantes à suivre pour intégrer l'IA dans votre structure avec recul et responsabilité."
+        secondaryText="Lecture en moins de 5 minutes."
+        buttonLabel="Recevoir gratuitement la veille IA"
+      />
       <section className="bg-cream py-16 sm:py-20">
         <Container className="max-w-4xl">
           <aside className="premium-card rounded-lg p-6 pl-8">
