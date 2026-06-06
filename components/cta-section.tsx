@@ -4,8 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export function CTASection({
   title = "Prêt à identifier les premiers usages utiles pour votre structure ?",
-  description = "Échangeons sur vos besoins, vos contraintes et les usages IA qui peuvent réellement soutenir votre mission sociale.",
-  buttonLabel = "Nous contacter"
+  description = "Échangeons sur vos besoins, vos contraintes et les usages IA qui peuvent réellement soutenir votre mission sociale."
 }: {
   title?: string;
   description?: string;
@@ -20,8 +19,8 @@ export function CTASection({
             <span aria-hidden="true" className="accent-underline" />
             <p className="mt-4 max-w-3xl leading-7 text-ink/75">{description}</p>
           </div>
-          <Button asChild href="/contact">
-            {buttonLabel}
+          <Button asChild href="/contact#formulaire-contact">
+            Prendre contact
             <ArrowRight aria-hidden="true" className="ml-2 h-4 w-4" />
           </Button>
         </div>
