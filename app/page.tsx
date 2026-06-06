@@ -18,10 +18,16 @@ export default function Home() {
       "Académie IA Solidaire":
         "Former tous vos collaborateurs à l'IA et maintenir leurs compétences à jour."
     };
+    const links: Record<string, string> = {
+      "Formation collective d'initiation à l'IA": "/services#formation-collective",
+      "Accompagnement individualisé": "/services#accompagnement-individualise",
+      "Académie IA Solidaire": "/services#academie-ia-solidaire"
+    };
 
     if (service.title === "Académie IA Solidaire") {
       return {
         ...service,
+        href: links[service.title],
         objective: objectives[service.title],
         description:
           "Un parcours de formation continue pour développer les compétences IA des équipes, suivre les évolutions des outils et intégrer les bons usages dans leurs pratiques.",
@@ -36,6 +42,7 @@ export default function Home() {
 
     return {
       ...service,
+      href: links[service.title],
       objective: objectives[service.title] ?? service.objective
     };
   });
