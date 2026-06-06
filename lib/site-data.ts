@@ -171,36 +171,61 @@ export const useCases = [
   {
     title: "Direction et gestion",
     description:
-      "Produire plus vite des rapports d'activité, notes de synthèse et supports de réunion.",
-    items: ["Rapports d'activité", "Notes de synthèse", "Préparation de réunions"],
+      "Soulager la charge administrative des directions, coordinateurs et responsables de service grâce à des supports plus rapides à produire et plus faciles à partager.",
+    items: [
+      "Accélérer la rédaction des rapports d'activité",
+      "Automatiser la production de notes de synthèse",
+      "Préparer plus rapidement les réunions et comptes rendus",
+      "Faciliter la création de bilans et reporting financeurs"
+    ],
     icon: ClipboardList
   },
   {
     title: "Insertion professionnelle",
     description:
-      "Appuyer les parcours avec des CV, simulations d'entretien, supports FLE et ateliers numériques.",
-    items: ["CV", "Entretiens", "Français langue étrangère", "Ateliers numériques"],
+      "Appuyer les professionnels de l'accompagnement dans la création de supports adaptés aux parcours des bénéficiaires.",
+    items: [
+      "Créer des CV et lettres de motivation personnalisés",
+      "Préparer des simulations d'entretien",
+      "Générer des exercices FLE adaptés aux niveaux",
+      "Concevoir des ateliers numériques plus facilement"
+    ],
     icon: UsersRound
   },
   {
     title: "Encadrement technique",
     description:
-      "Formaliser les gestes métiers, les procédures, les fiches de poste et les supports de formation.",
-    items: ["Procédures", "Fiches de poste", "Supports de formation"],
+      "Aider les encadrants à formaliser leurs savoir-faire et à transmettre plus efficacement les gestes métiers.",
+    items: [
+      "Formaliser les procédures de travail",
+      "Rédiger des fiches de poste claires",
+      "Simplifier les consignes techniques",
+      "Créer des supports de formation métier"
+    ],
     icon: BriefcaseBusiness
   },
   {
     title: "Communication et partenariats",
     description:
-      "Structurer une communication régulière et claire auprès des financeurs, partenaires et publics.",
-    items: ["Newsletters", "Réseaux sociaux", "Présentations"],
+      "Structurer une communication régulière, claire et professionnelle auprès des financeurs, partenaires, bénévoles et publics accompagnés.",
+    items: [
+      "Rédiger des newsletters plus rapidement",
+      "Préparer des publications pour les réseaux sociaux",
+      "Valoriser les actions de la structure",
+      "Concevoir des présentations partenaires"
+    ],
     icon: MessageSquareText
   },
   {
     title: "Éthique et vigilance",
     description:
-      "Installer des réflexes collectifs pour protéger les données, les personnes et la qualité des décisions.",
-    items: ["RGPD", "Confidentialité", "IA Act", "Bonnes pratiques"],
+      "Installer des réflexes simples pour utiliser l'IA sans exposer les données sensibles, les situations individuelles ou la qualité des décisions.",
+    items: [
+      "Sensibiliser les équipes aux risques liés à l'IA",
+      "Sécuriser les données personnelles",
+      "Mettre en place des règles d'usage simples",
+      "Préserver la supervision humaine"
+    ],
     icon: Recycle
   }
 ];
