@@ -1,0 +1,11 @@
+{
+  "champs": [
+    "id",
+    "titre",
+    "description",
+    "theme",
+    "priorité",
+    "statut"
+  ],
+  "idees": []
+}
