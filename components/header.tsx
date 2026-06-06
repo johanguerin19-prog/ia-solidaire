@@ -56,7 +56,7 @@ export function Header() {
 
         <div className="hidden lg:block">
           <Button asChild href="/contact">
-            Nous contacter
+            Contact
           </Button>
         </div>
 
