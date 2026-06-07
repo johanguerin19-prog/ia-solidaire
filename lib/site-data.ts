@@ -231,7 +231,7 @@ export const useCases = [
 ];
 
 export const contact = {
-  email: "contact@ia-solidaire.fr",
-  phone: "Téléphone à confirmer",
-  linkedin: "https://www.linkedin.com/"
+  email: "contact@iasolidaire.fr",
+  phone: "",
+  linkedin: "https://www.linkedin.com/company/ia-solidaire"
 };
