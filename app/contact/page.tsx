@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Linkedin, Mail, Phone } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 import { ContactForm } from "@/components/contact-form";
 import { Container } from "@/components/container";
 import { NewsletterSection } from "@/components/newsletter-section";
@@ -36,8 +36,7 @@ export default function ContactPage() {
           <aside className="premium-card rounded-lg p-6 pl-8">
             <h2 className="font-display text-2xl font-bold text-ink">Coordonnées</h2>
             <p className="mt-4 leading-7 text-ink/75">
-              Vous pouvez aussi utiliser les coordonnées ci-dessous. Les
-              informations définitives seront confirmées avant publication.
+              Vous pouvez aussi utiliser les coordonnées ci-dessous.
             </p>
             <ul className="mt-6 grid gap-4">
               <li>
@@ -46,10 +45,6 @@ export default function ContactPage() {
                   {contact.email}
                 </a>
               </li>
-              <li className="flex items-center gap-3 font-semibold text-ink">
-                <Phone aria-hidden="true" className="h-5 w-5" />
-                {contact.phone}
-              </li>
               <li>
                 <a className="flex items-center gap-3 font-semibold text-ink hover:text-primary" href={contact.linkedin}>
                   <Linkedin aria-hidden="true" className="h-5 w-5" />
@@ -57,13 +52,6 @@ export default function ContactPage() {
                 </a>
               </li>
             </ul>
-            <div className="mt-8 rounded-md bg-secondary/10 p-5">
-              <p className="font-bold text-ink">Information V1</p>
-              <p className="mt-2 text-sm leading-6 text-ink/70">
-                Le formulaire affiche une confirmation côté site. L'envoi réel
-                d'email pourra être ajouté en V2 via un service dédié.
-              </p>
-            </div>
           </aside>
         </Container>
       </section>
