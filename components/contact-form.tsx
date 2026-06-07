@@ -13,6 +13,8 @@ type FormState = {
   message: string;
 };
 
+type Status = "idle" | "loading" | "success" | "error";
+
 const initialState: FormState = {
   name: "",
   organization: "",
@@ -23,7 +25,8 @@ const initialState: FormState = {
 
 export function ContactForm() {
   const [form, setForm] = useState<FormState>(initialState);
-  const [submitted, setSubmitted] = useState(false);
+  const [status, setStatus] = useState<Status>("idle");
+  const [statusMessage, setStatusMessage] = useState("");
   const [touched, setTouched] = useState<Record<string, boolean>>({});
 
   const errors = useMemo(() => {
@@ -43,10 +46,13 @@ export function ContactForm() {
 
   function updateField(field: keyof FormState, value: string) {
     setForm((current) => ({ ...current, [field]: value }));
-    setSubmitted(false);
+    if (status !== "idle") {
+      setStatus("idle");
+      setStatusMessage("");
+    }
   }
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setTouched({
       name: true,
@@ -58,9 +64,35 @@ export function ContactForm() {
 
     if (hasErrors) return;
 
-    setSubmitted(true);
-    setForm(initialState);
-    setTouched({});
+    setStatus("loading");
+    setStatusMessage("");
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(form)
+      });
+      const result = (await response.json()) as { message?: string };
+
+      if (!response.ok) {
+        throw new Error(result.message ?? "Le message n'a pas pu être envoyé.");
+      }
+
+      setStatus("success");
+      setStatusMessage(result.message ?? "Merci, votre message a bien été envoyé.");
+      setForm(initialState);
+      setTouched({});
+    } catch (error) {
+      setStatus("error");
+      setStatusMessage(
+        error instanceof Error
+          ? error.message
+          : "Une erreur est survenue. Merci de réessayer."
+      );
+    }
   }
 
   function fieldError(field: keyof FormState) {
@@ -128,13 +160,18 @@ export function ContactForm() {
           </p>
         ) : null}
       </div>
-      <Button className="mt-6 w-full sm:w-auto" type="submit">
-        Envoyer la demande
+      <Button className="mt-6 w-full sm:w-auto" type="submit" disabled={status === "loading"}>
+        {status === "loading" ? "Envoi en cours..." : "Envoyer la demande"}
         <Send aria-hidden="true" className="ml-2 h-4 w-4" />
       </Button>
-      {submitted ? (
-        <p className="mt-5 rounded-md bg-secondary/10 p-4 font-semibold text-ink" role="status">
-          Merci, votre message est prêt à être traité. En V1, aucun email n'est envoyé automatiquement.
+      {statusMessage ? (
+        <p
+          className={`mt-5 rounded-md p-4 font-semibold ${
+            status === "success" ? "bg-secondary/10 text-ink" : "bg-red-50 text-red-700"
+          }`}
+          role="status"
+        >
+          {statusMessage}
         </p>
       ) : null}
     </form>
