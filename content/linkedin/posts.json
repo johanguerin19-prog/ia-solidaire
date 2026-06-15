@@ -1,18 +1,215 @@
 {
-  "champs": [
-    "id",
-    "date_prevue",
-    "titre_interne",
-    "theme",
-    "objectif",
-    "format",
-    "texte",
-    "accroche",
-    "cta",
-    "hashtags",
-    "idee_visuel",
-    "statut"
-  ],
-  "statuts_possibles": ["brouillon", "validé", "publié"],
-  "posts": []
+  "mois": "2026-07",
+  "date_creation": "2026-06-15",
+  "statuts_possibles": ["brouillon", "valide", "publie"],
+  "posts": [
+    {
+      "id": "LI-2026-07-01",
+      "date_prevue": "2026-07-07T09:00:00+02:00",
+      "titre": "Les 5 taches administratives a confier en premier a l'IA",
+      "categorie": "pedagogie",
+      "objectif": "Expertise et partages",
+      "accroches": {
+        "impact_fort": "Votre equipe n'a pas besoin d'un nouvel outil. Elle a besoin de recuperer du temps.",
+        "impact_moyen": "Par quelle tache commencer avec l'IA dans une association ?",
+        "impact_doux": "Certains usages simples de l'IA peuvent deja alleger le quotidien administratif."
+      },
+      "texte": "Votre equipe n'a pas besoin d'un nouvel outil. Elle a besoin de recuperer du temps.\n\nDans beaucoup de structures de l'ESS, l'IA est encore abordee par l'outil : quel abonnement choisir, quelle version utiliser, quel prompt apprendre ?\n\nLe meilleur point de depart est plus simple : reperer les taches repetitives, peu sensibles et faciles a verifier.\n\nVoici 5 usages accessibles :\n\n1. Reformuler un courriel pour le rendre plus clair.\n2. Transformer des notes en ordre du jour.\n3. Produire une premiere trame de compte-rendu.\n4. Resumer un document public volumineux.\n5. Decliner une information en plusieurs formats : courriel, publication et note interne.\n\nL'IA ne doit pas decider a la place de l'equipe. Elle prepare une premiere version que le professionnel relit, corrige et contextualise.\n\nConseil pratique : choisissez une seule tache cette semaine. Mesurez le temps habituel, testez l'IA sur trois occurrences, puis comparez. Vous aurez un resultat concret, pas une impression.\n\nQuelle tache administrative prend aujourd'hui trop de temps dans votre structure ?",
+      "cta": {
+        "commentaire": "Partagez en commentaire la tache que vous aimeriez simplifier en premier.",
+        "partage": "Transmettez cette liste a un collegue qui cherche un premier usage concret.",
+        "prise_de_contact": "Pour identifier les usages adaptes a votre organisation, echangeons sur vos priorites."
+      },
+      "visuel": {
+        "concept": "Une fiche pratique presentant cinq cartes d'usages administratifs simples.",
+        "texte_image": "5 taches administratives a alleger avec l'IA",
+        "disposition": "Titre en haut, cinq cartes arrondies numerotees au centre, rappel 'Relire, corriger, contextualiser' en pied de visuel."
+      },
+      "hashtags": ["#ESS", "#Association", "#IntelligenceArtificielle", "#TransformationNumerique", "#GestionAssociative"],
+      "prompt_image": "Creer un visuel LinkedIn carre 1080 x 1080, moderne, minimaliste et institutionnel pour IA Solidaire. Fond blanc casse, titre '5 taches administratives a alleger avec l'IA'. Afficher cinq cartes arrondies avec pictogrammes vectoriels simples : courriel, ordre du jour, compte-rendu, document a resumer, contenus multiformats. Palette bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA et touches orange #FF8A1F. Typographie sans serif tres lisible, espaces genereux, composition rassurante. Ajouter discretement 'Relire, corriger, contextualiser'. Aucun robot, aucune science-fiction, aucun effet cyberpunk, aucune interface technologique complexe.",
+      "statut": "brouillon"
+    },
+    {
+      "id": "LI-2026-07-02",
+      "date_prevue": "2026-07-09T09:00:00+02:00",
+      "titre": "Appel a projets : la methode en 4 etapes pour utiliser l'IA sans perdre sa voix",
+      "categorie": "pedagogie",
+      "objectif": "Expertise et acquisition",
+      "accroches": {
+        "impact_fort": "Un appel a projets redige plus vite ne doit jamais devenir un projet moins sincere.",
+        "impact_moyen": "L'IA peut aider a rediger un appel a projets, a condition de ne pas lui confier votre projet.",
+        "impact_doux": "Bien utilisee, l'IA peut faciliter la redaction d'un appel a projets sans effacer la realite du terrain."
+      },
+      "texte": "Un appel a projets redige plus vite ne doit jamais devenir un projet moins sincere.\n\nFace a une echeance courte, la tentation est grande de demander a une IA : « Redige notre dossier ». Le resultat semble fluide, mais il peut devenir generique, exagerer certains effets ou inventer des informations manquantes.\n\nUne methode plus fiable tient en 4 etapes.\n\n1. Extraire les criteres du financeur et les transformer en liste de controle.\n2. Rassembler uniquement vos informations verifiees : besoins, actions, publics, moyens, indicateurs et partenaires.\n3. Demander une premiere structure, section par section, sans autoriser l'ajout de faits.\n4. Reprendre chaque paragraphe avec les mots, exemples et nuances de votre equipe.\n\nL'IA est alors un assistant de structuration, pas l'auteur du projet. La connaissance des besoins, la strategie et les engagements restent humains.\n\nConseil pratique : ajoutez a chaque demande cette consigne : « N'invente aucune donnee. Signale clairement les informations manquantes. » Puis faites relire la version finale par une personne impliquee dans l'action.\n\nQuelle partie d'un dossier de financement vous mobilise le plus de temps ?",
+      "cta": {
+        "commentaire": "Indiquez en commentaire la section la plus difficile a rediger dans vos dossiers.",
+        "partage": "Partagez cette methode avec la personne qui coordonne vos appels a projets.",
+        "prise_de_contact": "IA Solidaire peut vous aider a construire une methode de redaction adaptee a vos dossiers recurrentes."
+      },
+      "visuel": {
+        "concept": "Un parcours en quatre etapes montrant que les donnees terrain restent au centre.",
+        "texte_image": "Appel a projets + IA : la methode en 4 etapes",
+        "disposition": "Titre en haut, chemin vertical de quatre blocs numerotes, encadre final 'Votre projet garde sa voix'."
+      },
+      "hashtags": ["#ESS", "#Association", "#AppelAProjets", "#IntelligenceArtificielle", "#InnovationSociale"],
+      "prompt_image": "Concevoir un visuel LinkedIn carre 1080 x 1080 pour IA Solidaire, fond blanc casse et style pedagogique institutionnel. Titre : 'Appel a projets + IA : la methode en 4 etapes'. Representer un parcours clair avec quatre blocs arrondis numerotes : criteres, informations verifiees, premiere structure, relecture humaine. Utiliser bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA et une touche orange #FF8A1F pour les points d'attention. Ajouter en conclusion 'Votre projet garde sa voix'. Pictogrammes vectoriels epures, typographie sans serif, forte lisibilite mobile, marges genereuses. Aucun robot humanoide, aucune science-fiction, aucune esthetique cyberpunk ou anxiogene.",
+      "statut": "brouillon"
+    },
+    {
+      "id": "LI-2026-07-03",
+      "date_prevue": "2026-07-14T09:00:00+02:00",
+      "titre": "Sur le terrain, le vrai frein a l'IA n'est pas le manque d'outils",
+      "categorie": "terrain",
+      "objectif": "Credibilite et confiance",
+      "accroches": {
+        "impact_fort": "Le principal frein a l'IA dans les associations n'est pas technologique. Il est organisationnel.",
+        "impact_moyen": "Ajouter un outil ne suffit pas a faire progresser une equipe.",
+        "impact_doux": "Les premiers blocages autour de l'IA viennent souvent moins des outils que de leur organisation."
+      },
+      "texte": "Le principal frein a l'IA dans les associations n'est pas technologique. Il est organisationnel.\n\nSur le terrain, le meme scenario revient souvent : une personne teste ChatGPT, une autre utilise un outil different, quelques prompts circulent et chacun avance de son cote.\n\nIl y a de la curiosite, parfois de vrais gains de temps, mais pas encore de pratique collective.\n\nTrois questions restent sans reponse :\n\n- Quels usages sont reellement utiles a la structure ?\n- Quelles donnees ne doivent jamais etre saisies ?\n- Qui verifie les contenus produits avant leur utilisation ?\n\nSans cadre commun, les equipes hesitent. Certaines n'osent rien essayer. D'autres prennent des risques sans le savoir. Et les directions ne peuvent pas evaluer les benefices obtenus.\n\nLa premiere etape n'est donc pas d'acheter un outil supplementaire. Elle consiste a choisir deux ou trois situations de travail, definir des regles simples et organiser un retour d'experience collectif.\n\nConseil pratique : consacrez 30 minutes en equipe a cette question : « Ou perdons-nous du temps sur une tache repetable, sans donnee sensible et avec un resultat facile a verifier ? »\n\nDans votre structure, le frein principal est-il le temps, les competences ou l'absence de cadre ?",
+      "cta": {
+        "commentaire": "Partagez le principal frein rencontre par votre equipe.",
+        "partage": "Envoyez ce constat a une personne qui pilote la transformation interne.",
+        "prise_de_contact": "Un diagnostic court peut aider a prioriser les usages et poser un cadre commun."
+      },
+      "visuel": {
+        "concept": "Une balance opposant accumulation d'outils et cadre collectif.",
+        "texte_image": "Le frein n'est pas l'outil. C'est l'absence de cadre commun.",
+        "disposition": "Phrase centrale forte, trois petites cartes en dessous : usages, donnees, verification."
+      },
+      "hashtags": ["#ESS", "#Association", "#Management", "#IntelligenceArtificielle", "#TransformationNumerique", "#Insertion"],
+      "prompt_image": "Creer un visuel LinkedIn carre 1080 x 1080 sobre et humain pour IA Solidaire. Fond blanc casse. Phrase principale : 'Le frein n'est pas l'outil. C'est l'absence de cadre commun.' Sous le titre, trois cartes arrondies avec pictogrammes simples et mots : usages, donnees, verification. Palette dominante bleu #3B82F6 et turquoise #22C7C7, soutien violet #7C5CFA, petit accent orange #FF8A1F. Illustration abstraite d'une equipe organisee autour d'un cadre commun, sans visage detaille. Typographie sans serif, composition claire et rassurante. Aucun robot, aucune science-fiction, aucun univers cyberpunk, aucun visuel anxiogene.",
+      "statut": "brouillon"
+    },
+    {
+      "id": "LI-2026-07-04",
+      "date_prevue": "2026-07-16T09:00:00+02:00",
+      "titre": "Compte-rendu de reunion : un canevas IA utilisable en 15 minutes",
+      "categorie": "pedagogie",
+      "objectif": "Expertise et engagement",
+      "accroches": {
+        "impact_fort": "Une reunion sans compte-rendu exploitable oblige souvent l'equipe a refaire la reunion.",
+        "impact_moyen": "L'IA peut transformer vos notes de reunion en premiere trame en quelques minutes.",
+        "impact_doux": "Un canevas simple peut faciliter la preparation des comptes-rendus avec l'IA."
+      },
+      "texte": "Une reunion sans compte-rendu exploitable oblige souvent l'equipe a refaire la reunion.\n\nPourtant, rediger un document exhaustif apres chaque echange prend du temps. Les notes restent parfois dans un carnet, les decisions se dispersent et les responsabilites deviennent floues.\n\nL'IA peut preparer une premiere trame, a condition de lui donner une structure precise.\n\nDemandez-lui d'organiser vos notes en cinq rubriques :\n\n1. Objectif de la reunion.\n2. Decisions prises.\n3. Actions a mener.\n4. Responsable et echeance de chaque action.\n5. Points restant a arbitrer.\n\nAjoutez deux regles : ne rien inventer et signaler toute information ambigue. Relisez ensuite les noms, dates, montants et engagements avant diffusion.\n\nAttention aux donnees personnelles : anonymisez les notes lorsque cela est necessaire et n'utilisez pas un outil non valide pour traiter des informations sensibles.\n\nConseil pratique : creez un modele reutilisable avec ces cinq rubriques. Apres la prochaine reunion, testez-le sur des notes factuelles et chronometrez le temps gagne.\n\nQuel element manque le plus souvent dans vos comptes-rendus : les decisions, les responsables ou les echeances ?",
+      "cta": {
+        "commentaire": "Dites-nous quelle rubrique vous serait la plus utile.",
+        "partage": "Partagez ce canevas avec la personne qui redige vos comptes-rendus.",
+        "newsletter": "Retrouvez d'autres methodes directement applicables dans la newsletter IA Solidaire."
+      },
+      "visuel": {
+        "concept": "Un modele de compte-rendu en cinq rubriques clairement identifiees.",
+        "texte_image": "Le compte-rendu utile en 5 rubriques",
+        "disposition": "Fausse feuille de compte-rendu au centre, cinq sections colorees, rappel de verification en bas."
+      },
+      "hashtags": ["#ESS", "#Association", "#Productivite", "#IntelligenceArtificielle", "#Organisation", "#Insertion"],
+      "prompt_image": "Produire un visuel LinkedIn carre 1080 x 1080 pour IA Solidaire, fond blanc casse, style fiche pratique moderne et institutionnelle. Titre : 'Le compte-rendu utile en 5 rubriques'. Au centre, illustrer une feuille epuree divisee en cinq blocs arrondis : objectif, decisions, actions, responsables et echeances, points a arbitrer. Palette bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA, accent orange #FF8A1F pour la verification. Ajouter en bas 'Ne rien inventer. Toujours relire.' Typographie sans serif accessible, pictogrammes vectoriels simples, excellente lisibilite. Aucun robot, aucune science-fiction, aucun cyberpunk.",
+      "statut": "brouillon"
+    },
+    {
+      "id": "LI-2026-07-05",
+      "date_prevue": "2026-07-21T09:00:00+02:00",
+      "titre": "Donnees sensibles : le feu tricolore avant de les confier a une IA",
+      "categorie": "conformite",
+      "objectif": "Differenciation et confiance",
+      "accroches": {
+        "impact_fort": "Avant de coller un texte dans une IA, posez-vous une question : a qui appartiennent ces donnees ?",
+        "impact_moyen": "Toutes les informations de votre structure ne doivent pas etre confiees a une IA.",
+        "impact_doux": "Un repere simple permet deja de mieux proteger les donnees utilisees avec l'IA."
+      },
+      "texte": "Avant de coller un texte dans une IA, posez-vous une question : a qui appartiennent ces donnees ?\n\nDans une association ou une structure d'insertion, un document peut contenir des informations sur des salaries, des beneficiaires, des parcours de vie, la sante ou la situation administrative. Une simple demande de reformulation peut alors exposer des donnees qui ne devraient pas quitter votre environnement de travail.\n\nPour guider les premiers usages, utilisez un feu tricolore.\n\nVERT : contenu public, fictif ou completement anonymise. L'usage est possible selon les outils autorises par votre structure.\n\nORANGE : document interne, information contractuelle ou element permettant une identification indirecte. Arretez-vous et verifiez le cadre, l'outil et la finalite.\n\nROUGE : donnees de sante, situations sociales individuelles, identifiants, mots de passe ou informations sur des personnes vulnerables. Ne les saisissez pas dans un service d'IA grand public.\n\nCe repere ne remplace pas une politique RGPD ni l'avis de votre referent. Il permet d'eviter les automatismes dangereux.\n\nConseil pratique : affichez ces trois niveaux pres des postes de travail et integrez-les a votre charte d'usage.\n\nVotre equipe dispose-t-elle deja d'une regle claire avant d'utiliser une IA ?",
+      "cta": {
+        "commentaire": "Votre structure a-t-elle deja formalise ce type de regle ?",
+        "partage": "Partagez ce feu tricolore avec vos equipes et votre referent RGPD.",
+        "prise_de_contact": "IA Solidaire accompagne la definition de pratiques d'IA responsables adaptees aux structures de l'ESS."
+      },
+      "visuel": {
+        "concept": "Un feu tricolore pedagogique classe les donnees selon trois niveaux de vigilance.",
+        "texte_image": "Avant de saisir une donnee dans une IA : vert, orange ou rouge ?",
+        "disposition": "Trois grandes zones verticales avec exemples courts, avertissement RGPD en pied de page."
+      },
+      "hashtags": ["#ESS", "#Association", "#RGPD", "#IAResponsable", "#DonneesPersonnelles", "#Insertion"],
+      "prompt_image": "Concevoir un visuel LinkedIn carre 1080 x 1080 pedagogique pour IA Solidaire. Fond blanc casse. Titre : 'Avant de saisir une donnee dans une IA : vert, orange ou rouge ?'. Creer trois zones arrondies tres lisibles : vert pour public, fictif ou anonymise ; orange pour interne ou identification indirecte ; rouge pour sante, situation sociale, identifiants et mots de passe. Conserver la palette IA Solidaire avec bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA et orange #FF8A1F, tout en utilisant des indicateurs vert, orange et rouge accessibles avec icones et libelles, pas uniquement la couleur. Ajouter 'Ce repere ne remplace pas votre cadre RGPD'. Style institutionnel rassurant, sans robot, science-fiction, cyberpunk ni symbole anxiogene.",
+      "statut": "brouillon"
+    },
+    {
+      "id": "LI-2026-07-06",
+      "date_prevue": "2026-07-23T09:00:00+02:00",
+      "titre": "Une equipe ne gagne pas du temps avec l'IA tant que chacun improvise seul",
+      "categorie": "terrain",
+      "objectif": "Credibilite et acquisition",
+      "accroches": {
+        "impact_fort": "Cinq personnes qui utilisent l'IA seules ne forment pas encore une equipe augmentee.",
+        "impact_moyen": "Les gains de temps individuels deviennent fragiles lorsqu'ils ne sont jamais partages.",
+        "impact_doux": "Les usages de l'IA deviennent plus utiles lorsqu'une equipe apprend collectivement."
+      },
+      "texte": "Cinq personnes qui utilisent l'IA seules ne forment pas encore une equipe augmentee.\n\nDans de nombreuses structures, les premiers usages reposent sur quelques personnes curieuses. Elles trouvent de bonnes formulations, gagnent du temps sur une synthese ou construisent un modele efficace.\n\nMais ces progres restent souvent invisibles. Le prompt demeure dans un historique personnel. La methode n'est pas documentee. Et lorsque la personne change de poste, le savoir-faire disparait.\n\nPour transformer un gain individuel en benefice collectif, trois elements suffisent pour commencer :\n\n- une bibliotheque commune de cas d'usage valides ;\n- une fiche courte indiquant les donnees autorisees et les controles a effectuer ;\n- un rendez-vous mensuel pour partager les resultats, les erreurs et les ajustements.\n\nIl ne s'agit pas de tout normaliser. Il s'agit de rendre les pratiques utiles, transmissibles et compatibles avec les responsabilites de la structure.\n\nConseil pratique : demandez a chaque utilisateur regulier de documenter un seul usage avec quatre informations : objectif, donnees utilisees, resultat attendu et points a verifier.\n\nAujourd'hui, vos bonnes pratiques appartiennent-elles a l'organisation ou seulement a quelques personnes ?",
+      "cta": {
+        "commentaire": "Comment partagez-vous aujourd'hui les bonnes pratiques au sein de votre equipe ?",
+        "partage": "Transmettez ce post a la personne chargee de la qualite ou des ressources humaines.",
+        "prise_de_contact": "Echangeons pour structurer une demarche collective a partir de vos usages existants."
+      },
+      "visuel": {
+        "concept": "Des pratiques individuelles convergent vers une bibliotheque commune.",
+        "texte_image": "Un gain individuel n'est pas encore un progres collectif",
+        "disposition": "Plusieurs cartes individuelles a gauche convergent vers trois ressources partagees a droite."
+      },
+      "hashtags": ["#ESS", "#Association", "#Management", "#IntelligenceArtificielle", "#RH", "#Insertion"],
+      "prompt_image": "Creer un visuel LinkedIn carre 1080 x 1080 pour IA Solidaire, minimaliste, professionnel et humain. Fond blanc casse. Titre : 'Un gain individuel n'est pas encore un progres collectif'. A gauche, plusieurs petites cartes arrondies representant des usages individuels ; des lignes douces convergent vers trois ressources communes a droite : cas d'usage, regles, partage mensuel. Palette bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA et accent orange #FF8A1F. Pictogrammes vectoriels simples, typographie sans serif, composition aeree et rassurante. Aucun robot humanoide, aucune science-fiction, aucun cyberpunk, aucune surcharge technologique.",
+      "statut": "brouillon"
+    },
+    {
+      "id": "LI-2026-07-07",
+      "date_prevue": "2026-07-28T09:00:00+02:00",
+      "titre": "Rapport d'activite : transformer les notes eparses en premiere trame solide",
+      "categorie": "pedagogie",
+      "objectif": "Expertise et partages",
+      "accroches": {
+        "impact_fort": "Le rapport d'activite ne devrait pas commencer par trois jours de recherche dans des dossiers disperses.",
+        "impact_moyen": "L'IA peut aider a structurer un rapport d'activite, mais seulement si les sources sont fiables.",
+        "impact_doux": "Une bonne preparation permet d'utiliser l'IA pour faciliter la premiere trame d'un rapport d'activite."
+      },
+      "texte": "Le rapport d'activite ne devrait pas commencer par trois jours de recherche dans des dossiers disperses.\n\nBilans d'action, tableaux, comptes-rendus, temoignages : les informations existent souvent, mais sous des formats differents et dans plusieurs espaces. La difficulte n'est pas seulement de rediger. Elle est de retrouver, classer et verifier.\n\nL'IA peut faciliter la premiere trame si le travail est organise en amont.\n\nCommencez par creer un dossier de sources validees, classees par axe d'activite. Pour chaque document, indiquez la periode, l'action concernee et le responsable de la verification.\n\nVous pouvez ensuite demander a l'IA :\n\n- de regrouper les informations par theme ;\n- de proposer un plan coherent ;\n- de reperer les repetitions et les informations manquantes ;\n- de produire une premiere synthese sans ajouter de chiffre ni de fait.\n\nLa direction conserve la responsabilite du message, des priorites mises en avant et de l'interpretation des resultats.\n\nConseil pratique : n'attendez pas la fin de l'annee. Creez des maintenant une fiche mensuelle avec trois champs : action menee, resultat observe, preuve disponible.\n\nQuelle etape vous ralentit le plus : collecter, verifier, structurer ou rediger ?",
+      "cta": {
+        "commentaire": "Indiquez l'etape la plus chronophage pour votre structure.",
+        "partage": "Partagez cette methode avec les personnes qui contribuent au rapport d'activite.",
+        "newsletter": "La newsletter IA Solidaire partage des methodes concretes pour les fonctions support de l'ESS."
+      },
+      "visuel": {
+        "concept": "Des sources dispersees sont transformees en plan structure et verifiable.",
+        "texte_image": "Rapport d'activite : des sources fiables avant la redaction",
+        "disposition": "Documents varies a gauche, quatre etapes au centre, rapport structure a droite."
+      },
+      "hashtags": ["#ESS", "#Association", "#RapportDActivite", "#IntelligenceArtificielle", "#GestionAssociative"],
+      "prompt_image": "Creer un visuel LinkedIn carre 1080 x 1080, style infographie institutionnelle pour IA Solidaire. Fond blanc casse. Titre : 'Rapport d'activite : des sources fiables avant la redaction'. Montrer a gauche plusieurs documents epures, au centre un chemin en quatre etapes 'collecter, verifier, structurer, rediger', a droite un rapport clair. Utiliser des formes arrondies, pictogrammes vectoriels et la palette bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA, accent orange #FF8A1F. Typographie sans serif lisible sur mobile, composition aeree. Aucun robot, aucune science-fiction, aucun cyberpunk, aucune promesse d'automatisation totale.",
+      "statut": "brouillon"
+    },
+    {
+      "id": "LI-2026-07-08",
+      "date_prevue": "2026-07-30T09:00:00+02:00",
+      "titre": "Avant de former toute l'equipe, commencez par cartographier 3 usages",
+      "categorie": "promotion",
+      "objectif": "Demandes de contact qualifiees",
+      "accroches": {
+        "impact_fort": "Former toute une equipe a l'IA sans connaitre ses besoins, c'est commencer par la solution.",
+        "impact_moyen": "Une formation IA devient utile lorsqu'elle part de trois situations de travail reelles.",
+        "impact_doux": "Avant une formation IA, quelques usages bien choisis permettent de mieux cibler l'accompagnement."
+      },
+      "texte": "Former toute une equipe a l'IA sans connaitre ses besoins, c'est commencer par la solution.\n\nUne sensibilisation generale peut donner des reperes. Mais si elle reste deconnectee du quotidien, l'enthousiasme retombe vite et les pratiques evoluent peu.\n\nAvant de choisir un programme, cartographiez trois usages prioritaires. Pour chacun, posez cinq questions :\n\n1. Quelle tache voulons-nous ameliorer ?\n2. Qui la realise et a quelle frequence ?\n3. Combien de temps mobilise-t-elle ?\n4. Quelles donnees sont concernees ?\n5. Comment verifierons-nous la qualite du resultat ?\n\nCette cartographie permet de construire une formation ancree dans les metiers, de reperer les risques et de fixer des objectifs mesurables. Elle evite aussi de former tout le monde aux memes fonctions alors que les besoins d'une direction, d'un accompagnateur socioprofessionnel et d'un responsable administratif different.\n\nConseil pratique : reunissez trois profils pendant 45 minutes et selectionnez un usage frequent, un usage irritant et un usage a fort impact. Vous obtiendrez une premiere base de travail.\n\nIA Solidaire accompagne les structures de l'ESS pour cadrer ces usages et construire une montee en competences responsable.\n\nQuels trois usages choisiriez-vous aujourd'hui ?",
+      "cta": {
+        "prise_de_contact": "Contactez IA Solidaire pour organiser une premiere cartographie de vos usages.",
+        "commentaire": "Partagez l'usage qui devrait absolument figurer dans votre cartographie.",
+        "academie": "Decouvrez l'Academie IA Solidaire pour structurer la montee en competences de vos equipes."
+      },
+      "visuel": {
+        "concept": "Une matrice simple aide a selectionner trois usages avant la formation.",
+        "texte_image": "Avant la formation : cartographiez 3 usages",
+        "disposition": "Trois grandes cartes usage frequent, irritant et a fort impact, avec cinq questions en rappel lateral."
+      },
+      "hashtags": ["#ESS", "#Association", "#FormationIA", "#IntelligenceArtificielle", "#TransformationNumerique", "#Insertion"],
+      "prompt_image": "Concevoir un visuel LinkedIn carre 1080 x 1080 pour IA Solidaire, professionnel, humain et minimaliste. Fond blanc casse. Titre : 'Avant la formation : cartographiez 3 usages'. Afficher trois grandes cartes arrondies : usage frequent, usage irritant, usage a fort impact. Ajouter discretement cinq criteres sous forme de pictogrammes : tache, personnes, frequence, donnees, verification. Palette bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA et accent orange #FF8A1F. Typographie sans serif tres lisible, composition equilibree, appel discret 'Partir du travail reel'. Aucun robot, aucune science-fiction, aucun cyberpunk, aucune esthetique trop technologique.",
+      "statut": "brouillon"
+    }
+  ]
 }

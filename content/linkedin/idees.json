@@ -1,11 +1,92 @@
 {
-  "champs": [
-    "id",
-    "titre",
-    "description",
-    "theme",
-    "priorité",
-    "statut"
-  ],
-  "idees": []
+  "mois": "2026-07",
+  "statut": "valide",
+  "repartition": {
+    "pedagogie": 4,
+    "terrain": 2,
+    "conformite": 1,
+    "promotion": 1
+  },
+  "idees": [
+    {
+      "id": "LI-2026-07-01",
+      "titre_interne": "Les 5 taches administratives a confier en premier a l'IA",
+      "categorie": "pedagogie",
+      "objectif_marketing": "Expertise et partages",
+      "probleme_traite": "Les dirigeants associatifs veulent gagner du temps, mais ne savent pas par quel usage simple et peu risque commencer.",
+      "score_potentiel": 9,
+      "justification_score": "Sujet tres concret, immediatement applicable et largement partageable. Il ouvre naturellement vers un diagnostic des usages sans discours commercial direct.",
+      "statut": "validee"
+    },
+    {
+      "id": "LI-2026-07-02",
+      "titre_interne": "Appel a projets : la methode en 4 etapes pour utiliser l'IA sans perdre sa voix",
+      "categorie": "pedagogie",
+      "objectif_marketing": "Expertise et acquisition",
+      "probleme_traite": "La redaction des appels a projets mobilise beaucoup de temps et produit parfois des textes generiques ou deconnectes du terrain.",
+      "score_potentiel": 9,
+      "justification_score": "L'enjeu est recurrent et directement lie au financement des structures. La methode promise favorise l'enregistrement, le partage et la prise de contact.",
+      "statut": "validee"
+    },
+    {
+      "id": "LI-2026-07-03",
+      "titre_interne": "Sur le terrain, le vrai frein a l'IA n'est pas le manque d'outils",
+      "categorie": "terrain",
+      "objectif_marketing": "Credibilite et confiance",
+      "probleme_traite": "Les equipes testent plusieurs outils sans cadre commun, sans priorite et sans temps organise pour apprendre.",
+      "score_potentiel": 8,
+      "justification_score": "Le constat parlera aux responsables confrontes a des usages disperses. Il differencie IA Solidaire par une lecture organisationnelle plutot que technologique.",
+      "statut": "validee"
+    },
+    {
+      "id": "LI-2026-07-04",
+      "titre_interne": "Compte-rendu de reunion : un canevas IA utilisable en 15 minutes",
+      "categorie": "pedagogie",
+      "objectif_marketing": "Expertise et engagement",
+      "probleme_traite": "Les comptes-rendus sont chronophages, irreguliers et parfois diffuses trop tard pour soutenir les decisions.",
+      "score_potentiel": 9,
+      "justification_score": "Usage universel, resultat facile a visualiser et conseil rapidement testable. Le format canevas a un fort potentiel de sauvegarde et de commentaire.",
+      "statut": "validee"
+    },
+    {
+      "id": "LI-2026-07-05",
+      "titre_interne": "Donnees sensibles : le feu tricolore avant de les confier a une IA",
+      "categorie": "conformite",
+      "objectif_marketing": "Differenciation et confiance",
+      "probleme_traite": "Les professionnels ne savent pas toujours quelles informations peuvent etre saisies dans un outil d'IA, notamment concernant les salaries et beneficiaires.",
+      "score_potentiel": 10,
+      "justification_score": "Le sujet repond a une inquietude forte avec une grille simple et memorisable. Il associe concretement IA responsable, protection des personnes et pratiques quotidiennes.",
+      "statut": "validee"
+    },
+    {
+      "id": "LI-2026-07-06",
+      "titre_interne": "Une equipe ne gagne pas du temps avec l'IA tant que chacun improvise seul",
+      "categorie": "terrain",
+      "objectif_marketing": "Credibilite et acquisition",
+      "probleme_traite": "Les gains individuels restent fragiles lorsque les bonnes pratiques ne sont ni partagees, ni documentees, ni pilotees.",
+      "score_potentiel": 8,
+      "justification_score": "Le propos interpelle les directions et responsables RH. Il permet de montrer la valeur d'une demarche collective et accompagnee.",
+      "statut": "validee"
+    },
+    {
+      "id": "LI-2026-07-07",
+      "titre_interne": "Rapport d'activite : transformer les notes eparses en premiere trame solide",
+      "categorie": "pedagogie",
+      "objectif_marketing": "Expertise et partages",
+      "probleme_traite": "La preparation du rapport d'activite commence souvent tard, avec des informations dispersees et une forte charge de synthese.",
+      "score_potentiel": 9,
+      "justification_score": "Le besoin est familier aux associations et la solution peut etre illustree par un processus clair. Le sujet valorise un usage utile sans promettre une redaction entierement automatisee.",
+      "statut": "validee"
+    },
+    {
+      "id": "LI-2026-07-08",
+      "titre_interne": "Avant de former toute l'equipe, commencez par cartographier 3 usages",
+      "categorie": "promotion",
+      "objectif_marketing": "Demandes de contact qualifiees",
+      "probleme_traite": "Les structures envisagent une formation generale sans avoir identifie les besoins prioritaires, les risques et les gains attendus.",
+      "score_potentiel": 8,
+      "justification_score": "L'approche apporte deja une methode utile avant de presenter l'accompagnement. Elle qualifie les prospects en les invitant a partir de situations reelles.",
+      "statut": "validee"
+    }
+  ]
 }

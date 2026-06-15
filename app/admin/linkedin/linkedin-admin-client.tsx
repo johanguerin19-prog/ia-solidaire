@@ -3,53 +3,89 @@
 import { Clipboard, Filter } from "lucide-react";
 import { useMemo, useState } from "react";
 
+type PostStatus = "brouillon" | "valide" | "publie";
+
 export type LinkedinPost = {
   id: string;
   date_prevue: string;
-  titre_interne: string;
-  theme: string;
+  titre: string;
+  categorie: string;
   objectif: string;
-  format: string;
+  accroches: {
+    impact_fort: string;
+    impact_moyen: string;
+    impact_doux: string;
+  };
   texte: string;
-  accroche: string;
-  cta: string;
+  cta: Partial<Record<"prise_de_contact" | "commentaire" | "partage" | "newsletter" | "academie", string>>;
+  visuel: {
+    concept: string;
+    texte_image: string;
+    disposition: string;
+  };
   hashtags: string[];
-  idee_visuel: string;
-  statut: "brouillon" | "validé" | "publié";
+  prompt_image: string;
+  statut: PostStatus;
 };
 
-const statusLabels = {
+const statusLabels: Record<PostStatus, string> = {
   brouillon: "Brouillon",
-  validé: "Validé",
-  publié: "Publié"
+  valide: "Validé",
+  publie: "Publié"
 };
 
-const statusClasses = {
+const statusClasses: Record<PostStatus, string> = {
   brouillon: "border-orange/25 bg-orange/10 text-ink",
-  validé: "border-secondary/25 bg-secondary/10 text-ink",
-  publié: "border-violet/25 bg-violet/10 text-ink"
+  valide: "border-secondary/25 bg-secondary/10 text-ink",
+  publie: "border-violet/25 bg-violet/10 text-ink"
 };
+
+const categoryLabels: Record<string, string> = {
+  pedagogie: "Pédagogie",
+  terrain: "Terrain",
+  conformite: "Conformité",
+  promotion: "Promotion"
+};
+
+function formatDate(date: string) {
+  if (!date) return "Date à définir";
+
+  return new Intl.DateTimeFormat("fr-FR", {
+    dateStyle: "long",
+    timeStyle: "short",
+    timeZone: "Europe/Paris"
+  }).format(new Date(date));
+}
+
+function getPrimaryCta(post: LinkedinPost) {
+  return Object.values(post.cta).find(Boolean) ?? "";
+}
 
 function formatPostForCopy(post: LinkedinPost) {
-  return [post.accroche, post.texte, post.cta, post.hashtags.join(" ")]
+  return [
+    post.accroches.impact_fort,
+    post.texte,
+    getPrimaryCta(post),
+    post.hashtags.join(" ")
+  ]
     .filter(Boolean)
     .join("\n\n");
 }
 
 export function LinkedinAdminClient({ posts }: { posts: LinkedinPost[] }) {
-  const [statusFilter, setStatusFilter] = useState("tous");
-  const [themeFilter, setThemeFilter] = useState("tous");
+  const [statusFilter, setStatusFilter] = useState("brouillon");
+  const [categoryFilter, setCategoryFilter] = useState("tous");
   const [copiedPostId, setCopiedPostId] = useState<string | null>(null);
 
-  const themes = useMemo(
-    () => Array.from(new Set(posts.map((post) => post.theme).filter(Boolean))).sort(),
+  const categories = useMemo(
+    () => Array.from(new Set(posts.map((post) => post.categorie).filter(Boolean))).sort(),
     [posts]
   );
 
   const filteredPosts = posts.filter((post) => {
     const matchesStatus = statusFilter === "tous" || post.statut === statusFilter;
-    const matchesTheme = themeFilter === "tous" || post.theme === themeFilter;
-    return matchesStatus && matchesTheme;
+    const matchesCategory = categoryFilter === "tous" || post.categorie === categoryFilter;
+    return matchesStatus && matchesCategory;
   });
 
   async function copyPost(post: LinkedinPost) {
@@ -68,7 +104,7 @@ export function LinkedinAdminClient({ posts }: { posts: LinkedinPost[] }) {
               Filtres
             </div>
             <p className="mt-2 text-sm leading-6 text-ink/70">
-              Affinez la liste par statut ou par thème pour préparer vos prochaines publications.
+              Affinez la liste par statut ou par catégorie pour préparer vos prochaines publications.
             </p>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:min-w-[28rem]">
@@ -82,22 +118,22 @@ export function LinkedinAdminClient({ posts }: { posts: LinkedinPost[] }) {
               >
                 <option value="tous">Tous les statuts</option>
                 <option value="brouillon">Brouillon</option>
-                <option value="validé">Validé</option>
-                <option value="publié">Publié</option>
+                <option value="valide">Validé</option>
+                <option value="publie">Publié</option>
               </select>
             </label>
-            <label className="grid gap-2 text-sm font-bold text-ink" htmlFor="linkedin-theme">
-              Thème
+            <label className="grid gap-2 text-sm font-bold text-ink" htmlFor="linkedin-category">
+              Catégorie
               <select
-                id="linkedin-theme"
+                id="linkedin-category"
                 className="rounded-md border border-ink/15 bg-white px-4 py-3 font-semibold text-ink shadow-sm focus:border-secondary"
-                value={themeFilter}
-                onChange={(event) => setThemeFilter(event.target.value)}
+                value={categoryFilter}
+                onChange={(event) => setCategoryFilter(event.target.value)}
               >
-                <option value="tous">Tous les thèmes</option>
-                {themes.map((theme) => (
-                  <option key={theme} value={theme}>
-                    {theme}
+                <option value="tous">Toutes les catégories</option>
+                {categories.map((category) => (
+                  <option key={category} value={category}>
+                    {categoryLabels[category] ?? category}
                   </option>
                 ))}
               </select>
@@ -113,10 +149,10 @@ export function LinkedinAdminClient({ posts }: { posts: LinkedinPost[] }) {
               <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
                 <div>
                   <p className="text-sm font-bold uppercase tracking-[0.12em] text-secondary">
-                    {post.date_prevue || "Date à définir"}
+                    {formatDate(post.date_prevue)}
                   </p>
                   <h2 className="mt-2 font-display text-2xl font-bold text-ink">
-                    {post.titre_interne || "Titre interne à définir"}
+                    {post.titre || "Titre interne à définir"}
                   </h2>
                 </div>
                 <span className={`inline-flex w-fit rounded-full border px-3 py-1 text-sm font-bold ${statusClasses[post.statut]}`}>
@@ -126,24 +162,22 @@ export function LinkedinAdminClient({ posts }: { posts: LinkedinPost[] }) {
 
               <dl className="mt-6 grid gap-4 sm:grid-cols-2">
                 <div className="rounded-md bg-cream p-4">
-                  <dt className="text-sm font-bold text-ink">Thème</dt>
-                  <dd className="mt-1 text-ink/75">{post.theme || "À définir"}</dd>
+                  <dt className="text-sm font-bold text-ink">Catégorie</dt>
+                  <dd className="mt-1 text-ink/75">{categoryLabels[post.categorie] ?? post.categorie}</dd>
                 </div>
                 <div className="rounded-md bg-cream p-4">
                   <dt className="text-sm font-bold text-ink">Objectif</dt>
                   <dd className="mt-1 text-ink/75">{post.objectif || "À définir"}</dd>
                 </div>
-                <div className="rounded-md bg-cream p-4">
-                  <dt className="text-sm font-bold text-ink">Format</dt>
-                  <dd className="mt-1 text-ink/75">{post.format || "À définir"}</dd>
-                </div>
-                <div className="rounded-md bg-cream p-4">
-                  <dt className="text-sm font-bold text-ink">Idée de visuel</dt>
-                  <dd className="mt-1 text-ink/75">{post.idee_visuel || "À définir"}</dd>
-                </div>
               </dl>
 
               <div className="mt-6 grid gap-5">
+                <div>
+                  <h3 className="font-display text-xl font-bold text-ink">Accroche principale</h3>
+                  <p className="mt-3 rounded-md border border-ink/10 bg-white p-4 font-semibold leading-7 text-ink/80">
+                    {post.accroches.impact_fort}
+                  </p>
+                </div>
                 <div>
                   <h3 className="font-display text-xl font-bold text-ink">Texte complet</h3>
                   <p className="mt-3 whitespace-pre-wrap rounded-md border border-ink/10 bg-white p-4 leading-7 text-ink/75">
@@ -152,9 +186,9 @@ export function LinkedinAdminClient({ posts }: { posts: LinkedinPost[] }) {
                 </div>
                 <div className="grid gap-4 lg:grid-cols-2">
                   <div>
-                    <h3 className="font-display text-lg font-bold text-ink">CTA</h3>
+                    <h3 className="font-display text-lg font-bold text-ink">CTA principal</h3>
                     <p className="mt-2 rounded-md bg-cream p-4 text-ink/75">
-                      {post.cta || "À définir"}
+                      {getPrimaryCta(post) || "À définir"}
                     </p>
                   </div>
                   <div>
@@ -164,6 +198,19 @@ export function LinkedinAdminClient({ posts }: { posts: LinkedinPost[] }) {
                     </p>
                   </div>
                 </div>
+                <details className="rounded-md border border-ink/10 bg-white p-4">
+                  <summary className="cursor-pointer font-display text-lg font-bold text-ink">
+                    Variantes et préparation du visuel
+                  </summary>
+                  <div className="mt-4 grid gap-4 text-ink/75">
+                    <p><strong>Accroche moyenne :</strong> {post.accroches.impact_moyen}</p>
+                    <p><strong>Accroche douce :</strong> {post.accroches.impact_doux}</p>
+                    <p><strong>Concept :</strong> {post.visuel.concept}</p>
+                    <p><strong>Texte de l'image :</strong> {post.visuel.texte_image}</p>
+                    <p><strong>Disposition :</strong> {post.visuel.disposition}</p>
+                    <p><strong>Prompt image :</strong> {post.prompt_image}</p>
+                  </div>
+                </details>
               </div>
 
               <button
@@ -181,7 +228,7 @@ export function LinkedinAdminClient({ posts }: { posts: LinkedinPost[] }) {
         <div className="premium-card rounded-lg p-7 pl-9 text-ink">
           <h2 className="font-display text-2xl font-bold">Aucune publication à afficher</h2>
           <p className="mt-3 max-w-2xl leading-7 text-ink/75">
-            Ajoutez vos premières publications dans le fichier content/linkedin/posts.json pour les voir apparaître ici.
+            Aucun contenu ne correspond aux filtres sélectionnés.
           </p>
         </div>
       )}

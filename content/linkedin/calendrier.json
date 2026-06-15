@@ -1,10 +1,14 @@
 {
-  "champs": [
-    "semaine",
-    "date",
-    "type_contenu",
-    "post_id",
-    "statut"
-  ],
-  "calendrier": []
+  "mois": "2026-07",
+  "statut": "valide",
+  "calendrier": [
+    { "semaine": 1, "date": "2026-07-07T09:00:00+02:00", "type_contenu": "pedagogie", "post_id": "LI-2026-07-01", "statut": "valide" },
+    { "semaine": 1, "date": "2026-07-09T09:00:00+02:00", "type_contenu": "pedagogie", "post_id": "LI-2026-07-02", "statut": "valide" },
+    { "semaine": 2, "date": "2026-07-14T09:00:00+02:00", "type_contenu": "terrain", "post_id": "LI-2026-07-03", "statut": "valide" },
+    { "semaine": 2, "date": "2026-07-16T09:00:00+02:00", "type_contenu": "pedagogie", "post_id": "LI-2026-07-04", "statut": "valide" },
+    { "semaine": 3, "date": "2026-07-21T09:00:00+02:00", "type_contenu": "conformite", "post_id": "LI-2026-07-05", "statut": "valide" },
+    { "semaine": 3, "date": "2026-07-23T09:00:00+02:00", "type_contenu": "terrain", "post_id": "LI-2026-07-06", "statut": "valide" },
+    { "semaine": 4, "date": "2026-07-28T09:00:00+02:00", "type_contenu": "pedagogie", "post_id": "LI-2026-07-07", "statut": "valide" },
+    { "semaine": 4, "date": "2026-07-30T09:00:00+02:00", "type_contenu": "promotion", "post_id": "LI-2026-07-08", "statut": "valide" }
+  ]
 }
