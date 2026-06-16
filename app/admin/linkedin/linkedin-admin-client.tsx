@@ -1,6 +1,7 @@
 "use client";
 
 import { Clipboard, Filter } from "lucide-react";
+import Image from "next/image";
 import { useMemo, useState } from "react";
 
 type PostStatus = "brouillon" | "valide" | "publie";
@@ -22,6 +23,12 @@ export type LinkedinPost = {
     concept: string;
     texte_image: string;
     disposition: string;
+  };
+  image?: {
+    src: string;
+    alt: string;
+    statut: "generee";
+    date_generation: string;
   };
   hashtags: string[];
   prompt_image: string;
@@ -184,6 +191,26 @@ export function LinkedinAdminClient({ posts }: { posts: LinkedinPost[] }) {
                     {post.texte || "Texte à rédiger."}
                   </p>
                 </div>
+                {post.image ? (
+                  <div>
+                    <h3 className="font-display text-xl font-bold text-ink">Visuel généré</h3>
+                    <div className="mt-3 overflow-hidden rounded-lg border border-ink/10 bg-white shadow-sm">
+                      <Image
+                        src={post.image.src}
+                        alt={post.image.alt}
+                        width={1080}
+                        height={1080}
+                        className="h-auto w-full"
+                      />
+                    </div>
+                    <p className="mt-2 text-sm leading-6 text-ink/60">
+                      Image générée le {post.image.date_generation} ·{" "}
+                      <a className="font-semibold text-secondary hover:text-primary" href={post.image.src} target="_blank" rel="noreferrer">
+                        Ouvrir le fichier
+                      </a>
+                    </p>
+                  </div>
+                ) : null}
                 <div className="grid gap-4 lg:grid-cols-2">
                   <div>
                     <h3 className="font-display text-lg font-bold text-ink">CTA principal</h3>

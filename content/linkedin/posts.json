@@ -1,7 +1,11 @@
 {
   "mois": "2026-07",
   "date_creation": "2026-06-15",
-  "statuts_possibles": ["brouillon", "valide", "publie"],
+  "statuts_possibles": [
+    "brouillon",
+    "valide",
+    "publie"
+  ],
   "posts": [
     {
       "id": "LI-2026-07-01",
@@ -25,9 +29,21 @@
         "texte_image": "5 taches administratives a alleger avec l'IA",
         "disposition": "Titre en haut, cinq cartes arrondies numerotees au centre, rappel 'Relire, corriger, contextualiser' en pied de visuel."
       },
-      "hashtags": ["#ESS", "#Association", "#IntelligenceArtificielle", "#TransformationNumerique", "#GestionAssociative"],
+      "hashtags": [
+        "#ESS",
+        "#Association",
+        "#IntelligenceArtificielle",
+        "#TransformationNumerique",
+        "#GestionAssociative"
+      ],
       "prompt_image": "Creer un visuel LinkedIn carre 1080 x 1080, moderne, minimaliste et institutionnel pour IA Solidaire. Fond blanc casse, titre '5 taches administratives a alleger avec l'IA'. Afficher cinq cartes arrondies avec pictogrammes vectoriels simples : courriel, ordre du jour, compte-rendu, document a resumer, contenus multiformats. Palette bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA et touches orange #FF8A1F. Typographie sans serif tres lisible, espaces genereux, composition rassurante. Ajouter discretement 'Relire, corriger, contextualiser'. Aucun robot, aucune science-fiction, aucun effet cyberpunk, aucune interface technologique complexe.",
-      "statut": "brouillon"
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-07-01.png",
+        "alt": "5 taches administratives a alleger avec l'IA",
+        "statut": "generee",
+        "date_generation": "2026-06-16"
+      }
     },
     {
       "id": "LI-2026-07-02",
@@ -51,9 +67,21 @@
         "texte_image": "Appel a projets + IA : la methode en 4 etapes",
         "disposition": "Titre en haut, chemin vertical de quatre blocs numerotes, encadre final 'Votre projet garde sa voix'."
       },
-      "hashtags": ["#ESS", "#Association", "#AppelAProjets", "#IntelligenceArtificielle", "#InnovationSociale"],
+      "hashtags": [
+        "#ESS",
+        "#Association",
+        "#AppelAProjets",
+        "#IntelligenceArtificielle",
+        "#InnovationSociale"
+      ],
       "prompt_image": "Concevoir un visuel LinkedIn carre 1080 x 1080 pour IA Solidaire, fond blanc casse et style pedagogique institutionnel. Titre : 'Appel a projets + IA : la methode en 4 etapes'. Representer un parcours clair avec quatre blocs arrondis numerotes : criteres, informations verifiees, premiere structure, relecture humaine. Utiliser bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA et une touche orange #FF8A1F pour les points d'attention. Ajouter en conclusion 'Votre projet garde sa voix'. Pictogrammes vectoriels epures, typographie sans serif, forte lisibilite mobile, marges genereuses. Aucun robot humanoide, aucune science-fiction, aucune esthetique cyberpunk ou anxiogene.",
-      "statut": "brouillon"
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-07-02.png",
+        "alt": "Appel a projets + IA : la methode en 4 etapes",
+        "statut": "generee",
+        "date_generation": "2026-06-16"
+      }
     },
     {
       "id": "LI-2026-07-03",
@@ -77,9 +105,22 @@
         "texte_image": "Le frein n'est pas l'outil. C'est l'absence de cadre commun.",
         "disposition": "Phrase centrale forte, trois petites cartes en dessous : usages, donnees, verification."
       },
-      "hashtags": ["#ESS", "#Association", "#Management", "#IntelligenceArtificielle", "#TransformationNumerique", "#Insertion"],
+      "hashtags": [
+        "#ESS",
+        "#Association",
+        "#Management",
+        "#IntelligenceArtificielle",
+        "#TransformationNumerique",
+        "#Insertion"
+      ],
       "prompt_image": "Creer un visuel LinkedIn carre 1080 x 1080 sobre et humain pour IA Solidaire. Fond blanc casse. Phrase principale : 'Le frein n'est pas l'outil. C'est l'absence de cadre commun.' Sous le titre, trois cartes arrondies avec pictogrammes simples et mots : usages, donnees, verification. Palette dominante bleu #3B82F6 et turquoise #22C7C7, soutien violet #7C5CFA, petit accent orange #FF8A1F. Illustration abstraite d'une equipe organisee autour d'un cadre commun, sans visage detaille. Typographie sans serif, composition claire et rassurante. Aucun robot, aucune science-fiction, aucun univers cyberpunk, aucun visuel anxiogene.",
-      "statut": "brouillon"
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-07-03.png",
+        "alt": "Le frein n'est pas l'outil. C'est l'absence de cadre commun.",
+        "statut": "generee",
+        "date_generation": "2026-06-16"
+      }
     },
     {
       "id": "LI-2026-07-04",
@@ -103,9 +144,22 @@
         "texte_image": "Le compte-rendu utile en 5 rubriques",
         "disposition": "Fausse feuille de compte-rendu au centre, cinq sections colorees, rappel de verification en bas."
       },
-      "hashtags": ["#ESS", "#Association", "#Productivite", "#IntelligenceArtificielle", "#Organisation", "#Insertion"],
+      "hashtags": [
+        "#ESS",
+        "#Association",
+        "#Productivite",
+        "#IntelligenceArtificielle",
+        "#Organisation",
+        "#Insertion"
+      ],
       "prompt_image": "Produire un visuel LinkedIn carre 1080 x 1080 pour IA Solidaire, fond blanc casse, style fiche pratique moderne et institutionnelle. Titre : 'Le compte-rendu utile en 5 rubriques'. Au centre, illustrer une feuille epuree divisee en cinq blocs arrondis : objectif, decisions, actions, responsables et echeances, points a arbitrer. Palette bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA, accent orange #FF8A1F pour la verification. Ajouter en bas 'Ne rien inventer. Toujours relire.' Typographie sans serif accessible, pictogrammes vectoriels simples, excellente lisibilite. Aucun robot, aucune science-fiction, aucun cyberpunk.",
-      "statut": "brouillon"
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-07-04.png",
+        "alt": "Le compte-rendu utile en 5 rubriques",
+        "statut": "generee",
+        "date_generation": "2026-06-16"
+      }
     },
     {
       "id": "LI-2026-07-05",
@@ -129,9 +183,22 @@
         "texte_image": "Avant de saisir une donnee dans une IA : vert, orange ou rouge ?",
         "disposition": "Trois grandes zones verticales avec exemples courts, avertissement RGPD en pied de page."
       },
-      "hashtags": ["#ESS", "#Association", "#RGPD", "#IAResponsable", "#DonneesPersonnelles", "#Insertion"],
+      "hashtags": [
+        "#ESS",
+        "#Association",
+        "#RGPD",
+        "#IAResponsable",
+        "#DonneesPersonnelles",
+        "#Insertion"
+      ],
       "prompt_image": "Concevoir un visuel LinkedIn carre 1080 x 1080 pedagogique pour IA Solidaire. Fond blanc casse. Titre : 'Avant de saisir une donnee dans une IA : vert, orange ou rouge ?'. Creer trois zones arrondies tres lisibles : vert pour public, fictif ou anonymise ; orange pour interne ou identification indirecte ; rouge pour sante, situation sociale, identifiants et mots de passe. Conserver la palette IA Solidaire avec bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA et orange #FF8A1F, tout en utilisant des indicateurs vert, orange et rouge accessibles avec icones et libelles, pas uniquement la couleur. Ajouter 'Ce repere ne remplace pas votre cadre RGPD'. Style institutionnel rassurant, sans robot, science-fiction, cyberpunk ni symbole anxiogene.",
-      "statut": "brouillon"
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-07-05.png",
+        "alt": "Avant de saisir une donnee dans une IA : vert, orange ou rouge ?",
+        "statut": "generee",
+        "date_generation": "2026-06-16"
+      }
     },
     {
       "id": "LI-2026-07-06",
@@ -155,9 +222,22 @@
         "texte_image": "Un gain individuel n'est pas encore un progres collectif",
         "disposition": "Plusieurs cartes individuelles a gauche convergent vers trois ressources partagees a droite."
       },
-      "hashtags": ["#ESS", "#Association", "#Management", "#IntelligenceArtificielle", "#RH", "#Insertion"],
+      "hashtags": [
+        "#ESS",
+        "#Association",
+        "#Management",
+        "#IntelligenceArtificielle",
+        "#RH",
+        "#Insertion"
+      ],
       "prompt_image": "Creer un visuel LinkedIn carre 1080 x 1080 pour IA Solidaire, minimaliste, professionnel et humain. Fond blanc casse. Titre : 'Un gain individuel n'est pas encore un progres collectif'. A gauche, plusieurs petites cartes arrondies representant des usages individuels ; des lignes douces convergent vers trois ressources communes a droite : cas d'usage, regles, partage mensuel. Palette bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA et accent orange #FF8A1F. Pictogrammes vectoriels simples, typographie sans serif, composition aeree et rassurante. Aucun robot humanoide, aucune science-fiction, aucun cyberpunk, aucune surcharge technologique.",
-      "statut": "brouillon"
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-07-06.png",
+        "alt": "Un gain individuel n'est pas encore un progres collectif",
+        "statut": "generee",
+        "date_generation": "2026-06-16"
+      }
     },
     {
       "id": "LI-2026-07-07",
@@ -181,9 +261,21 @@
         "texte_image": "Rapport d'activite : des sources fiables avant la redaction",
         "disposition": "Documents varies a gauche, quatre etapes au centre, rapport structure a droite."
       },
-      "hashtags": ["#ESS", "#Association", "#RapportDActivite", "#IntelligenceArtificielle", "#GestionAssociative"],
+      "hashtags": [
+        "#ESS",
+        "#Association",
+        "#RapportDActivite",
+        "#IntelligenceArtificielle",
+        "#GestionAssociative"
+      ],
       "prompt_image": "Creer un visuel LinkedIn carre 1080 x 1080, style infographie institutionnelle pour IA Solidaire. Fond blanc casse. Titre : 'Rapport d'activite : des sources fiables avant la redaction'. Montrer a gauche plusieurs documents epures, au centre un chemin en quatre etapes 'collecter, verifier, structurer, rediger', a droite un rapport clair. Utiliser des formes arrondies, pictogrammes vectoriels et la palette bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA, accent orange #FF8A1F. Typographie sans serif lisible sur mobile, composition aeree. Aucun robot, aucune science-fiction, aucun cyberpunk, aucune promesse d'automatisation totale.",
-      "statut": "brouillon"
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-07-07.png",
+        "alt": "Rapport d'activite : des sources fiables avant la redaction",
+        "statut": "generee",
+        "date_generation": "2026-06-16"
+      }
     },
     {
       "id": "LI-2026-07-08",
@@ -207,9 +299,22 @@
         "texte_image": "Avant la formation : cartographiez 3 usages",
         "disposition": "Trois grandes cartes usage frequent, irritant et a fort impact, avec cinq questions en rappel lateral."
       },
-      "hashtags": ["#ESS", "#Association", "#FormationIA", "#IntelligenceArtificielle", "#TransformationNumerique", "#Insertion"],
+      "hashtags": [
+        "#ESS",
+        "#Association",
+        "#FormationIA",
+        "#IntelligenceArtificielle",
+        "#TransformationNumerique",
+        "#Insertion"
+      ],
       "prompt_image": "Concevoir un visuel LinkedIn carre 1080 x 1080 pour IA Solidaire, professionnel, humain et minimaliste. Fond blanc casse. Titre : 'Avant la formation : cartographiez 3 usages'. Afficher trois grandes cartes arrondies : usage frequent, usage irritant, usage a fort impact. Ajouter discretement cinq criteres sous forme de pictogrammes : tache, personnes, frequence, donnees, verification. Palette bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA et accent orange #FF8A1F. Typographie sans serif tres lisible, composition equilibree, appel discret 'Partir du travail reel'. Aucun robot, aucune science-fiction, aucun cyberpunk, aucune esthetique trop technologique.",
-      "statut": "brouillon"
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-07-08.png",
+        "alt": "Avant la formation : cartographiez 3 usages",
+        "statut": "generee",
+        "date_generation": "2026-06-16"
+      }
     }
   ]
 }
