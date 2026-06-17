@@ -3,7 +3,6 @@
   "date_creation": "2026-06-15",
   "statuts_possibles": [
     "brouillon",
-    "valide",
     "publie"
   ],
   "posts": [
