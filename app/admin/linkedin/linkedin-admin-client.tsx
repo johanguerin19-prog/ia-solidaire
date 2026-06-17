@@ -70,9 +70,7 @@ function getPrimaryCta(post: LinkedinPost) {
 
 function formatPostForCopy(post: LinkedinPost) {
   return [
-    post.accroches.impact_fort,
     post.texte,
-    getPrimaryCta(post),
     post.hashtags.join(" ")
   ]
     .filter(Boolean)
