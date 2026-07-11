@@ -44,7 +44,7 @@ const statusClasses: Record<PostStatus, string> = {
   publie: "border-violet/25 bg-violet/10 text-ink"
 };
 
-const statusStorageKey = "ia-solidaire-linkedin-statuses";
+const statusStorageKey = "ia-solidaire-linkedin-statuses-2026-08-v2";
 
 function formatDate(date: string) {
   if (!date) return "Date à définir";

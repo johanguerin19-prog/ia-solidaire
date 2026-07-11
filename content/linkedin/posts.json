@@ -1,302 +1,289 @@
 {
-  "mois": "2026-07",
-  "date_creation": "2026-06-15",
+  "mois": "2026-08",
+  "date_creation": "2026-07-10",
   "statuts_possibles": [
     "brouillon",
     "publie"
   ],
   "posts": [
     {
-      "id": "LI-2026-07-01",
-      "date_prevue": "2026-07-07T09:00:00+02:00",
-      "titre": "Les 5 taches administratives a confier en premier a l'IA",
-      "categorie": "pedagogie",
-      "objectif": "Expertise et partages",
-      "accroches": {
-        "impact_fort": "Lorsque je discute avec des responsables associatifs, la même demande revient souvent : « Quelle est la meilleure IA à utiliser ? »",
-        "impact_moyen": "La vraie question n'est pas quel outil choisir, mais quelle tâche fait perdre du temps chaque semaine.",
-        "impact_doux": "L'IA devient utile quand elle aide une équipe à récupérer du temps sur une tâche concrète."
-      },
-      "texte": "Lorsque je discute avec des responsables associatifs, la même demande revient souvent :\n\n« Quelle est la meilleure IA à utiliser ? »\n\nEn réalité, ce n'est généralement pas la bonne question.\n\nLa vraie question est plutôt :\n\n👉 Quelle tâche vous fait perdre du temps chaque semaine ?\n\nParce que l'objectif n'est pas d'ajouter un nouvel outil à une équipe déjà débordée.\n\nL'objectif est de récupérer du temps pour l'accompagnement, le développement des projets ou le travail de terrain.\n\nDans la plupart des structures que j'accompagne, les premiers gains ne viennent pas de cas d'usage complexes.\n\nIls viennent de petites tâches répétitives comme :\n\n✔ reformuler un e-mail important ;\n\n✔ préparer un ordre du jour à partir de notes éparses ;\n\n✔ rédiger une première version de compte-rendu ;\n\n✔ résumer un document de plusieurs dizaines de pages ;\n\n✔ adapter une même information pour différents publics.\n\nAucune révolution.\n\nJuste quelques minutes gagnées ici et là.\n\nMais mises bout à bout, ces minutes deviennent rapidement plusieurs heures chaque mois.\n\nC'est aussi pour cela que je conseille rarement de déployer l'IA partout d'un coup.\n\nCommencez par une seule tâche.\n\nTestez-la pendant quelques semaines.\n\nMesurez le temps réellement économisé.\n\nPuis décidez si cela mérite d'être généralisé.\n\nL'IA n'a pas besoin d'être spectaculaire pour être utile.\n\nElle doit simplement permettre aux équipes de consacrer moins de temps à l'administratif et plus de temps à leur mission.\n\nEt vous, quelle est aujourd'hui la tâche qui vous fait perdre le plus de temps dans votre structure ?",
-      "cta": {
-        "commentaire": "Et vous, quelle est aujourd'hui la tâche qui vous fait perdre le plus de temps dans votre structure ?"
-      },
-      "visuel": {
-        "concept": "Une fiche pratique presentant cinq cartes d'usages administratifs simples.",
-        "texte_image": "5 taches administratives a alleger avec l'IA",
-        "disposition": "Titre en haut, cinq cartes arrondies numerotees au centre, rappel 'Relire, corriger, contextualiser' en pied de visuel."
-      },
-      "hashtags": [
-        "#ESS",
-        "#Association",
-        "#IntelligenceArtificielle",
-        "#TransformationNumerique",
-        "#GestionAssociative"
-      ],
-      "prompt_image": "Creer un visuel LinkedIn carre 1080 x 1080, moderne, minimaliste et institutionnel pour IA Solidaire. Fond blanc casse, titre '5 taches administratives a alleger avec l'IA'. Afficher cinq cartes arrondies avec pictogrammes vectoriels simples : courriel, ordre du jour, compte-rendu, document a resumer, contenus multiformats. Palette bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA et touches orange #FF8A1F. Typographie sans serif tres lisible, espaces genereux, composition rassurante. Ajouter discretement 'Relire, corriger, contextualiser'. Aucun robot, aucune science-fiction, aucun effet cyberpunk, aucune interface technologique complexe.",
-      "statut": "brouillon",
-      "image": {
-        "src": "/linkedin/LI-2026-07-01.png",
-        "alt": "5 taches administratives a alleger avec l'IA",
-        "statut": "generee",
-        "date_generation": "2026-06-16"
-      }
-    },
-    {
-      "id": "LI-2026-07-02",
-      "date_prevue": "2026-07-09T09:00:00+02:00",
-      "titre": "Appel a projets : la methode en 4 etapes pour utiliser l'IA sans perdre sa voix",
-      "categorie": "pedagogie",
-      "objectif": "Expertise et acquisition",
-      "accroches": {
-        "impact_fort": "J'ai vu plusieurs dossiers de financement rédigés avec l'aide de l'IA ces derniers mois.",
-        "impact_moyen": "Un dossier qui sonne juste n'est pas forcément un bon dossier.",
-        "impact_doux": "L'IA peut aider à structurer un appel à projets, mais le fond doit rester le vôtre."
-      },
-      "texte": "J'ai vu plusieurs dossiers de financement rédigés avec l'aide de l'IA ces derniers mois.\n\nEt j'ai remarqué un risque récurrent.\n\nPlus le texte est fluide, plus on peut avoir l'impression qu'il est bon.\n\nOr ce n'est pas forcément le cas.\n\nL'IA sait très bien produire un dossier qui « sonne juste ». Mais elle ne connaît ni votre territoire, ni vos bénéficiaires, ni les difficultés réelles auxquelles votre structure est confrontée.\n\nC'est là que les problèmes commencent.\n\nJ'ai déjà vu des formulations qui embellissent la réalité, des impacts surestimés ou des informations ajoutées sans que personne ne les ait réellement fournies.\n\nPour moi, l'IA ne doit jamais rédiger un projet à votre place.\n\nEn revanche, elle peut vous faire gagner un temps considérable pour :\n\n✅ analyser les critères du financeur ;\n\n✅ structurer le dossier ;\n\n✅ reformuler certains passages ;\n\n✅ vérifier la cohérence de l'ensemble.\n\nLe fond doit rester le vôtre.\n\nParce qu'un bon dossier n'est pas seulement un texte bien écrit.\n\nC'est avant tout un projet sincère, porté par une équipe qui connaît son sujet.\n\nPetit conseil pratique :\n\nLorsque vous utilisez une IA pour préparer un dossier, ajoutez systématiquement cette consigne :\n\n« N'invente aucune donnée. Signale clairement les informations manquantes. »\n\nSimple, mais très efficace.\n\nEt vous, dans vos appels à projets, quelle est la partie qui vous prend le plus de temps ?",
-      "cta": {
-        "commentaire": "Et vous, dans vos appels à projets, quelle est la partie qui vous prend le plus de temps ?"
-      },
-      "visuel": {
-        "concept": "Un parcours en quatre etapes montrant que les donnees terrain restent au centre.",
-        "texte_image": "Appel a projets + IA : la methode en 4 etapes",
-        "disposition": "Titre en haut, chemin vertical de quatre blocs numerotes, encadre final 'Votre projet garde sa voix'."
-      },
-      "hashtags": [
-        "#ESS",
-        "#Association",
-        "#AppelAProjets",
-        "#IntelligenceArtificielle",
-        "#InnovationSociale"
-      ],
-      "prompt_image": "Concevoir un visuel LinkedIn carre 1080 x 1080 pour IA Solidaire, fond blanc casse et style pedagogique institutionnel. Titre : 'Appel a projets + IA : la methode en 4 etapes'. Representer un parcours clair avec quatre blocs arrondis numerotes : criteres, informations verifiees, premiere structure, relecture humaine. Utiliser bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA et une touche orange #FF8A1F pour les points d'attention. Ajouter en conclusion 'Votre projet garde sa voix'. Pictogrammes vectoriels epures, typographie sans serif, forte lisibilite mobile, marges genereuses. Aucun robot humanoide, aucune science-fiction, aucune esthetique cyberpunk ou anxiogene.",
-      "statut": "brouillon",
-      "image": {
-        "src": "/linkedin/LI-2026-07-02.png",
-        "alt": "Appel a projets + IA : la methode en 4 etapes",
-        "statut": "generee",
-        "date_generation": "2026-06-16"
-      }
-    },
-    {
-      "id": "LI-2026-07-03",
-      "date_prevue": "2026-07-14T09:00:00+02:00",
-      "titre": "Sur le terrain, le vrai frein a l'IA n'est pas le manque d'outils",
-      "categorie": "terrain",
+      "id": "LI-2026-08-01",
+      "date_prevue": "2026-08-04T09:00:00+02:00",
+      "titre": "L'AI Act concerne aussi les associations",
       "objectif": "Credibilite et confiance",
       "accroches": {
-        "impact_fort": "Lorsque j'échange avec des associations ou des structures d'insertion, je constate souvent la même situation.",
-        "impact_moyen": "Le principal frein à l'IA dans l'ESS n'est généralement pas technique.",
-        "impact_doux": "Les initiatives individuelles autour de l'IA ont besoin d'un cadre pour devenir collectives."
+        "impact_fort": "Beaucoup d'associations pensent que l'AI Act ne les concerne pas. C'est une erreur.",
+        "impact_moyen": "L'AI Act ne concerne pas uniquement les grandes entreprises technologiques.",
+        "impact_doux": "Les associations ont interet a comprendre l'AI Act avant d'etre rattrapees par ses obligations."
       },
-      "texte": "Lorsque j'échange avec des associations ou des structures d'insertion, je constate souvent la même situation.\n\nUne personne utilise ChatGPT.\n\nUne autre teste un outil différent.\n\nQuelques prompts circulent entre collègues.\n\nEt chacun avance un peu dans son coin.\n\nAu départ, cela semble plutôt positif.\n\nIl y a de la curiosité, des expérimentations et parfois même de vrais gains de temps.\n\nMais très vite, une question apparaît :\n\nComment faire de ces initiatives individuelles une pratique collective ?\n\nCar le principal frein à l'IA dans l'ESS n'est généralement pas technique.\n\nLes outils sont accessibles.\n\nLes tutoriels sont partout.\n\nLe vrai défi est souvent organisationnel.\n\nQui peut utiliser l'IA ?\n\nPour quels usages ?\n\nQuelles données ne doivent jamais être saisies ?\n\nQui valide les contenus avant leur diffusion ?\n\nSans réponses claires à ces questions, deux phénomènes apparaissent souvent :\n\n➡️ certains collaborateurs n'osent rien essayer ;\n\n➡️ d'autres prennent des initiatives sans toujours mesurer les risques.\n\nRésultat : beaucoup d'énergie, mais peu d'impact collectif.\n\nC'est pour cette raison que je recommande rarement de commencer par l'achat d'un nouvel outil.\n\nJe conseille plutôt de réunir l'équipe autour de quelques questions simples.\n\nIdentifier 2 ou 3 tâches répétitives.\n\nDéfinir des règles d'utilisation claires.\n\nTester pendant quelques semaines.\n\nPuis partager les retours d'expérience.\n\nUne démarche simple, mais souvent beaucoup plus efficace qu'un déploiement précipité.\n\nQuestion pour les responsables et dirigeants qui me lisent :\n\nAujourd'hui, quel est le principal frein à l'adoption de l'IA dans votre structure ?\n\nLe manque de temps ?\nLe manque de compétences ?\nOu l'absence d'un cadre clair ?",
+      "texte": "Beaucoup d'associations pensent que l'AI Act ne les concerne pas.\n\nC'est une erreur.\n\nJe comprends pourquoi cette impression existe.\n\nLe texte parle d'intelligence artificielle, de fournisseurs, de deployeurs, de systemes a haut risque.\n\nA premiere vue, cela semble loin du quotidien d'une structure associative ou d'une SIAE.\n\nPourtant, une association peut etre concernee des qu'elle utilise l'IA dans son activite professionnelle.\n\nPas parce qu'elle developpe un modele d'IA.\n\nMais parce qu'elle peut utiliser des outils qui entrent dans le champ du reglement.\n\nPar exemple :\n\n- un assistant IA utilise par les equipes ;\n- un outil RH avec une brique d'IA ;\n- un logiciel d'aide au tri de candidatures ;\n- un outil qui produit des contenus ou des recommandations a partir de donnees internes.\n\nLes echeances arrivent progressivement.\n\nCertaines obligations sont deja entrees en application, notamment autour de la litteratie IA.\n\nD'autres obligations plus structurantes arrivent avec les prochaines etapes du reglement, en particulier pour les usages a risque.\n\nL'objectif n'est pas de faire peur.\n\nMais d'eviter de decouvrir le sujet trop tard.\n\nTrois actions simples peuvent deja aider :\n\n1. Recenser les outils IA utilises par les equipes.\n\n2. Identifier les usages sensibles : RH, publics vulnerables, donnees personnelles, decisions importantes.\n\n3. Poser quelques regles internes : qui peut utiliser quoi, avec quelles donnees, et avec quelle relecture humaine.\n\nCe premier travail ne demande pas un service juridique complet.\n\nIl demande surtout de la clarte.\n\nDans votre structure, savez-vous deja quels outils IA sont utilises par les equipes, meme de maniere informelle ?",
       "cta": {
-        "commentaire": "Aujourd'hui, quel est le principal frein à l'adoption de l'IA dans votre structure ?"
+        "commentaire": "Dans votre structure, savez-vous deja quels outils IA sont utilises par les equipes, meme de maniere informelle ?"
       },
       "visuel": {
-        "concept": "Une balance opposant accumulation d'outils et cadre collectif.",
-        "texte_image": "Le frein n'est pas l'outil. C'est l'absence de cadre commun.",
-        "disposition": "Phrase centrale forte, trois petites cartes en dessous : usages, donnees, verification."
+        "concept": "Trois actions simples pour aborder l'AI Act sans anxiete.",
+        "texte_image": "AI Act : les associations aussi ?",
+        "disposition": "Document reglementaire discret, trois cartes recenser, former, encadrer, rappel avancer sans paniquer."
       },
       "hashtags": [
+        "#AIAct",
         "#ESS",
         "#Association",
-        "#Management",
-        "#IntelligenceArtificielle",
-        "#TransformationNumerique",
-        "#Insertion"
-      ],
-      "prompt_image": "Creer un visuel LinkedIn carre 1080 x 1080 sobre et humain pour IA Solidaire. Fond blanc casse. Phrase principale : 'Le frein n'est pas l'outil. C'est l'absence de cadre commun.' Sous le titre, trois cartes arrondies avec pictogrammes simples et mots : usages, donnees, verification. Palette dominante bleu #3B82F6 et turquoise #22C7C7, soutien violet #7C5CFA, petit accent orange #FF8A1F. Illustration abstraite d'une equipe organisee autour d'un cadre commun, sans visage detaille. Typographie sans serif, composition claire et rassurante. Aucun robot, aucune science-fiction, aucun univers cyberpunk, aucun visuel anxiogene.",
-      "statut": "brouillon",
-      "image": {
-        "src": "/linkedin/LI-2026-07-03.png",
-        "alt": "Le frein n'est pas l'outil. C'est l'absence de cadre commun.",
-        "statut": "generee",
-        "date_generation": "2026-06-16"
-      }
-    },
-    {
-      "id": "LI-2026-07-04",
-      "date_prevue": "2026-07-16T09:00:00+02:00",
-      "titre": "Compte-rendu de reunion : un canevas IA utilisable en 15 minutes",
-      "categorie": "pedagogie",
-      "objectif": "Expertise et engagement",
-      "accroches": {
-        "impact_fort": "Je pense que nous avons tous déjà vécu cette situation.",
-        "impact_moyen": "Une réunion utile peut perdre beaucoup de valeur si les décisions ne sont pas formalisées.",
-        "impact_doux": "L'IA peut aider à transformer des notes brutes en compte-rendu exploitable."
-      },
-      "texte": "Je pense que nous avons tous déjà vécu cette situation.\n\nUne réunion d'une heure.\n\nDe bonnes discussions.\n\nDes décisions prises.\n\nDes actions réparties.\n\nPuis, quelques jours plus tard...\n\n« On avait décidé quoi déjà ? »\n\n« Qui devait s'en occuper ? »\n\n« C'était pour quand ? »\n\nEt parfois, une partie de la réunion doit être refaite simplement parce que les informations n'ont pas été correctement formalisées.\n\nC'est l'un des usages de l'IA que je trouve les plus intéressants dans les associations et structures d'insertion.\n\nNon pas pour remplacer la prise de notes.\n\nMais pour transformer rapidement des notes brutes en compte-rendu exploitable.\n\nPersonnellement, je recommande toujours la même structure :\n\n✅ Objectif de la réunion\n\n✅ Décisions prises\n\n✅ Actions à mener\n\n✅ Responsable de chaque action\n\n✅ Échéances associées\n\nAvec deux consignes essentielles :\n\n➡️ ne rien inventer ;\n\n➡️ signaler les informations manquantes ou ambiguës.\n\nL'objectif n'est pas d'obtenir un compte-rendu parfait.\n\nL'objectif est d'éviter que les décisions se perdent entre deux réunions.\n\nBien entendu, une relecture reste indispensable, notamment pour vérifier les noms, les dates, les montants ou les engagements pris.\n\nEt lorsqu'il s'agit de données sensibles ou personnelles, la prudence reste de mise.\n\nL'IA peut aider à organiser l'information.\n\nLa responsabilité du contenu reste humaine.\n\nPetit défi :\n\nLors de votre prochaine réunion, chronométrez le temps nécessaire à la rédaction du compte-rendu de manière classique.\n\nPuis comparez avec une méthode assistée par IA.\n\nJe serais curieux de connaître le résultat.\n\nD'ailleurs, dans vos comptes-rendus, quel est l'élément qui manque le plus souvent ?\n\nLes décisions ?\nLes responsables ?\nLes échéances ?",
-      "cta": {
-        "commentaire": "Dans vos comptes-rendus, quel est l'élément qui manque le plus souvent ?"
-      },
-      "visuel": {
-        "concept": "Un modele de compte-rendu en cinq rubriques clairement identifiees.",
-        "texte_image": "Le compte-rendu utile en 5 rubriques",
-        "disposition": "Fausse feuille de compte-rendu au centre, cinq sections colorees, rappel de verification en bas."
-      },
-      "hashtags": [
-        "#ESS",
-        "#Association",
-        "#Productivite",
-        "#IntelligenceArtificielle",
-        "#Organisation",
-        "#Insertion"
-      ],
-      "prompt_image": "Produire un visuel LinkedIn carre 1080 x 1080 pour IA Solidaire, fond blanc casse, style fiche pratique moderne et institutionnelle. Titre : 'Le compte-rendu utile en 5 rubriques'. Au centre, illustrer une feuille epuree divisee en cinq blocs arrondis : objectif, decisions, actions, responsables et echeances, points a arbitrer. Palette bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA, accent orange #FF8A1F pour la verification. Ajouter en bas 'Ne rien inventer. Toujours relire.' Typographie sans serif accessible, pictogrammes vectoriels simples, excellente lisibilite. Aucun robot, aucune science-fiction, aucun cyberpunk.",
-      "statut": "brouillon",
-      "image": {
-        "src": "/linkedin/LI-2026-07-04.png",
-        "alt": "Le compte-rendu utile en 5 rubriques",
-        "statut": "generee",
-        "date_generation": "2026-06-16"
-      }
-    },
-    {
-      "id": "LI-2026-07-05",
-      "date_prevue": "2026-07-21T09:00:00+02:00",
-      "titre": "Donnees sensibles : le feu tricolore avant de les confier a une IA",
-      "categorie": "conformite",
-      "objectif": "Differenciation et confiance",
-      "accroches": {
-        "impact_fort": "L'une des questions les plus importantes à se poser avant d'utiliser une IA est aussi l'une des moins posées.",
-        "impact_moyen": "Avant de copier-coller un document dans une IA, il faut se demander à qui appartiennent les données.",
-        "impact_doux": "Une règle simple peut aider les équipes à utiliser l'IA avec plus de vigilance."
-      },
-      "texte": "L'une des questions les plus importantes à se poser avant d'utiliser une IA est aussi l'une des moins posées.\n\nÀ qui appartiennent les données que je suis sur le point de copier-coller ?\n\nLorsque j'échange avec des associations ou des structures d'insertion, je constate souvent la même situation.\n\nLes équipes découvrent les possibilités offertes par l'IA et commencent naturellement à l'utiliser pour gagner du temps :\n\n* reformuler un courrier ;\n* résumer un document ;\n* préparer un compte-rendu ;\n* rédiger une réponse à un financeur.\n\nJusque-là, rien d'anormal.\n\nMais parfois, le document contient des informations sur un salarié, un bénéficiaire, un parcours d'insertion ou une situation personnelle.\n\nEt c'est là que la vigilance doit commencer.\n\nPour sensibiliser simplement les équipes, j'aime bien utiliser la logique du feu tricolore.\n\n🟢 Vert : informations publiques, fictives ou totalement anonymisées.\n\n🟠 Orange : documents internes ou informations pouvant permettre d'identifier indirectement une personne. On vérifie le cadre avant d'utiliser l'IA.\n\n🔴 Rouge : données de santé, situations sociales individuelles, identifiants, mots de passe ou informations concernant des personnes vulnérables. Ces données ne devraient jamais être saisies dans un outil d'IA grand public.\n\nCette règle n'a pas vocation à remplacer une politique RGPD ou les consignes de votre DPO.\n\nMais elle permet à chacun de prendre une première bonne décision avant même d'ouvrir ChatGPT ou un autre outil.\n\nParce que l'enjeu n'est pas seulement d'utiliser l'IA.\n\nL'enjeu est de l'utiliser de manière responsable.\n\nD'ailleurs, votre structure a-t-elle déjà défini des règles claires concernant les données qui peuvent — ou non — être utilisées avec l'IA ?",
-      "cta": {
-        "commentaire": "Votre structure a-t-elle déjà défini des règles claires concernant les données qui peuvent — ou non — être utilisées avec l'IA ?"
-      },
-      "visuel": {
-        "concept": "Un feu tricolore pedagogique classe les donnees selon trois niveaux de vigilance.",
-        "texte_image": "Avant de saisir une donnee dans une IA : vert, orange ou rouge ?",
-        "disposition": "Trois grandes zones verticales avec exemples courts, avertissement RGPD en pied de page."
-      },
-      "hashtags": [
-        "#ESS",
-        "#Association",
-        "#RGPD",
         "#IAResponsable",
-        "#DonneesPersonnelles",
-        "#Insertion"
+        "#Conformite"
       ],
-      "prompt_image": "Concevoir un visuel LinkedIn carre 1080 x 1080 pedagogique pour IA Solidaire. Fond blanc casse. Titre : 'Avant de saisir une donnee dans une IA : vert, orange ou rouge ?'. Creer trois zones arrondies tres lisibles : vert pour public, fictif ou anonymise ; orange pour interne ou identification indirecte ; rouge pour sante, situation sociale, identifiants et mots de passe. Conserver la palette IA Solidaire avec bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA et orange #FF8A1F, tout en utilisant des indicateurs vert, orange et rouge accessibles avec icones et libelles, pas uniquement la couleur. Ajouter 'Ce repere ne remplace pas votre cadre RGPD'. Style institutionnel rassurant, sans robot, science-fiction, cyberpunk ni symbole anxiogene.",
+      "prompt_image": "Use case: infographic-diagram. Asset type: LinkedIn square visual for IA Solidaire, 1080 x 1080. Primary request: Create a calm institutional French LinkedIn infographic about associations being concerned by the EU AI Act without fearmongering. Text (verbatim): \"AI Act : les associations aussi ?\"; cards: \"Recenser\", \"Former\", \"Encadrer\"; footer: \"Avancer sans paniquer\". Palette: off-white, blue #3B82F6, turquoise #22C7C7, violet #7C5CFA, orange #FF8A1F. Avoid robots, sci-fi, cyberpunk, legal panic imagery.",
       "statut": "brouillon",
       "image": {
-        "src": "/linkedin/LI-2026-07-05.png",
-        "alt": "Avant de saisir une donnee dans une IA : vert, orange ou rouge ?",
+        "src": "/linkedin/LI-2026-08-01.png",
+        "alt": "AI Act : les associations aussi ?",
         "statut": "generee",
-        "date_generation": "2026-06-16"
+        "date_generation": "2026-07-10"
       }
     },
     {
-      "id": "LI-2026-07-06",
-      "date_prevue": "2026-07-23T09:00:00+02:00",
-      "titre": "Une equipe ne gagne pas du temps avec l'IA tant que chacun improvise seul",
-      "categorie": "terrain",
-      "objectif": "Credibilite et acquisition",
+      "id": "LI-2026-08-02",
+      "date_prevue": "2026-08-06T09:00:00+02:00",
+      "titre": "Osez l'IA : et l'ESS ?",
+      "objectif": "Sensibilisation",
       "accroches": {
-        "impact_fort": "J'ai déjà vu cette situation plusieurs fois.",
-        "impact_moyen": "Une équipe n'est pas augmentée parce que plusieurs personnes utilisent l'IA chacune de leur côté.",
-        "impact_doux": "Les découvertes individuelles autour de l'IA deviennent utiles quand elles sont partagées."
+        "impact_fort": "L'Etat veut accelerer l'adoption de l'IA dans les entreprises. Mais qu'en est-il des associations ?",
+        "impact_moyen": "Le plan Osez l'IA peut aussi etre lu comme un signal pour les structures de l'ESS.",
+        "impact_doux": "L'adoption de l'IA ne doit pas rester un sujet reserve aux grandes entreprises."
       },
-      "texte": "J'ai déjà vu cette situation plusieurs fois.\n\nDans une équipe, une personne devient rapidement très à l'aise avec l'IA.\n\nElle découvre des astuces.\n\nElle crée de bons prompts.\n\nElle automatise certaines tâches.\n\nElle gagne du temps.\n\nPuis une deuxième personne s'y met.\n\nPuis une troisième.\n\nVu de l'extérieur, on pourrait penser que la structure est en train de réussir sa transformation.\n\nMais en réalité, il manque souvent quelque chose d'essentiel.\n\nLes connaissances restent individuelles.\n\nLes bonnes pratiques sont stockées dans des historiques personnels.\n\nLes méthodes ne sont pas documentées.\n\nEt personne ne sait vraiment ce qui fonctionne ailleurs dans l'équipe.\n\nLe jour où l'un de ces collaborateurs change de poste ou quitte la structure, une partie du savoir-faire disparaît avec lui.\n\nC'est pour cette raison que je considère qu'une équipe n'est pas \"augmentée\" parce que plusieurs personnes utilisent l'IA.\n\nUne équipe devient réellement augmentée lorsque les apprentissages sont partagés.\n\nPas besoin d'un dispositif complexe pour commencer.\n\nQuelques actions simples suffisent :\n\n✅ créer une bibliothèque commune de cas d'usage ;\n\n✅ documenter les méthodes qui fonctionnent ;\n\n✅ organiser régulièrement des retours d'expérience entre collègues.\n\nL'objectif n'est pas de tout standardiser.\n\nL'objectif est de transformer des découvertes individuelles en compétences collectives.\n\nCar au final, la vraie valeur n'est pas dans le prompt.\n\nElle est dans la capacité de l'organisation à apprendre et progresser ensemble.\n\nJe suis curieux :\n\nAujourd'hui, dans votre structure, les bonnes pratiques liées à l'IA sont-elles partagées ou restent-elles principalement entre les mains de quelques personnes ?",
+      "texte": "L'Etat veut accelerer l'adoption de l'IA dans les entreprises.\n\nMais qu'en est-il des associations ?\n\nLe plan Osez l'IA envoie un message clair : la montee en competence sur l'intelligence artificielle devient un sujet national.\n\nL'objectif affiche est ambitieux : former largement les professionnels, accompagner les entreprises, et aider les organisations a passer de la curiosite aux usages concrets.\n\nOn parle souvent des PME, des TPE, des ETI.\n\nMais les structures de l'ESS ne devraient pas regarder ce mouvement de loin.\n\nElles ont, elles aussi, des besoins tres concrets :\n\n- alleger certaines taches administratives ;\n- mieux preparer les dossiers ;\n- structurer l'information ;\n- soutenir les fonctions support ;\n- former les equipes sans perdre le sens de la mission.\n\nLa difficulte, c'est que beaucoup d'associations n'ont ni gros budget, ni service innovation, ni temps disponible pour explorer tous les outils.\n\nC'est justement pour cela qu'il faut commencer simplement.\n\nPas par un grand projet IA.\n\nPas par une collection d'abonnements.\n\nMais par trois etapes sobres :\n\nComprendre les usages possibles.\n\nTester sur un irritant metier reel.\n\nMutualiser ce qui fonctionne entre structures quand c'est possible.\n\nL'ESS a une carte importante a jouer.\n\nA condition de ne pas subir l'IA comme un sujet venu du secteur prive classique.\n\nEt de construire ses propres usages, avec ses valeurs, ses contraintes et ses publics.\n\nDans votre association, quel serait le premier usage IA utile si vous deviez commencer sans gros budget ?",
       "cta": {
-        "commentaire": "Aujourd'hui, dans votre structure, les bonnes pratiques liées à l'IA sont-elles partagées ou restent-elles principalement entre les mains de quelques personnes ?"
+        "commentaire": "Dans votre association, quel serait le premier usage IA utile si vous deviez commencer sans gros budget ?"
       },
       "visuel": {
-        "concept": "Des pratiques individuelles convergent vers une bibliotheque commune.",
-        "texte_image": "Un gain individuel n'est pas encore un progres collectif",
-        "disposition": "Plusieurs cartes individuelles a gauche convergent vers trois ressources partagees a droite."
+        "concept": "Le plan Osez l'IA relu comme une opportunite pour l'ESS.",
+        "texte_image": "Osez l'IA : et l'ESS ?",
+        "disposition": "Icône de politique publique, trois cartes comprendre, tester, mutualiser, rappel commencer sans gros budget."
       },
       "hashtags": [
+        "#OsezLIA",
         "#ESS",
         "#Association",
-        "#Management",
         "#IntelligenceArtificielle",
-        "#RH",
-        "#Insertion"
+        "#TransformationNumerique"
       ],
-      "prompt_image": "Creer un visuel LinkedIn carre 1080 x 1080 pour IA Solidaire, minimaliste, professionnel et humain. Fond blanc casse. Titre : 'Un gain individuel n'est pas encore un progres collectif'. A gauche, plusieurs petites cartes arrondies representant des usages individuels ; des lignes douces convergent vers trois ressources communes a droite : cas d'usage, regles, partage mensuel. Palette bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA et accent orange #FF8A1F. Pictogrammes vectoriels simples, typographie sans serif, composition aeree et rassurante. Aucun robot humanoide, aucune science-fiction, aucun cyberpunk, aucune surcharge technologique.",
+      "prompt_image": "Use case: infographic-diagram. Asset type: LinkedIn square visual for IA Solidaire, 1080 x 1080. Primary request: Create a calm institutional French LinkedIn infographic about the French national plan Osez l'IA as an opportunity for ESS and associations. Text (verbatim): \"Osez l'IA : et l'ESS ?\"; cards: \"Comprendre\", \"Tester\", \"Mutualiser\"; footer: \"Commencer sans gros budget\". Palette: off-white, blue #3B82F6, turquoise #22C7C7, violet #7C5CFA, orange #FF8A1F. Avoid robots, sci-fi, cyberpunk, startup hype imagery.",
       "statut": "brouillon",
       "image": {
-        "src": "/linkedin/LI-2026-07-06.png",
-        "alt": "Un gain individuel n'est pas encore un progres collectif",
+        "src": "/linkedin/LI-2026-08-02.png",
+        "alt": "Osez l'IA : et l'ESS ?",
         "statut": "generee",
-        "date_generation": "2026-06-16"
+        "date_generation": "2026-07-10"
       }
     },
     {
-      "id": "LI-2026-07-07",
-      "date_prevue": "2026-07-28T09:00:00+02:00",
-      "titre": "Rapport d'activite : transformer les notes eparses en premiere trame solide",
-      "categorie": "pedagogie",
+      "id": "LI-2026-08-03",
+      "date_prevue": "2026-08-11T09:00:00+02:00",
+      "titre": "L'erreur : commencer par l'outil",
       "objectif": "Expertise et partages",
       "accroches": {
-        "impact_fort": "Chaque année, c'est la même scène.",
-        "impact_moyen": "Pour un rapport d'activité, le plus gros travail n'est souvent pas la rédaction.",
-        "impact_doux": "L'IA peut aider à structurer un rapport d'activité, si les sources sont organisées en amont."
+        "impact_fort": "On cherche le meilleur outil... alors que le probleme est ailleurs.",
+        "impact_moyen": "Dans beaucoup de projets IA, le mauvais depart consiste a choisir l'outil avant le besoin.",
+        "impact_doux": "Un projet IA gagne en qualite quand il part du metier, pas de la vitrine des outils."
       },
-      "texte": "Chaque année, c'est la même scène.\n\nLe rapport d'activité approche.\n\nEt soudain commence la grande chasse aux informations.\n\nUn tableau dans un dossier partagé.\n\nUn bilan d'action envoyé par mail il y a six mois.\n\nDes photos sur un téléphone.\n\nDes chiffres dans un fichier Excel.\n\nDes comptes-rendus éparpillés un peu partout.\n\nAu final, le plus gros travail n'est souvent pas la rédaction.\n\nC'est de retrouver les informations.\n\nPuis de vérifier qu'elles sont exactes.\n\nEt seulement ensuite de les mettre en forme.\n\nC'est là que l'IA peut devenir utile.\n\nPas pour inventer un rapport d'activité.\n\nPas pour raconter à votre place ce qui a été réalisé.\n\nMais pour aider à structurer une masse d'informations déjà existantes.\n\nPar exemple :\n\n✅ regrouper les éléments par thématique ;\n\n✅ proposer un plan cohérent ;\n\n✅ identifier les doublons ;\n\n✅ repérer les informations manquantes ;\n\n✅ produire une première synthèse à partir de sources validées.\n\nMais il y a une condition essentielle.\n\nLes données doivent être organisées en amont.\n\nUne IA ne compensera jamais un manque de suivi documentaire.\n\nC'est d'ailleurs le conseil que je donne le plus souvent :\n\nN'attendez pas la fin de l'année pour préparer votre rapport d'activité.\n\nConservez chaque mois quelques informations simples :\n\n* les actions réalisées ;\n* les résultats observés ;\n* les preuves disponibles (photos, chiffres, témoignages, documents).\n\nQuelques minutes par mois peuvent éviter plusieurs jours de recherche au moment du bilan annuel.\n\nPar curiosité, lorsque vous préparez votre rapport d'activité, quelle est l'étape la plus chronophage pour vous ?\n\nLa collecte des informations ?\nLa vérification des données ?\nLa structuration ?\nOu la rédaction elle-même ?",
+      "texte": "On cherche le meilleur outil...\n\nAlors que le probleme est ailleurs.\n\nC'est probablement l'erreur que je vois le plus souvent dans les projets IA.\n\nLa discussion commence par :\n\nQuel outil choisir ?\n\nQuel abonnement prendre ?\n\nQuel modele est le plus performant ?\n\nCes questions ne sont pas inutiles.\n\nMais elles arrivent trop tot.\n\nAvant de choisir un outil, il faut comprendre ce qui fatigue, ralentit ou complique le travail.\n\nAutrement dit : partir des irritants metier.\n\nPrenons un exemple simple.\n\nUn accompagnateur socioprofessionnel passe beaucoup de temps a preparer des comptes rendus, reformuler des courriers, adapter des informations pour differentes personnes, retrouver des elements dans plusieurs documents.\n\nLe sujet n'est pas d'abord : quel outil IA utiliser ?\n\nLe sujet est plutot : quelle partie de ce travail pourrait etre allegee sans nuire a la relation d'accompagnement ?\n\nA partir de la, on peut formuler un cas d'usage.\n\nPuis seulement ensuite choisir l'outil adapte.\n\nLa meme logique vaut pour un encadrant technique.\n\nAvant de parler IA, il faut regarder les taches reelles : preparation de consignes, suivi d'activite, transmission d'informations, formalisation d'observations.\n\nL'IA devient utile quand elle arrive au bon endroit.\n\nPas quand elle est plaquee sur un probleme mal defini.\n\nDans votre structure, quel irritant metier meriterait d'etre analyse avant de parler outil ?",
       "cta": {
-        "commentaire": "Lorsque vous préparez votre rapport d'activité, quelle est l'étape la plus chronophage pour vous ?"
+        "commentaire": "Dans votre structure, quel irritant metier meriterait d'etre analyse avant de parler outil ?"
       },
       "visuel": {
-        "concept": "Des sources dispersees sont transformees en plan structure et verifiable.",
-        "texte_image": "Rapport d'activite : des sources fiables avant la redaction",
-        "disposition": "Documents varies a gauche, quatre etapes au centre, rapport structure a droite."
+        "concept": "Un mauvais chemin outil d'abord est compare au bon chemin irritant, usage, outil.",
+        "texte_image": "L'erreur : commencer par l'outil",
+        "disposition": "Deux chemins visuels avec un accent sur partir du metier."
       },
       "hashtags": [
         "#ESS",
-        "#Association",
-        "#RapportDActivite",
+        "#Insertion",
         "#IntelligenceArtificielle",
-        "#GestionAssociative"
+        "#Organisation",
+        "#TransformationNumerique"
       ],
-      "prompt_image": "Creer un visuel LinkedIn carre 1080 x 1080, style infographie institutionnelle pour IA Solidaire. Fond blanc casse. Titre : 'Rapport d'activite : des sources fiables avant la redaction'. Montrer a gauche plusieurs documents epures, au centre un chemin en quatre etapes 'collecter, verifier, structurer, rediger', a droite un rapport clair. Utiliser des formes arrondies, pictogrammes vectoriels et la palette bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA, accent orange #FF8A1F. Typographie sans serif lisible sur mobile, composition aeree. Aucun robot, aucune science-fiction, aucun cyberpunk, aucune promesse d'automatisation totale.",
+      "prompt_image": "Use case: infographic-diagram. Asset type: LinkedIn square visual for IA Solidaire, 1080 x 1080. Primary request: Create a calm institutional French LinkedIn infographic about the common mistake in AI projects: choosing tools before understanding work irritants. Text (verbatim): \"L'erreur : commencer par l'outil\"; path labels: \"Irritant\", \"Usage\", \"Outil\"; footer: \"Partir du metier\". Palette: off-white, blue #3B82F6, turquoise #22C7C7, violet #7C5CFA, orange #FF8A1F. Avoid robots, sci-fi, cyberpunk, blame tone.",
       "statut": "brouillon",
       "image": {
-        "src": "/linkedin/LI-2026-07-07.png",
-        "alt": "Rapport d'activite : des sources fiables avant la redaction",
+        "src": "/linkedin/LI-2026-08-03.png",
+        "alt": "L'erreur : commencer par l'outil",
         "statut": "generee",
-        "date_generation": "2026-06-16"
+        "date_generation": "2026-07-10"
       }
     },
     {
-      "id": "LI-2026-07-08",
-      "date_prevue": "2026-07-30T09:00:00+02:00",
-      "titre": "Avant de former toute l'equipe, commencez par cartographier 3 usages",
-      "categorie": "promotion",
-      "objectif": "Demandes de contact qualifiees",
+      "id": "LI-2026-08-04",
+      "date_prevue": "2026-08-13T09:00:00+02:00",
+      "titre": "Une heure gagnee : pour quoi faire ?",
+      "objectif": "Engagement",
       "accroches": {
-        "impact_fort": "J'ai remarqué quelque chose de surprenant dans les projets de formation à l'IA.",
-        "impact_moyen": "Avant de former une équipe à l'IA, il faut clarifier les problèmes à résoudre.",
-        "impact_doux": "Une formation IA devient plus utile lorsqu'elle part du quotidien réel des équipes."
+        "impact_fort": "Si une IA vous faisait gagner une heure par jour, que feriez-vous de cette heure ?",
+        "impact_moyen": "Le vrai sujet n'est pas seulement le temps gagne, mais ce que l'on decide d'en faire.",
+        "impact_doux": "Parler de gain de temps n'a de sens que si l'on parle aussi de priorites."
       },
-      "texte": "J'ai remarqué quelque chose de surprenant dans les projets de formation à l'IA.\n\nTrès souvent, la première question posée est :\n\n« Pouvez-vous former notre équipe à l'intelligence artificielle ? »\n\nEt presque jamais :\n\n« Quels sont les problèmes que nous cherchons à résoudre ? »\n\nPourtant, c'est souvent là que tout se joue.\n\nJ'ai vu des structures investir du temps dans des formations généralistes, découvrir de nombreux outils... puis revenir quelques semaines plus tard à leurs habitudes.\n\nNon pas parce que la formation était mauvaise.\n\nMais parce qu'elle n'était pas suffisamment connectée au quotidien des équipes.\n\nLes besoins d'un directeur, d'un responsable administratif ou d'un accompagnateur socioprofessionnel ne sont pas les mêmes.\n\nAvant de parler outils, prompts ou abonnements, je préfère toujours commencer par quelques questions simples :\n\n➡️ Quelle tâche souhaitez-vous améliorer ?\n\n➡️ Qui la réalise aujourd'hui ?\n\n➡️ Combien de temps y consacrez-vous ?\n\n➡️ Quelles données sont concernées ?\n\n➡️ Comment saurez-vous que le résultat est meilleur ?\n\nCes questions paraissent basiques.\n\nPourtant, elles permettent souvent d'identifier rapidement les usages les plus pertinents.\n\nDans beaucoup de structures, trois cas d'usage suffisent pour démarrer :\n\n* une tâche fréquente ;\n* une tâche particulièrement pénible ;\n* une tâche à fort impact.\n\nÀ partir de là, il devient beaucoup plus facile de construire une montée en compétences utile et mesurable.\n\nParce qu'au fond, l'objectif n'est pas de former des équipes à l'IA.\n\nL'objectif est d'aider les équipes à mieux accomplir leur mission grâce à l'IA.\n\nEt vous, si vous deviez choisir seulement trois usages à explorer dans votre structure, lesquels seraient-ils ?",
+      "texte": "Si une IA vous faisait gagner une heure par jour, que feriez-vous de cette heure ?\n\nLa question parait simple.\n\nMais elle est plus importante qu'elle n'en a l'air.\n\nDans beaucoup de discussions sur l'IA, on parle de productivite.\n\nOn parle d'automatisation.\n\nOn parle de taches plus rapides.\n\nMais dans une association ou une structure d'insertion, gagner du temps n'est pas une fin en soi.\n\nLa vraie question est : ou remet-on ce temps ?\n\nUne heure retrouvee peut servir a mieux accompagner des salaries.\n\nA relancer des partenaires.\n\nA prospecter de nouvelles entreprises.\n\nA prendre du recul sur un projet.\n\nA remettre a jour un suivi administratif qui s'accumule.\n\nA preparer un entretien avec plus de qualite.\n\nOu simplement a reduire une pression devenue trop forte dans l'equipe.\n\nL'IA peut aider a aller plus vite sur certaines taches.\n\nMais elle ne decide pas des priorites.\n\nCe choix reste humain, organisationnel et politique.\n\nC'est pour cela que je trouve utile de poser cette question avant meme de lancer un projet IA :\n\nSi nous gagnons du temps, a quoi voulons-nous le consacrer ?\n\nLe veritable enjeu de l'IA n'est pas la technologie.\n\nC'est ce que l'on fait du temps gagne.\n\nEt vous, si votre equipe gagnait une heure par jour sur certaines taches, ou aimeriez-vous remettre ce temps ?",
       "cta": {
-        "commentaire": "Si vous deviez choisir seulement trois usages à explorer dans votre structure, lesquels seraient-ils ?"
+        "commentaire": "Et vous, si votre equipe gagnait une heure par jour sur certaines taches, ou aimeriez-vous remettre ce temps ?"
       },
       "visuel": {
-        "concept": "Une matrice simple aide a selectionner trois usages avant la formation.",
-        "texte_image": "Avant la formation : cartographiez 3 usages",
-        "disposition": "Trois grandes cartes usage frequent, irritant et a fort impact, avec cinq questions en rappel lateral."
+        "concept": "Une horloge centrale relie le temps gagne aux priorites sociales et organisationnelles.",
+        "texte_image": "Une heure gagnee : pour quoi faire ?",
+        "disposition": "Horloge au centre, quatre cartes accompagner, prospecter, suivre, developper."
       },
       "hashtags": [
         "#ESS",
         "#Association",
-        "#FormationIA",
         "#IntelligenceArtificielle",
-        "#TransformationNumerique",
-        "#Insertion"
+        "#Management",
+        "#ImpactSocial"
       ],
-      "prompt_image": "Concevoir un visuel LinkedIn carre 1080 x 1080 pour IA Solidaire, professionnel, humain et minimaliste. Fond blanc casse. Titre : 'Avant la formation : cartographiez 3 usages'. Afficher trois grandes cartes arrondies : usage frequent, usage irritant, usage a fort impact. Ajouter discretement cinq criteres sous forme de pictogrammes : tache, personnes, frequence, donnees, verification. Palette bleu #3B82F6, turquoise #22C7C7, violet #7C5CFA et accent orange #FF8A1F. Typographie sans serif tres lisible, composition equilibree, appel discret 'Partir du travail reel'. Aucun robot, aucune science-fiction, aucun cyberpunk, aucune esthetique trop technologique.",
+      "prompt_image": "Use case: infographic-diagram. Asset type: LinkedIn square visual for IA Solidaire, 1080 x 1080. Primary request: Create a calm institutional French LinkedIn infographic about what organizations do with time saved by AI. Text (verbatim): \"Une heure gagnee : pour quoi faire ?\"; cards: \"Accompagner\", \"Prospecter\", \"Suivre\", \"Developper\"; footer: \"Le temps retrouve compte\". Palette: off-white, blue #3B82F6, turquoise #22C7C7, violet #7C5CFA, orange #FF8A1F. Avoid robots, sci-fi, cyberpunk, stopwatch pressure imagery.",
       "statut": "brouillon",
       "image": {
-        "src": "/linkedin/LI-2026-07-08.png",
-        "alt": "Avant la formation : cartographiez 3 usages",
+        "src": "/linkedin/LI-2026-08-04.png",
+        "alt": "Une heure gagnee : pour quoi faire ?",
         "statut": "generee",
-        "date_generation": "2026-06-16"
+        "date_generation": "2026-07-10"
+      }
+    },
+    {
+      "id": "LI-2026-08-05",
+      "date_prevue": "2026-08-18T09:00:00+02:00",
+      "titre": "Pourquoi regarder l'open source ?",
+      "objectif": "Differenciation et confiance",
+      "accroches": {
+        "impact_fort": "Je privilegie souvent les solutions open source quand elles sont adaptees au besoin.",
+        "impact_moyen": "L'open source n'est pas un choix technique par principe, c'est parfois un choix strategique.",
+        "impact_doux": "Pour une structure de l'ESS, le choix d'un outil IA pose aussi des questions d'independance."
+      },
+      "texte": "Je privilegie souvent les solutions open source quand elles sont adaptees au besoin.\n\nPas par posture.\n\nPas parce qu'il faudrait refuser tous les outils commerciaux.\n\nMais parce que, pour une association ou une structure de l'ESS, le choix d'un outil IA n'est pas seulement une question de fonctionnalites.\n\nIl touche aussi a la souverainete, aux couts, a la confidentialite et a l'independance.\n\nUn outil peut etre tres pratique aujourd'hui.\n\nPuis devenir plus cher.\n\nChanger ses conditions.\n\nLimiter certains usages.\n\nOu poser des questions sur l'hebergement et la circulation des donnees.\n\nLes solutions open source ne resolvent pas tout.\n\nElles demandent parfois plus d'accompagnement.\n\nElles ne sont pas toujours les plus simples a deployer.\n\nMais elles permettent d'ouvrir d'autres chemins.\n\nPar exemple, sans entrer dans la technique :\n\nOllama peut aider a faire tourner certains modeles localement.\n\nn8n peut permettre d'automatiser des processus de maniere plus maitrisable.\n\nOpen WebUI peut offrir une interface pour utiliser des modeles dans un cadre plus controle.\n\nMistral montre aussi qu'il existe des alternatives europeennes solides.\n\nLe bon choix depend toujours du contexte.\n\nParfois, un outil grand public suffit pour un usage non sensible.\n\nParfois, une solution plus souveraine est preferable.\n\nL'important est de ne pas choisir uniquement sur la facilite immediate.\n\nDans vos choix numeriques, quelle place donnez-vous aujourd'hui a la souverainete et a la maitrise des couts ?",
+      "cta": {
+        "commentaire": "Dans vos choix numeriques, quelle place donnez-vous aujourd'hui a la souverainete et a la maitrise des couts ?"
+      },
+      "visuel": {
+        "concept": "Quatre raisons de regarder les solutions open source pour l'IA.",
+        "texte_image": "Pourquoi regarder l'open source ?",
+        "disposition": "Quatre cartes couts, confidentialite, souverainete, independance, avec noms d'outils en footer."
+      },
+      "hashtags": [
+        "#OpenSource",
+        "#ESS",
+        "#Association",
+        "#SouveraineteNumerique",
+        "#IntelligenceArtificielle"
+      ],
+      "prompt_image": "Use case: infographic-diagram. Asset type: LinkedIn square visual for IA Solidaire, 1080 x 1080. Primary request: Create a calm institutional French LinkedIn infographic about why IA Solidaire often prefers open source AI solutions. Text (verbatim): \"Pourquoi regarder l'open source ?\"; cards: \"Couts\", \"Confidentialite\", \"Souverainete\", \"Independance\"; footer: \"Ollama · n8n · Open WebUI · Mistral\". Palette: off-white, blue #3B82F6, turquoise #22C7C7, violet #7C5CFA, orange #FF8A1F. Avoid robots, sci-fi, cyberpunk, brand logos, anti-company attack tone.",
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-08-05.png",
+        "alt": "Pourquoi regarder l'open source ?",
+        "statut": "generee",
+        "date_generation": "2026-07-10"
+      }
+    },
+    {
+      "id": "LI-2026-08-06",
+      "date_prevue": "2026-08-20T09:00:00+02:00",
+      "titre": "Le cout de ne rien faire",
+      "objectif": "Expertise et engagement",
+      "accroches": {
+        "impact_fort": "Le cout de l'IA est souvent surestime. Le cout de ne rien faire est souvent oublie.",
+        "impact_moyen": "Ne pas utiliser l'IA a aussi un cout, meme s'il est moins visible dans un budget.",
+        "impact_doux": "Avant de parler depense, il faut parfois regarder le temps deja perdu."
+      },
+      "texte": "Le cout de l'IA est souvent surestime.\n\nLe cout de ne rien faire est souvent oublie.\n\nJe comprends la prudence des associations.\n\nLes budgets sont contraints.\n\nLes equipes sont deja sollicitees.\n\nEt personne n'a envie d'ajouter un outil de plus sans etre certain de son utilite.\n\nMais il faut aussi regarder l'autre cote de l'equation.\n\nCombien coute le temps perdu chaque semaine ?\n\nLa double saisie ?\n\nLes mails que l'on reformule dix fois ?\n\nLes comptes rendus qui prennent trop longtemps ?\n\nLes reunions qui se repetent parce que les decisions ne sont pas assez claires ?\n\nLes informations qu'il faut rechercher dans plusieurs fichiers ?\n\nCes couts existent.\n\nIls ne sont pas toujours visibles dans une ligne comptable.\n\nMais ils pesent sur les equipes.\n\nIls ralentissent les projets.\n\nIls augmentent la charge mentale.\n\nL'IA ne supprimera pas tout cela.\n\nEt elle ne doit pas etre presente partout.\n\nMais sur certains usages bien choisis, elle peut reduire des irritants tres concrets.\n\nLe premier retour sur investissement est souvent du temps retrouve.\n\nPas un grand tableau de bord.\n\nPas une promesse de transformation totale.\n\nJuste du temps rendu a l'equipe pour mieux faire son travail.\n\nDans votre structure, quel est aujourd'hui le cout invisible le plus important : mails, reunions, double saisie, comptes rendus ou recherche d'information ?",
+      "cta": {
+        "commentaire": "Dans votre structure, quel est aujourd'hui le cout invisible le plus important : mails, reunions, double saisie, comptes rendus ou recherche d'information ?"
+      },
+      "visuel": {
+        "concept": "Les couts invisibles de l'absence d'IA sont presentes comme du temps perdu.",
+        "texte_image": "Le cout de ne rien faire",
+        "disposition": "Cinq pastilles temps perdu, double saisie, mails, reunions, comptes rendus, conclusion ROI temps retrouve."
+      },
+      "hashtags": [
+        "#ESS",
+        "#Association",
+        "#IntelligenceArtificielle",
+        "#ProductiviteResponsable",
+        "#Organisation"
+      ],
+      "prompt_image": "Use case: infographic-diagram. Asset type: LinkedIn square visual for IA Solidaire, 1080 x 1080. Primary request: Create a calm institutional French LinkedIn infographic about the often-forgotten cost of not using AI in associations. Text (verbatim): \"Le cout de ne rien faire\"; chips: \"Temps perdu\", \"Double saisie\", \"Mails\", \"Reunions\", \"Comptes rendus\"; footer: \"Premier ROI : du temps retrouve\". Palette: off-white, blue #3B82F6, turquoise #22C7C7, violet #7C5CFA, orange #FF8A1F. Avoid robots, sci-fi, cyberpunk, alarmist finance imagery.",
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-08-06.png",
+        "alt": "Le cout de ne rien faire",
+        "statut": "generee",
+        "date_generation": "2026-07-10"
+      }
+    },
+    {
+      "id": "LI-2026-08-07",
+      "date_prevue": "2026-08-25T09:00:00+02:00",
+      "titre": "L'IA ne remplace pas l'accompagnement",
+      "objectif": "Engagement",
+      "accroches": {
+        "impact_fort": "L'IA ne remplacera probablement jamais un conseiller en insertion. Mais un conseiller utilisant l'IA remplacera peut-etre celui qui refuse de l'utiliser.",
+        "impact_moyen": "L'IA ne remplace pas l'empathie, mais elle peut changer la maniere de preparer le travail.",
+        "impact_doux": "Le sujet n'est pas de remplacer les accompagnateurs, mais de mieux les outiller."
+      },
+      "texte": "L'IA ne remplacera probablement jamais un conseiller en insertion.\n\nMais un conseiller utilisant l'IA remplacera peut-etre celui qui refuse de l'utiliser.\n\nLa phrase peut paraitre provocante.\n\nElle merite surtout d'etre nuancee.\n\nL'accompagnement repose sur des choses que l'IA ne sait pas faire comme un professionnel de terrain.\n\nEcouter une personne dans sa singularite.\n\nComprendre une hesitation.\n\nLire ce qui ne se dit pas.\n\nAdapter une posture.\n\nConstruire une relation de confiance.\n\nRien de tout cela ne se delegue a un outil.\n\nEn revanche, l'IA peut aider sur tout ce qui entoure l'accompagnement.\n\nPreparer un entretien.\n\nStructurer une synthese.\n\nReformuler un document.\n\nAdapter un courrier.\n\nGenerer une premiere trame de compte rendu.\n\nVerifier qu'un message est clair.\n\nEt c'est la que le metier peut evoluer.\n\nNon pas vers moins d'humain.\n\nMais vers moins de charge administrative autour de l'humain.\n\nLe risque n'est pas que l'IA remplace l'empathie.\n\nLe risque est que certains professionnels soient laisses seuls face a ces changements, sans formation, sans cadre et sans temps pour apprendre.\n\nPour moi, le bon sujet est donc : comment outiller les accompagnateurs sans abimer le sens de leur metier ?\n\nSelon vous, quelles taches autour de l'accompagnement pourraient etre aidees par l'IA sans toucher a la relation humaine ?",
+      "cta": {
+        "commentaire": "Selon vous, quelles taches autour de l'accompagnement pourraient etre aidees par l'IA sans toucher a la relation humaine ?"
+      },
+      "visuel": {
+        "concept": "L'IA est placee autour de l'accompagnement, pas au centre de la relation humaine.",
+        "texte_image": "L'IA ne remplace pas l'accompagnement",
+        "disposition": "Icône humaine centrale, trois cartes empathie, preparation, documents, conclusion le metier evolue."
+      },
+      "hashtags": [
+        "#Insertion",
+        "#ESS",
+        "#Accompagnement",
+        "#IntelligenceArtificielle",
+        "#IAResponsable"
+      ],
+      "prompt_image": "Use case: infographic-diagram. Asset type: LinkedIn square visual for IA Solidaire, 1080 x 1080. Primary request: Create a calm institutional French LinkedIn infographic about AI not replacing insertion counselors, but changing professional practice. Text (verbatim): \"L'IA ne remplace pas l'accompagnement\"; cards: \"Empathie\", \"Preparation\", \"Documents\"; footer: \"Le metier evolue\". Palette: off-white, blue #3B82F6, turquoise #22C7C7, violet #7C5CFA, orange #FF8A1F. Avoid robots, sci-fi, cyberpunk, replacement fear imagery.",
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-08-07.png",
+        "alt": "L'IA ne remplace pas l'accompagnement",
+        "statut": "generee",
+        "date_generation": "2026-07-10"
+      }
+    },
+    {
+      "id": "LI-2026-08-08",
+      "date_prevue": "2026-08-27T09:00:00+02:00",
+      "titre": "Souverainete numerique : quelles donnees ?",
+      "objectif": "Credibilite et confiance",
+      "accroches": {
+        "impact_fort": "Une commission d'enquete parlementaire s'interesse actuellement aux dependances numeriques de la France.",
+        "impact_moyen": "La souverainete numerique n'est pas un sujet reserve a l'Etat ou aux grandes entreprises.",
+        "impact_doux": "Quand une association utilise des outils numeriques, elle fait aussi des choix de dependance."
+      },
+      "texte": "Une commission d'enquete parlementaire s'interesse actuellement aux dependances numeriques de la France.\n\nEt ce sujet concerne aussi les associations.\n\nPas seulement les ministeres.\n\nPas seulement les grandes entreprises.\n\nPas seulement les collectivites.\n\nChaque structure qui utilise des outils numeriques fait des choix de dependance, parfois sans vraiment les voir.\n\nOu sont hebergees les donnees ?\n\nQui peut techniquement y acceder ?\n\nQuelles conditions s'appliquent ?\n\nQue se passe-t-il si les tarifs changent ?\n\nQue devient l'organisation si un outil devient indispensable ?\n\nAvec l'IA, ces questions deviennent encore plus sensibles.\n\nParce que les outils peuvent traiter des documents, des notes internes, des donnees RH, des informations sur des personnes accompagnees ou des elements strategiques.\n\nLa reponse n'est pas toujours simple.\n\nUn outil americain peut etre tres pratique.\n\nUne alternative europeenne ou open source peut etre plus coherente sur certains usages.\n\nUne solution locale peut etre preferable pour des donnees sensibles.\n\nMais elle peut demander plus d'accompagnement.\n\nLe sujet n'est donc pas de tout refuser.\n\nNi de tout accepter au nom de la simplicite.\n\nLe sujet est de trouver le bon equilibre entre usage, cout, confidentialite, souverainete et capacite reelle de l'equipe.\n\nPour commencer, une question suffit deja :\n\nQuelles donnees ne voulons-nous pas confier a n'importe quel outil ?\n\nDans votre structure, cette question a-t-elle deja ete posee clairement ?",
+      "cta": {
+        "commentaire": "Dans votre structure, cette question a-t-elle deja ete posee clairement ?"
+      },
+      "visuel": {
+        "concept": "Trois questions de souverainete numerique appliquees aux donnees associatives.",
+        "texte_image": "Souverainete numerique : quelles donnees ?",
+        "disposition": "Dossier donnees central, trois cartes ou, qui, alternatives, balance simplicite-souverainete."
+      },
+      "hashtags": [
+        "#SouveraineteNumerique",
+        "#ESS",
+        "#Association",
+        "#Donnees",
+        "#IntelligenceArtificielle"
+      ],
+      "prompt_image": "Use case: infographic-diagram. Asset type: LinkedIn square visual for IA Solidaire, 1080 x 1080. Primary request: Create a calm institutional French LinkedIn infographic about digital sovereignty and association data dependencies on large foreign cloud/AI providers. Text (verbatim): \"Souverainete numerique : quelles donnees ?\"; cards: \"Ou ?\", \"Qui ?\", \"Alternatives ?\"; footer: \"Trouver le bon equilibre\". Palette: off-white, blue #3B82F6, turquoise #22C7C7, violet #7C5CFA, orange #FF8A1F. Avoid robots, sci-fi, cyberpunk, anti-American caricature, fearmongering.",
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-08-08.png",
+        "alt": "Souverainete numerique : quelles donnees ?",
+        "statut": "generee",
+        "date_generation": "2026-07-10"
       }
     }
   ]
