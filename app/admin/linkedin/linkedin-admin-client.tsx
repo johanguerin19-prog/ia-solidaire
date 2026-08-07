@@ -80,10 +80,12 @@ export function LinkedinAdminClient({ posts }: { posts: LinkedinPost[] }) {
     }
   }, [posts]);
 
-  const filteredPosts = posts.filter((post) => {
-    const currentStatus = postStatuses[post.id] ?? post.statut;
-    return statusFilter === "tous" || currentStatus === statusFilter;
-  });
+  const filteredPosts = posts
+    .filter((post) => {
+      const currentStatus = postStatuses[post.id] ?? post.statut;
+      return statusFilter === "tous" || currentStatus === statusFilter;
+    })
+    .sort((a, b) => new Date(b.date_prevue).getTime() - new Date(a.date_prevue).getTime());
 
   async function copyPost(post: LinkedinPost) {
     await navigator.clipboard.writeText(formatPostForCopy(post));

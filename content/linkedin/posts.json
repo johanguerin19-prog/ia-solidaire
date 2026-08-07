@@ -285,6 +285,286 @@
         "statut": "generee",
         "date_generation": "2026-07-10"
       }
+    },
+    {
+      "id": "LI-2026-09-01",
+      "date_prevue": "2026-09-01T09:00:00+02:00",
+      "titre": "La nouvelle fracture IA associative",
+      "objectif": "Sensibilisation",
+      "accroches": {
+        "impact_fort": "L'IA est en train de créer une nouvelle fracture dans le monde associatif.",
+        "impact_moyen": "La fracture IA ne se jouera peut-être pas entre grandes et petites associations.",
+        "impact_doux": "Certaines associations expérimentent déjà l'IA, pendant que d'autres attendent encore."
+      },
+      "texte": "L'IA est en train de créer une nouvelle fracture dans le monde associatif.\n\nPas forcément entre les grandes associations et les petites.\n\nMais entre celles qui expérimentent dès maintenant...\n\nEt celles qui attendent encore que le sujet soit parfaitement clair.\n\nJe le constate souvent dans les échanges avec les structures de l'ESS.\n\nCertaines équipes testent déjà des usages simples :\n\n- préparer un compte-rendu ;\n- reformuler un courrier ;\n- structurer une procédure ;\n- retrouver plus vite une information ;\n- préparer une première version de dossier.\n\nElles ne font pas tout parfaitement.\n\nElles avancent prudemment.\n\nMais elles apprennent.\n\nEt cet apprentissage vaut déjà beaucoup.\n\nDans quelques années, il y aura probablement deux catégories de structures.\n\nCelles qui auront automatisé une partie de leur administratif.\n\nEt celles qui feront encore tout à la main, faute d'avoir commencé assez tôt.\n\nLe risque n'est pas seulement technologique.\n\nIl est organisationnel.\n\nQuand une équipe apprend progressivement, elle construit ses règles, ses réflexes, ses limites et sa culture commune.\n\nQuand elle attend trop longtemps, elle doit tout découvrir d'un coup.\n\nSous pression.\n\nAvec moins de temps pour former, sécuriser et embarquer les équipes.\n\nPour moi, la bonne question n'est donc pas : faut-il tout transformer maintenant ?\n\nLa bonne question est plus simple : quelle petite tâche pouvons-nous tester sérieusement dès ce mois-ci ?\n\nDans quelle catégorie votre association sera-t-elle en 2029 ?",
+      "cta": {
+        "commentaire": "Dans quelle catégorie votre association sera-t-elle en 2029 ?"
+      },
+      "visuel": {
+        "concept": "Deux trajectoires associatives face à l'IA : expérimenter maintenant ou attendre.",
+        "texte_image": "La nouvelle fracture IA",
+        "disposition": "Deux colonnes expérimenter et attendre, avec un rappel 2029 se prépare aujourd'hui."
+      },
+      "hashtags": [
+        "#ESS",
+        "#Association",
+        "#IntelligenceArtificielle",
+        "#TransformationNumerique",
+        "#Organisation"
+      ],
+      "prompt_image": "Use case: infographic-diagram. Asset type: LinkedIn square visual for IA Solidaire, 1080 x 1080. Primary request: Create a calm institutional French LinkedIn infographic about a new divide among associations: those experimenting with AI now and those waiting. Text: La nouvelle fracture IA; Expérimenter; Attendre; 2029 se prépare aujourd’hui. Palette: off-white, blue, turquoise, violet, orange accent. Avoid robots, sci-fi, cyberpunk.",
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-09-01.png",
+        "alt": "La nouvelle fracture IA",
+        "statut": "generee",
+        "date_generation": "2026-08-07"
+      }
+    },
+    {
+      "id": "LI-2026-09-02",
+      "date_prevue": "2026-09-03T09:00:00+02:00",
+      "titre": "Les 5 missions d'un salarié IA",
+      "objectif": "Expertise et partages",
+      "accroches": {
+        "impact_fort": "Un salarié IA pourrait déjà aider une association sur plusieurs missions très concrètes.",
+        "impact_moyen": "Si une association avait un salarié virtuel, quelles tâches pourrait-elle lui confier ?",
+        "impact_doux": "Les agents IA arrivent vite, mais les cas d'usage existent déjà."
+      },
+      "texte": "Un salarié IA pourrait déjà aider une association sur plusieurs missions très concrètes.\n\nPas un salarié humain.\n\nUn salarié virtuel.\n\nÉvidemment, il ne remplacerait pas une équipe.\n\nIl ne prendrait pas de décisions importantes.\n\nIl ne comprendrait pas seul les nuances d'un territoire, d'un financeur ou d'une situation humaine.\n\nMais il pourrait déjà préparer beaucoup de choses.\n\nPar exemple :\n\n1. Préparer les comptes-rendus.\n\nÀ partir de notes ou d'une trame, il peut structurer les décisions, les actions à suivre et les points à relire.\n\n2. Répondre aux mails simples.\n\nPas les situations sensibles.\n\nMais les réponses récurrentes, les confirmations, les relances, les reformulations.\n\n3. Rédiger une première version d'appel à projets.\n\nLe fond reste celui de l'association.\n\nMais l'IA peut aider à organiser les idées et à clarifier le dossier.\n\n4. Rechercher des pistes de financement.\n\nElle peut aider à explorer, synthétiser et préparer une veille.\n\nLa vérification reste indispensable.\n\n5. Créer les premières versions de procédures.\n\nAccueil, suivi, reporting, gestion documentaire, transmission interne.\n\nCe salarié virtuel n'existe pas encore comme un collègue autonome.\n\nMais les agents IA arrivent très vite.\n\nEt ils vont poser une question très concrète aux associations : quelles tâches veut-on leur confier, avec quelles règles et quelle relecture humaine ?\n\nDans votre structure, quelle mission aimeriez-vous déléguer en premier à un assistant IA encadré ?",
+      "cta": {
+        "commentaire": "Dans votre structure, quelle mission aimeriez-vous déléguer en premier à un assistant IA encadré ?"
+      },
+      "visuel": {
+        "concept": "Cinq missions administratives qu'un assistant IA pourrait préparer.",
+        "texte_image": "Un salarié IA ?",
+        "disposition": "Cinq cartes autour d'un dossier central : comptes-rendus, mails simples, appels à projets, financements, procédures."
+      },
+      "hashtags": [
+        "#ESS",
+        "#Association",
+        "#AgentsIA",
+        "#IntelligenceArtificielle",
+        "#Organisation"
+      ],
+      "prompt_image": "Use case: infographic-diagram. Asset type: LinkedIn square visual for IA Solidaire, 1080 x 1080. Primary request: five tasks a virtual AI employee could help prepare in an association. Text: Un salarié IA ?; Comptes-rendus; Mails simples; Appels à projets; Financements; Procédures; Les agents arrivent vite. Avoid robots, sci-fi, cyberpunk.",
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-09-02.png",
+        "alt": "Un salarié IA ?",
+        "statut": "generee",
+        "date_generation": "2026-08-07"
+      }
+    },
+    {
+      "id": "LI-2026-09-03",
+      "date_prevue": "2026-09-08T09:00:00+02:00",
+      "titre": "L'Europe réglemente l'IA",
+      "objectif": "Credibilite et confiance",
+      "accroches": {
+        "impact_fort": "L'Europe réglemente l'IA... mais qui aide réellement les associations ?",
+        "impact_moyen": "AI Act, RGPD, cybersécurité : les associations sont concernées, mais rarement accompagnées.",
+        "impact_doux": "La réglementation IA devient incontournable, y compris pour les structures de l'ESS."
+      },
+      "texte": "L'Europe réglemente l'IA...\n\nMais qui aide réellement les associations ?\n\nDepuis quelques mois, les sujets s'accumulent.\n\nAI Act.\n\nRGPD.\n\nCybersécurité.\n\nSouveraineté numérique.\n\nProtection des données.\n\nResponsabilité humaine.\n\nPour une grande organisation, ces sujets peuvent être traités par des services juridiques, informatiques ou conformité.\n\nDans beaucoup d'associations, c'est très différent.\n\nLa même personne peut gérer les projets, les partenaires, les financements, les équipes, le reporting et maintenant les questions liées à l'IA.\n\nLe problème n'est pas que les associations refusent le sujet.\n\nLe problème est souvent qu'elles ne savent pas par où commencer.\n\nFaut-il former tout le monde ?\n\nInterdire certains outils ?\n\nÉcrire une charte ?\n\nRecenser les usages ?\n\nVérifier les données utilisées ?\n\nComparer les solutions européennes, open source ou grand public ?\n\nToutes ces questions sont légitimes.\n\nMais elles deviennent vite paralysantes quand elles sont posées seules, sans méthode adaptée au terrain.\n\nCe dont les associations ont besoin aujourd'hui, ce n'est pas forcément d'une IA plus puissante.\n\nC'est d'un accompagnement adapté.\n\nUn accompagnement qui comprend leurs contraintes, leurs publics, leurs budgets et leur responsabilité sociale.\n\nPour commencer, je conseillerais rarement de rédiger un grand document théorique.\n\nJe commencerais plutôt par une cartographie simple : quels usages existent déjà, quelles données sont concernées, quels risques sont acceptables ou non ?\n\nDans votre association, quel sujet vous semble le plus flou aujourd'hui : AI Act, RGPD, cybersécurité ou choix des outils ?",
+      "cta": {
+        "commentaire": "Dans votre association, quel sujet vous semble le plus flou aujourd'hui : AI Act, RGPD, cybersécurité ou choix des outils ?"
+      },
+      "visuel": {
+        "concept": "Les quatre sujets réglementaires à rendre accessibles aux associations.",
+        "texte_image": "L'Europe réglemente l'IA",
+        "disposition": "Quatre cartes AI Act, RGPD, cybersécurité, souveraineté, avec un bandeau accompagnement adapté."
+      },
+      "hashtags": [
+        "#AIAct",
+        "#RGPD",
+        "#ESS",
+        "#Association",
+        "#IAResponsable"
+      ],
+      "prompt_image": "Use case: infographic-diagram. Asset type: LinkedIn square visual for IA Solidaire. Primary request: Europe regulating AI while associations need adapted support. Text: L’Europe réglemente l’IA; AI Act; RGPD; Cybersécurité; Souveraineté; Besoin d’un accompagnement adapté. Avoid robots, sci-fi, cyberpunk.",
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-09-03.png",
+        "alt": "L'Europe réglemente l'IA",
+        "statut": "generee",
+        "date_generation": "2026-08-07"
+      }
+    },
+    {
+      "id": "LI-2026-09-04",
+      "date_prevue": "2026-09-10T09:00:00+02:00",
+      "titre": "Ce que j'observe dans l'ESS",
+      "objectif": "Expertise et partages",
+      "accroches": {
+        "impact_fort": "Après avoir rencontré de nombreuses structures de l'ESS, je vois revenir la même erreur.",
+        "impact_moyen": "Le vrai sujet IA dans l'ESS n'est pas toujours celui que l'on croit.",
+        "impact_doux": "Dans beaucoup de structures, la question de l'outil arrive trop tôt."
+      },
+      "texte": "Après avoir rencontré de nombreuses structures de l'ESS, je vois revenir la même erreur.\n\nLes dirigeants pensent souvent que leur problème est de choisir le bon outil.\n\nQuel abonnement prendre ?\n\nChatGPT, Copilot, Mistral, Claude, Gemini ?\n\nSolution gratuite ou payante ?\n\nOutil grand public ou solution plus souveraine ?\n\nCes questions sont importantes.\n\nMais elles arrivent souvent trop tôt.\n\nLe vrai problème est rarement le choix de l'outil.\n\nLe vrai problème est que l'association ne sait pas encore quelles tâches automatiser.\n\nEt c'est normal.\n\nQuand une équipe est sous pression, elle connaît très bien sa charge de travail.\n\nMais elle n'a pas toujours le temps de la décortiquer.\n\nOn sait que les comptes-rendus prennent du temps.\n\nOn sait que les mails s'accumulent.\n\nOn sait que les procédures ne sont pas à jour.\n\nOn sait que les appels à projets demandent beaucoup d'énergie.\n\nMais on n'a pas forcément identifié précisément ce qui pourrait être confié à l'IA, ce qui doit rester humain, et ce qui nécessite une validation.\n\nC'est là que le travail commence.\n\nAvant l'outil, il faut cartographier les tâches.\n\nRepérer les irritants.\n\nChoisir un cas simple.\n\nTester sur un vrai document.\n\nPuis seulement ensuite décider de l'outil adapté.\n\nL'IA devient utile quand elle répond à un besoin réel.\n\nPas quand elle arrive comme une solution magique posée sur une organisation déjà saturée.\n\nDans votre structure, avez-vous déjà listé les tâches qui pourraient être allégées avant de choisir un outil IA ?",
+      "cta": {
+        "commentaire": "Dans votre structure, avez-vous déjà listé les tâches qui pourraient être allégées avant de choisir un outil IA ?"
+      },
+      "visuel": {
+        "concept": "Le passage d'une logique outil à une logique tâches et irritants métier.",
+        "texte_image": "Ce que j'observe dans l'ESS",
+        "disposition": "Deux cartes contrastées : pas d'abord l'outil, d'abord les tâches."
+      },
+      "hashtags": [
+        "#ESS",
+        "#Association",
+        "#IntelligenceArtificielle",
+        "#Organisation",
+        "#TransformationNumerique"
+      ],
+      "prompt_image": "Use case: infographic-diagram. Asset type: LinkedIn square visual for IA Solidaire. Primary request: field observation after meeting ESS organizations; not choosing the tool first but identifying tasks to automate. Text: Ce que j’observe dans l’ESS; Pas d’abord l’outil; D’abord les tâches; Automatiser ce qui bloque vraiment.",
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-09-04.png",
+        "alt": "Ce que j'observe dans l'ESS",
+        "statut": "generee",
+        "date_generation": "2026-08-07"
+      }
+    },
+    {
+      "id": "LI-2026-09-05",
+      "date_prevue": "2026-09-15T09:00:00+02:00",
+      "titre": "Votre métier va changer",
+      "objectif": "Sensibilisation",
+      "accroches": {
+        "impact_fort": "L'IA ne supprimera probablement pas votre emploi, mais elle va profondément transformer votre métier.",
+        "impact_moyen": "Le sujet n'est pas seulement l'emploi, c'est l'évolution concrète des métiers.",
+        "impact_doux": "Dans l'ESS, l'IA va surtout déplacer la valeur du travail."
+      },
+      "texte": "L'IA ne supprimera probablement pas votre emploi.\n\nMais elle va profondément transformer votre métier.\n\nJe préfère poser le sujet de cette façon.\n\nParce que la peur du remplacement empêche souvent de regarder ce qui va vraiment changer.\n\nPrenons trois exemples dans l'ESS.\n\nPour un CIP, certaines tâches répétitives vont perdre de la place : reformulations, synthèses, préparation de documents, recherche d'informations.\n\nMais d'autres compétences vont prendre plus de valeur : l'écoute, l'analyse d'une situation, la personnalisation du parcours, la capacité à vérifier et adapter ce que l'IA propose.\n\nPour un directeur, une partie de la production documentaire pourra être accélérée : notes, tableaux de suivi, premiers plans d'action, synthèses de réunion.\n\nMais ce qui comptera davantage, ce sera la décision, l'arbitrage, la responsabilité et la capacité à embarquer l'équipe.\n\nPour un chargé de développement, la veille, les premières versions de dossiers et la structuration d'arguments pourront être assistées.\n\nMais la valeur restera dans la lecture du territoire, la relation avec les partenaires et la cohérence du projet.\n\nDans chaque métier, quelque chose disparaît.\n\nQuelque chose apparaît.\n\nEt quelque chose prend encore plus de valeur.\n\nL'enjeu n'est donc pas seulement d'apprendre à utiliser un outil.\n\nC'est de comprendre comment son métier évolue, et de ne pas laisser cette évolution se faire sans cadre.\n\nDans votre métier, quelle tâche aimeriez-vous voir diminuer pour consacrer plus de temps à ce qui a vraiment de la valeur ?",
+      "cta": {
+        "commentaire": "Dans votre métier, quelle tâche aimeriez-vous voir diminuer pour consacrer plus de temps à ce qui a vraiment de la valeur ?"
+      },
+      "visuel": {
+        "concept": "Trois métiers de l'ESS transformés par l'IA, sans remplacement automatique.",
+        "texte_image": "Votre métier va changer",
+        "disposition": "Trois cartes CIP, Direction, Développement, avec disparition, apparition et valeur humaine."
+      },
+      "hashtags": [
+        "#ESS",
+        "#Insertion",
+        "#IntelligenceArtificielle",
+        "#Metiers",
+        "#IAResponsable"
+      ],
+      "prompt_image": "Use case: infographic-diagram. Asset type: LinkedIn square visual for IA Solidaire. Primary request: AI transforms jobs rather than removing them, with three ESS roles. Text: Votre métier va changer; CIP; Direction; Développement; Moins de tâches répétitives, plus de valeur humaine.",
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-09-05.png",
+        "alt": "Votre métier va changer",
+        "statut": "generee",
+        "date_generation": "2026-08-07"
+      }
+    },
+    {
+      "id": "LI-2026-09-06",
+      "date_prevue": "2026-09-17T09:00:00+02:00",
+      "titre": "Pas un problème d'IA",
+      "objectif": "Engagement",
+      "accroches": {
+        "impact_fort": "Les associations n'ont pas un problème d'IA. Elles ont un problème de temps.",
+        "impact_moyen": "Le vrai sujet de l'IA dans les associations, c'est le temps que l'on peut récupérer.",
+        "impact_doux": "L'IA n'a d'intérêt que si elle rend du temps utile aux équipes."
+      },
+      "texte": "Les associations n'ont pas un problème d'IA.\n\nElles ont un problème de temps.\n\nLa phrase est volontairement provocatrice.\n\nMais elle correspond à ce que j'entends souvent sur le terrain.\n\nLes équipes ne manquent pas d'idées.\n\nElles ne manquent pas d'engagement.\n\nElles ne manquent pas de volonté.\n\nElles manquent de temps.\n\nDu temps pour accompagner correctement les bénéficiaires.\n\nDu temps pour relire un dossier avant envoi.\n\nDu temps pour mettre à jour les procédures.\n\nDu temps pour préparer une réunion.\n\nDu temps pour chercher des financements.\n\nDu temps pour prendre du recul sur les projets.\n\nL'IA ne doit pas être présentée comme une fin en soi.\n\nElle n'est qu'un moyen.\n\nUn moyen de récupérer du temps pour les salariés.\n\nDu temps pour mieux accompagner les personnes.\n\nDu temps pour développer les projets.\n\nDu temps pour réduire une charge administrative qui prend parfois trop de place.\n\nC'est pour cela que je recommande souvent de commencer par une seule question : quelle tâche prend beaucoup de temps, se répète souvent, et pourrait être préparée sans risque par l'IA ?\n\nPas automatisée aveuglément.\n\nPréparée.\n\nRelue.\n\nAméliorée.\n\nEncadrée.\n\nL'objectif n'est pas de remplacer le travail humain.\n\nL'objectif est de lui redonner de l'espace.\n\nDans votre association, quelle tâche vous vole le plus de temps chaque semaine ?",
+      "cta": {
+        "commentaire": "Dans votre association, quelle tâche vous vole le plus de temps chaque semaine ?"
+      },
+      "visuel": {
+        "concept": "L'IA comme moyen de récupérer du temps pour les missions associatives.",
+        "texte_image": "Pas un problème d'IA",
+        "disposition": "Horloge centrale reliée à trois cartes : salariés, bénéficiaires, projets."
+      },
+      "hashtags": [
+        "#ESS",
+        "#Association",
+        "#IntelligenceArtificielle",
+        "#Temps",
+        "#ImpactSocial"
+      ],
+      "prompt_image": "Use case: infographic-diagram. Asset type: LinkedIn square visual for IA Solidaire. Primary request: associations do not have an AI problem but a time problem. Text: Pas un problème d’IA; Un problème de temps; Salariés; Bénéficiaires; Projets; Récupérer du temps utile.",
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-09-06.png",
+        "alt": "Pas un problème d'IA",
+        "statut": "generee",
+        "date_generation": "2026-08-07"
+      }
+    },
+    {
+      "id": "LI-2026-09-07",
+      "date_prevue": "2026-09-22T09:00:00+02:00",
+      "titre": "Grands projets, santé, IA",
+      "objectif": "Sensibilisation",
+      "accroches": {
+        "impact_fort": "Ce que les Jeux olympiques, la santé et l'IA ont en commun devrait intéresser les associations.",
+        "impact_moyen": "Les grandes organisations utilisent déjà l'IA pour gérer des flux, de la maintenance ou des données.",
+        "impact_doux": "Pendant que les grands projets publics investissent dans l'IA, beaucoup d'associations hésitent encore."
+      },
+      "texte": "Ce que les Jeux olympiques, la santé et l'IA ont en commun devrait intéresser les associations.\n\nDans les grands projets publics, l'IA est de plus en plus utilisée pour des sujets très concrets.\n\nGérer des flux.\n\nAnticiper de la maintenance.\n\nAnalyser des données.\n\nAider à organiser des ressources.\n\nRepérer des signaux faibles.\n\nAméliorer des décisions opérationnelles.\n\nOn peut évidemment discuter les risques.\n\nIl faut le faire.\n\nDonnées personnelles, sécurité, transparence, dépendance technologique : ces sujets sont essentiels.\n\nMais un point est clair.\n\nLes grandes organisations investissent massivement pour comprendre ce que l'IA peut apporter à leur fonctionnement.\n\nEt dans le secteur associatif, on hésite encore parfois à utiliser ChatGPT pour préparer un compte-rendu.\n\nLe contraste est fort.\n\nJe ne dis pas qu'une association doit copier les grands projets publics.\n\nCe serait absurde.\n\nLes moyens, les risques et les contextes ne sont pas les mêmes.\n\nMais l'ESS ne peut pas rester à l'écart du mouvement.\n\nElle doit construire ses propres usages.\n\nPlus sobres.\n\nPlus encadrés.\n\nPlus proches du terrain.\n\nEt surtout utiles aux équipes.\n\nCommencer petit n'est pas un manque d'ambition.\n\nC'est souvent la meilleure façon d'avancer sérieusement.\n\nSi les grandes organisations utilisent l'IA pour mieux organiser leurs flux, quelles tâches simples nos associations pourraient-elles déjà mieux organiser avec l'IA ?",
+      "cta": {
+        "commentaire": "Si les grandes organisations utilisent l'IA pour mieux organiser leurs flux, quelles tâches simples nos associations pourraient-elles déjà mieux organiser avec l'IA ?"
+      },
+      "visuel": {
+        "concept": "Le contraste entre grands projets publics utilisant l'IA et associations encore hésitantes.",
+        "texte_image": "Grands projets, santé, IA",
+        "disposition": "Trois cartes flux, maintenance, données menant à une question : et les associations ?"
+      },
+      "hashtags": [
+        "#ESS",
+        "#Association",
+        "#IntelligenceArtificielle",
+        "#InnovationSociale",
+        "#TransformationNumerique"
+      ],
+      "prompt_image": "Use case: infographic-diagram. Asset type: LinkedIn square visual for IA Solidaire. Primary request: major public projects, health, and AI contrasted with associations hesitating to use simple AI. Text: Grands projets, santé, IA; Flux; Maintenance; Données; Et les associations ? Avoid Olympic logos.",
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-09-07.png",
+        "alt": "Grands projets, santé, IA",
+        "statut": "generee",
+        "date_generation": "2026-08-07"
+      }
+    },
+    {
+      "id": "LI-2026-09-08",
+      "date_prevue": "2026-09-24T09:00:00+02:00",
+      "titre": "J'ai demandé à plusieurs IA",
+      "objectif": "Expertise et engagement",
+      "accroches": {
+        "impact_fort": "J'ai demandé à plusieurs IA comment sauver une association en difficulté financière.",
+        "impact_moyen": "Comparer plusieurs IA dit moins sur les outils que sur la place du dirigeant.",
+        "impact_doux": "Les IA peuvent produire des pistes utiles, mais elles ne comprennent pas seules une association."
+      },
+      "texte": "J'ai demandé à plusieurs IA comment sauver une association en difficulté financière.\n\nPas pour faire un comparatif technique.\n\nPas pour savoir laquelle écrit le plus vite.\n\nMais pour observer ce qu'elles proposent quand la situation est complexe.\n\nLes réponses avaient des points communs intéressants.\n\nDiversifier les sources de financement.\n\nRéduire certaines dépenses.\n\nRenforcer la communication.\n\nMobiliser les partenaires.\n\nClarifier le modèle économique.\n\nPrioriser les actions à court terme.\n\nCertaines idées étaient pertinentes.\n\nMais les limites apparaissaient très vite.\n\nUne IA ne connaît pas réellement le territoire.\n\nElle ne sait pas quelles relations existent déjà avec les financeurs.\n\nElle ne mesure pas la fatigue de l'équipe.\n\nElle ne comprend pas les tensions internes.\n\nElle ne sait pas quelles actions sont politiquement acceptables.\n\nElle peut proposer une méthode.\n\nElle peut structurer une réflexion.\n\nElle peut aider à préparer un plan d'action.\n\nMais elle ne peut pas porter la responsabilité de la décision.\n\nEt c'est là que le rôle du dirigeant reste indispensable.\n\nComprendre le contexte.\n\nArbitrer.\n\nMobiliser.\n\nÉcouter.\n\nAssumer les choix.\n\nL'IA peut aider à penser plus vite.\n\nElle ne remplace pas le discernement.\n\nDans une situation difficile, elle peut être un appui utile.\n\nMais jamais un pilote automatique.\n\nSelon vous, dans une association en difficulté, quelle décision ne devrait jamais être confiée à une IA ?",
+      "cta": {
+        "commentaire": "Selon vous, dans une association en difficulté, quelle décision ne devrait jamais être confiée à une IA ?"
+      },
+      "visuel": {
+        "concept": "Plusieurs réponses IA comparées pour montrer idées utiles, limites et décision humaine.",
+        "texte_image": "J'ai demandé à plusieurs IA",
+        "disposition": "Trois cartes idées utiles, limites, décision humaine, avec un bandeau dirigeant indispensable."
+      },
+      "hashtags": [
+        "#ESS",
+        "#Association",
+        "#IntelligenceArtificielle",
+        "#Direction",
+        "#IAResponsable"
+      ],
+      "prompt_image": "Use case: infographic-diagram. Asset type: LinkedIn square visual for IA Solidaire. Primary request: asking several AIs how to save an association in financial difficulty, showing useful ideas, limits, and human leadership. Text: J’ai demandé à plusieurs IA; Idées utiles; Limites; Décision humaine; Le dirigeant reste indispensable.",
+      "statut": "brouillon",
+      "image": {
+        "src": "/linkedin/LI-2026-09-08.png",
+        "alt": "J'ai demandé à plusieurs IA",
+        "statut": "generee",
+        "date_generation": "2026-08-07"
+      }
     }
   ]
 }
